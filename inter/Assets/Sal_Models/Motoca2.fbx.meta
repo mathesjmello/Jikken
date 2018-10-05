@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 8eff18c1d87a802438ebcfdb160cfd53
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
@@ -50,7 +50,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 100
+    globalScale: 20
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -70,8 +70,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
