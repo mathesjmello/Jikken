@@ -98,7 +98,7 @@ public class QT_PolyWorldTerrainEditor : Editor {
                 int priorBiasIndex = PWT.quadsizeBiasIndex;
                 List<GameObject[]> everyLODSet = new List<GameObject[]>(); // a list of gameobject arrays. Each element represents LOD sets. everyLODSet[0] is LOD0, [1] is LOD1, etc.. We do this becasue we don't know how many LOD sets there will be.
 
-                GameObject previousPWT = (GameObject)PrefabUtility.GetPrefabParent(PWT.gameObject.GetComponentInChildren<Transform>().gameObject);
+                GameObject previousPWT = (GameObject)PrefabUtility.GetCorrespondingObjectFromSource(PWT.gameObject.GetComponentInChildren<Transform>().gameObject);
 
                 GameObject PWTParent = new GameObject(); //our main parent.
                 PWTParent.name = PWT.gameObject.name + "-Faceted";

@@ -142,7 +142,7 @@ public class QT_ConvertMesh : EditorWindow
 
                             foreach (GameObject g in SourceGOs) //for every GO you have selected
                             {
-                                GameObject WorkingGO = (GameObject)(PrefabUtility.InstantiatePrefab((GameObject)PrefabUtility.GetPrefabParent(g)));//instantiate it and work on it.                                
+                                GameObject WorkingGO = (GameObject)(PrefabUtility.InstantiatePrefab((GameObject)PrefabUtility.GetCorrespondingObjectFromSource(g)));//instantiate it and work on it.                                
                                 WorkingGO.name = WorkingGO.name.Replace("(Clone)", "");
                                 MeshRenderer[] MRs = WorkingGO.GetComponentsInChildren<MeshRenderer>(true); //get all the MR components in the children.
                                 MeshFilter[] MFs = WorkingGO.GetComponentsInChildren<MeshFilter>(true);
@@ -196,7 +196,7 @@ public class QT_ConvertMesh : EditorWindow
 
         foreach (GameObject g in SourceGOs)
         {
-            GameObject p = (GameObject)PrefabUtility.GetPrefabParent(g);
+            GameObject p = (GameObject)PrefabUtility.GetCorrespondingObjectFromSource(g);
             if (p == null)
                 badGOs.Add(g.name);
         }
