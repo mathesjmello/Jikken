@@ -1,0 +1,8 @@
+{
+    "name": "Graphene.ADInterpreter",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
