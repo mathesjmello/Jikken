@@ -278,180 +278,2583 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1345981239}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22016a6cf16444c09bf3c73e295bd2db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Data:
     Settings:
-      ExportMarkup: 
-      ExportQueries: 
-      WriteNamespace: 
-      WriteAllVariables: 
+      ExportMarkup: 1
+      ExportQueries: 1
+      WriteNamespace: 1
+      WriteAllVariables: 0
     Content:
       Project:
-        DisplayName: 
-        Url: 
-        Id: 
+        DisplayName: jikken
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037927937
+        Id: 0x0100000000000001
       ProjectSettings:
         FlowSettings:
-          BuiltInScriptSupport: 
-          GridSize: 
-          GridSizeEnforced: 
-          SpacingHorizontal: 
-          SpacingVertical: 
-          SpacingEnforced: 
+          BuiltInScriptSupport: 1
+          GridSize: 25
+          GridSizeEnforced: 0
+          SpacingHorizontal: 50
+          SpacingVertical: 50
+          SpacingEnforced: 0
         JourneySettings:
-          BackgroundImageMode: 
-          BackgroundImagePositioningMode: 
-          BackgroundColorMode: 
-          BackgroundColor: 
-          BackgroundColorGradientMode: 
-          Duration: 
-          TransitionMode: 
+          BackgroundImageMode: FromNode
+          BackgroundImagePositioningMode: Filling
+          BackgroundColorMode: Custom
+          BackgroundColor: '#798F93'
+          BackgroundColorGradientMode: On
+          Duration: 10
+          TransitionMode: Animated
         LocationSettings:
-          ShowDisplayNameForZone: 
-          DropShadowForZone: 
-          DisplayNameSizeForZone: 
-          DisplayNameColorForZone: 
-          ShowDisplayNameForPath: 
-          DropShadowForPath: 
-          DisplayNameSizeForPath: 
-          DisplayNameColorForPath: 
-          ShowDisplayNameForImage: 
-          DropShadowForImage: 
-          DisplayNameSizeForImage: 
-          DisplayNameColorForImage: 
-          ShowDisplayNameForSpot: 
-          DropShadowForSpot: 
-          DisplayNameColorForSpot: 
-          SpotStyleKind: 
-          SpotStyleSize: 
-          ShowDisplayNameForLink: 
-          DropShadowForLink: 
-          DisplayNameColorForLink: 
-          LinkStyleKind: 
-          LinkStyleSize: 
-          DropShadowForText: 
+          ShowDisplayNameForZone: 1
+          DropShadowForZone: 1
+          DisplayNameSizeForZone: 11
+          DisplayNameColorForZone: '#FFFFFF'
+          ShowDisplayNameForPath: 1
+          DropShadowForPath: 1
+          DisplayNameSizeForPath: 11
+          DisplayNameColorForPath: '#FFFFFF'
+          ShowDisplayNameForImage: 0
+          DropShadowForImage: 1
+          DisplayNameSizeForImage: 11
+          DisplayNameColorForImage: '#FFFFFF'
+          ShowDisplayNameForSpot: 1
+          DropShadowForSpot: 1
+          DisplayNameColorForSpot: '#FFFFFF'
+          SpotStyleKind: Flag
+          SpotStyleSize: Large
+          ShowDisplayNameForLink: 1
+          DropShadowForLink: 1
+          DisplayNameColorForLink: '#FFFFFF'
+          LinkStyleKind: PreviewImage
+          LinkStyleSize: Large
+          DropShadowForText: 1
         ExternalApplications: 
-        Id: 
+        Id: 0x03000000F917511B
       Assets:
-        DisplayName: 
-        Color: 
-        Id: 
-      AssetsUserFolder: []
+        DisplayName: Assets
+        Color: '#C8E2E7'
+        Id: 0x030000004C3DAF54
+      AssetsUserFolder:
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Images
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_DE3B1492
+        ExternalId: 
+        ShortId: 0xDE3B1492
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928224
+        Id: 0x0100000000000120
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Videos
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_D8497BBA
+        ExternalId: 
+        ShortId: 0xD8497BBA
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928226
+        Id: 0x0100000000000122
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Audio
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_140C1D2E
+        ExternalId: 
+        ShortId: 0x140C1D2E
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928228
+        Id: 0x0100000000000124
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Documents
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_4C9E12BB
+        ExternalId: 
+        ShortId: 0x4C9E12BB
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928230
+        Id: 0x0100000000000126
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Miscellaneous
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_74A8CF17
+        ExternalId: 
+        ShortId: 0x74A8CF17
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928232
+        Id: 0x0100000000000128
       Documents:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Documents
+        Color: '#C8E2E7'
+        Id: 0x03000000103AA2F0
       Entities:
-        DisplayName: 
-        Color: 
-        Id: 
-      EntitiesUserFolder: []
+        DisplayName: Entities
+        Color: '#C8E2E7'
+        Id: 0x03000000AC61A2B3
+      EntitiesUserFolder:
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Playable characters
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_BA44F0DA
+        ExternalId: 
+        ShortId: 0xBA44F0DA
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928210
+        Id: 0x0100000000000112
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Major NPCs
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_8B8C4150
+        ExternalId: 
+        ShortId: 0x8B8C4150
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928212
+        Id: 0x0100000000000114
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Minor NPCs
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_BB7508D8
+        ExternalId: 
+        ShortId: 0xBB7508D8
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928214
+        Id: 0x0100000000000116
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Mobs
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_386C676A
+        ExternalId: 
+        ShortId: 0x386C676A
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928216
+        Id: 0x0100000000000118
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Items / Pick-Ups
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_96CA542E
+        ExternalId: 
+        ShortId: 0x96CA542E
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928218
+        Id: 0x010000000000011A
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Objects
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_0AEBD38F
+        ExternalId: 
+        ShortId: 0x0AEBD38F
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928220
+        Id: 0x010000000000011C
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Miscellaneous
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ufo_83CB2845
+        ExternalId: 
+        ShortId: 0x83CB2845
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928222
+        Id: 0x010000000000011E
       Features:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Features
+        Color: '#C8E2E7'
+        Id: 0x03000000D2404DC0
         Count: 
       Flow:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Flow
+        Color: '#C8E2E7'
+        Id: 0x0300000043CE43F7
       GlobalVariables:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Global Variables
+        Color: '#C8E2E7'
+        Id: 0x030000002B4F4C54
       Journeys:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Journeys
+        Color: '#C8E2E7'
+        Id: 0x03000000236F7272
       Locations:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Locations
+        Color: '#C8E2E7'
+        Id: 0x030000003140D3AC
       ObjectCustomization:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Template Design
+        Color: '#C8E2E7'
+        Id: 0x0300000029CF057C
       ObjectTemplates:
-        DisplayName: 
-        Color: 
-        Id: 
+        DisplayName: Templates
+        Color: '#C8E2E7'
+        Id: 0x030000009AF68DCD
       PropertyTemplates:
-        DisplayName: 
-        Color: 
-        Id: 
-      TypedObjectTemplates: []
-      TypedPropertyTemplates: []
-      Connection: []
-      Dialogue: []
-      DialogueFragment: []
-      Entity: []
-      FeatureDefinition: []
+        DisplayName: Property Definitions
+        Color: '#C8E2E7'
+        Id: 0x030000002C0951AE
+      TypedObjectTemplates:
+      - DisplayName: Entities
+        Color: '#C8E2E7'
+        Id: 0x0300000078B45A71
+      - DisplayName: Flow Fragments
+        Color: '#C8E2E7'
+        Id: 0x030000006D1BC275
+      - DisplayName: Dialogue Fragments
+        Color: '#C8E2E7'
+        Id: 0x03000000030B5ACF
+      - DisplayName: Dialogues
+        Color: '#C8E2E7'
+        Id: 0x030000008DD5C0F2
+      - DisplayName: Locations
+        Color: '#C8E2E7'
+        Id: 0x0300000092CF598E
+      - DisplayName: Assets
+        Color: '#C8E2E7'
+        Id: 0x0300000030635118
+      - DisplayName: Zones
+        Color: '#C8E2E7'
+        Id: 0x03000000A715C057
+      - DisplayName: Paths
+        Color: '#C8E2E7'
+        Id: 0x030000005314E813
+      - DisplayName: Spots
+        Color: '#C8E2E7'
+        Id: 0x030000004264B29C
+      - DisplayName: Links
+        Color: '#C8E2E7'
+        Id: 0x03000000FB371D5C
+      - DisplayName: Hubs
+        Color: '#C8E2E7'
+        Id: 0x0300000013DF3A1A
+      - DisplayName: Jumps
+        Color: '#C8E2E7'
+        Id: 0x03000000ADA9FA17
+      - DisplayName: Documents
+        Color: '#C8E2E7'
+        Id: 0x03000000ECC00F83
+      - DisplayName: Texts
+        Color: '#C8E2E7'
+        Id: 0x03000000F514339C
+      - DisplayName: Texts (in locations)
+        Color: '#C8E2E7'
+        Id: 0x0300000096812FC1
+      - DisplayName: Images (in locations)
+        Color: '#C8E2E7'
+        Id: 0x03000000CC5A07F0
+      - DisplayName: Conditions
+        Color: '#C8E2E7'
+        Id: 0x03000000DCC67F9D
+      - DisplayName: Instructions
+        Color: '#C8E2E7'
+        Id: 0x03000000BA022E2F
+      TypedPropertyTemplates:
+      - DisplayName: Numbers
+        Color: '#C8E2E7'
+        Id: 0x030000006E2C178B
+      - DisplayName: Booleans
+        Color: '#C8E2E7'
+        Id: 0x03000000BB12F1B8
+      - DisplayName: Texts
+        Color: '#C8E2E7'
+        Id: 0x030000006F82D78E
+      - DisplayName: Drop-down lists
+        Color: '#C8E2E7'
+        Id: 0x0300000037DCE3F0
+      - DisplayName: Slots & Strips
+        Color: '#C8E2E7'
+        Id: 0x030000003630A240
+      - DisplayName: Scripts
+        Color: '#C8E2E7'
+        Id: 0x03000000D745C449
+      Connection:
+      - Color: '#C8E2E7'
+        TechnicalName: Con_0D4F08D7
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928491
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x010000000000021E
+          PinRef: 0x0100000000000222
+        Target:
+          IdRef: 0x0100000000000226
+          PinRef: 0x0100000000000229
+        ShowLabel: 0
+        Id: 0x010000000000022B
+      - Color: '#C8E2E7'
+        TechnicalName: Con_53CC20DA
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928529
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000245
+          PinRef: 0x0100000000000249
+        Target:
+          IdRef: 0x010000000000024C
+          PinRef: 0x010000000000024F
+        ShowLabel: 0
+        Id: 0x0100000000000251
+      - Color: '#C8E2E7'
+        TechnicalName: Con_D1D5B91A
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928494
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x010000000000014E
+          PinRef: 0x0100000000000152
+        Target:
+          IdRef: 0x0100000000000167
+          PinRef: 0x010000000000016A
+        ShowLabel: 0
+        Id: 0x010000000000022E
+      - Color: '#C8E2E7'
+        TechnicalName: Con_160AF8BB
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928560
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000180
+          PinRef: 0x010000000000026F
+        Target:
+          IdRef: 0x01000000000001E9
+          PinRef: 0x01000000000001EC
+        ShowLabel: 0
+        Id: 0x0100000000000270
+      - Color: '#C8E2E7'
+        TechnicalName: Con_773BDC08
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928561
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000187
+          PinRef: 0x010000000000018B
+        Target:
+          IdRef: 0x01000000000001E9
+          PinRef: 0x01000000000001EC
+        ShowLabel: 0
+        Id: 0x0100000000000271
+      - Color: '#C8E2E7'
+        TechnicalName: Con_352F15C1
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928562
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x010000000000018E
+          PinRef: 0x0100000000000192
+        Target:
+          IdRef: 0x01000000000001E9
+          PinRef: 0x01000000000001EC
+        ShowLabel: 0
+        Id: 0x0100000000000272
+      - Color: '#C8E2E7'
+        TechnicalName: Con_9E47A9B1
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928563
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x01000000000001E9
+          PinRef: 0x01000000000001ED
+        Target:
+          IdRef: 0x01000000000001D9
+          PinRef: 0x01000000000001DC
+        ShowLabel: 0
+        Id: 0x0100000000000273
+      - Color: '#C8E2E7'
+        TechnicalName: Con_45538626
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928569
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000167
+          PinRef: 0x010000000000016B
+        Target:
+          IdRef: 0x0100000000000180
+          PinRef: 0x0100000000000183
+        ShowLabel: 0
+        Id: 0x0100000000000279
+      - Color: '#C8E2E7'
+        TechnicalName: Con_44BE94C4
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928571
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000167
+          PinRef: 0x010000000000027A
+        Target:
+          IdRef: 0x0100000000000187
+          PinRef: 0x010000000000018A
+        ShowLabel: 0
+        Id: 0x010000000000027B
+      - Color: '#C8E2E7'
+        TechnicalName: Con_28558C3D
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928573
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000167
+          PinRef: 0x010000000000027C
+        Target:
+          IdRef: 0x010000000000018E
+          PinRef: 0x0100000000000191
+        ShowLabel: 0
+        Id: 0x010000000000027D
+      - Color: '#C8E2E7'
+        TechnicalName: Con_1E1FF9CF
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928678
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x01000000000001D9
+          PinRef: 0x01000000000001DD
+        Target:
+          IdRef: 0x01000000000002E0
+          PinRef: 0x01000000000002E3
+        ShowLabel: 0
+        Id: 0x01000000000002E6
+      - Color: '#C8E2E7'
+        TechnicalName: Con_EA86E19F
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928586
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x010000000000013A
+          PinRef: 0x010000000000013E
+        Target:
+          IdRef: 0x0100000000000284
+          PinRef: 0x0100000000000287
+        ShowLabel: 0
+        Id: 0x010000000000028A
+      - Color: '#C8E2E7'
+        TechnicalName: Con_E837D4CA
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928620
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x01000000000002A1
+          PinRef: 0x01000000000002A5
+        Target:
+          IdRef: 0x01000000000002A7
+          PinRef: 0x01000000000002AA
+        ShowLabel: 0
+        Id: 0x01000000000002AC
+      - Color: '#C8E2E7'
+        TechnicalName: Con_2AFFF297
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928627
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x01000000000002A7
+          PinRef: 0x01000000000002AB
+        Target:
+          IdRef: 0x01000000000002AE
+          PinRef: 0x01000000000002B1
+        ShowLabel: 0
+        Id: 0x01000000000002B3
+      - Color: '#C8E2E7'
+        TechnicalName: Con_1DC4998E
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928643
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x01000000000002AE
+          PinRef: 0x01000000000002B2
+        Target:
+          IdRef: 0x01000000000002BE
+          PinRef: 0x01000000000002C1
+        ShowLabel: 0
+        Id: 0x01000000000002C3
+      - Color: '#C8E2E7'
+        TechnicalName: Con_8980D26A
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928601
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000284
+          PinRef: 0x0100000000000288
+        Target:
+          IdRef: 0x0100000000000293
+          PinRef: 0x0100000000000296
+        ShowLabel: 0
+        Id: 0x0100000000000299
+      - Color: '#C8E2E7'
+        TechnicalName: Con_BAF382B3
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928663
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x01000000000002CC
+          PinRef: 0x01000000000002D0
+        Target:
+          IdRef: 0x01000000000002D2
+          PinRef: 0x01000000000002D5
+        ShowLabel: 0
+        Id: 0x01000000000002D7
+      - Color: '#C8E2E7'
+        TechnicalName: Con_DFE53C51
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928670
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x01000000000002D2
+          PinRef: 0x01000000000002D6
+        Target:
+          IdRef: 0x01000000000002D9
+          PinRef: 0x01000000000002DC
+        ShowLabel: 0
+        Id: 0x01000000000002DE
+      - Color: '#C8E2E7'
+        TechnicalName: Con_F85C36B4
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928636
+        Label:
+          Count: 0
+        Source:
+          IdRef: 0x0100000000000293
+          PinRef: 0x0100000000000297
+        Target:
+          IdRef: 0x01000000000002B6
+          PinRef: 0x01000000000002B9
+        ShowLabel: 0
+        Id: 0x01000000000002BC
+      Dialogue:
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: chegando em casa
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">pai cheguei, onde o senhor
+              est&#225;?</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_DA0E8301
+        ExternalId: 
+        ShortId: 0xDA0E8301
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928270
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000151
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000152
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 539
+          Y: 166
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 0
+        Id: 0x010000000000014E
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: "chegando no laborat\xF3rio"
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">voce chega no laborat&#243;rio
+              e percebe a bagun&#231;a</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_886743A9
+        ExternalId: 
+        ShortId: 0x886743A9
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928295
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x010000000000016A
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x010000000000016B
+            Index: 0
+            Semantic: Output
+          - Expression: 
+            Id: 0x010000000000027A
+            Index: 1
+            Semantic: Output
+          - Expression: 
+            Id: 0x010000000000027C
+            Index: 2
+            Semantic: Output
+          Count: 4
+        Position:
+          X: 983
+          Y: 173
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 3
+        Id: 0x0100000000000167
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: jornal
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">voce interage com o jornal</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_85C75BEF
+        ExternalId: 
+        ShortId: 0x85C75BEF
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928320
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000183
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x010000000000026F
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 1860
+          Y: -104
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 7
+        Id: 0x0100000000000180
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: "anota\xE7\xE3o"
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">voce interage com a anota</span><span
+              id="s1">&#231;&#227;</span><span id="s1">o</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_85E333DC
+        ExternalId: 
+        ShortId: 0x85E333DC
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928327
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x010000000000018A
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x010000000000018B
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 1976
+          Y: 135
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 9
+        Id: 0x0100000000000187
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: fotos
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">voce interage com as fotos</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_8E1B29BD
+        ExternalId: 
+        ShortId: 0x8E1B29BD
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928334
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000191
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000192
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 1925
+          Y: 392
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 11
+        Id: 0x010000000000018E
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: resultado
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">conclus&#227;o que voce
+              tira</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_254AEBCF
+        ExternalId: 
+        ShortId: 0x254AEBCF
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928409
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000001DC
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000001DD
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 2864.29278012306
+          Y: 157.573092648706
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 15
+        Id: 0x01000000000001D9
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Untitled dialogue (10)
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">preciso procurar mais
+              informa&#231;&#245;es por aq</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_D83931C9
+        ExternalId: 
+        ShortId: 0xD83931C9
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928425
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000001EC
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000001ED
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 2508.29278012306
+          Y: 157.906425982039
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 21
+        Id: 0x01000000000001E9
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: mapa
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">falas que vao ter no mapa
+              do lugar</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_5F7FBAB3
+        ExternalId: 
+        ShortId: 0x5F7FBAB3
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928580
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000287
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000288
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 593.903460532163
+          Y: 210.076477642307
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 1
+        Id: 0x0100000000000284
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: cheguei
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">chegando no local voce
+              fala consigo mesmo</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_C0BD05C3
+        ExternalId: 
+        ShortId: 0xC0BD05C3
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928602
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x010000000000029D
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x010000000000029E
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 248
+          Y: 283
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 0
+        Id: 0x010000000000029A
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: "vendo a situa\xE7\xE3o"
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">comentario e conclu&#231;&#245;es</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: Dlg_226A545C
+        ExternalId: 
+        ShortId: 0x226A545C
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928645
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002C8
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002C9
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 275
+          Y: 283
+        Size:
+          Width: 291
+          Height: 200
+        ZIndex: 0
+        Id: 0x01000000000002C5
+      DialogueFragment:
+      - DisplayName: "...: \"pai cheguei, onde o senhor est\xE1?\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "pai cheguei, onde o senhor est\xE1"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_57304AC7
+        ExternalId: 
+        ShortId: 0x57304AC7
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928478
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000221
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000222
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 211
+          Y: 320
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: animado
+          Count: 1
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: cheguei
+          Count: 1
+        Id: 0x010000000000021E
+      - DisplayName: "...: \"se estiver aqui est\xE1 no laborat\xF3rio\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "se estiver aqui est\xE1 no laborat\xF3rio"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_FAFBB296
+        ExternalId: 
+        ShortId: 0xFAFBB296
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928486
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000229
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x010000000000022A
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 528
+          Y: 320.666666666667
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 1
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: sem resposta
+          Count: 1
+        Id: 0x0100000000000226
+      - DisplayName: "...: \"parece que um furac\xE3o passou por aq...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "parece que um furac\xE3o passou por aqui, papai andou ocupado"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_DB8D69A8
+        ExternalId: 
+        ShortId: 0xDB8D69A8
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928496
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000233
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000234
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 315
+          Y: 335.738793454545
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: "bagun\xE7a"
+          Count: 1
+        Id: 0x0100000000000230
+      - DisplayName: '...: "cientistas isolaram ala leste do pa..."'
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "cientistas isolaram ala leste do parque depois que raposas apareceram
+              doentes pela regi\xE3o, m\xE1scaras est\xE3o sendo distribu\xEDdas a
+              todos na regi\xE3o "
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_AE4C18D3
+        ExternalId: 
+        ShortId: 0xAE4C18D3
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928505
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x010000000000023C
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x010000000000023D
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 393
+          Y: 315
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: reportagem
+          Count: 1
+        Id: 0x0100000000000239
+      - DisplayName: "...: \"N\xE3o posso acreditar que isso est\xE1 a...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "N\xE3o posso acreditar que isso est\xE1 acontecendo, a culpa \xE9
+              minha, sempre querendo entregar logo resultados e agora estou fazendo
+              todos sofrerem "
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_EC971FB3
+        ExternalId: 
+        ShortId: 0xEC971FB3
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928517
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000248
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000249
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 364
+          Y: 276.887151327612
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: "anota\xE7\xE3o"
+          Count: 1
+        Id: 0x0100000000000245
+      - DisplayName: "player: \"Meu filho perdoe seu pai, n\xE3o sei s...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "Meu filho perdoe seu pai, n\xE3o sei se conseguirei resolver isso"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_C950FE1D
+        ExternalId: 
+        ShortId: 0xC950FE1D
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928524
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x010000000000024F
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000250
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 667
+          Y: 273
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 1
+        Speaker:
+          IdRef: 0x010000000000012A
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x010000000000024C
+      - DisplayName: '...: "comece por aqui"'
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: comece por aqui
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_8B24F7ED
+        ExternalId: 
+        ShortId: 0x8B24F7ED
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928532
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000257
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000258
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 321
+          Y: 291.711815694299
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: fotos
+          Count: 1
+        Id: 0x0100000000000254
+      - DisplayName: "...: \"pai em que voc\xEA foi se meter\u2026 melho...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "pai em que voc\xEA foi se meter\u2026 melhor ir dar uma olhada
+              no mirante, vou colocar uma m\xE1scara por precau\xE7\xE3o tamb\xE9m"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_C85135AA
+        ExternalId: 
+        ShortId: 0xC85135AA
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928542
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000261
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000262
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 318
+          Y: 292.761090584079
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: o que voce foi fazer pai
+          Count: 1
+        Id: 0x010000000000025E
+      - DisplayName: "...: \"preciso procurar mais informa\xE7\xF5es\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "preciso procurar mais informa\xE7\xF5es"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_EB13E644
+        ExternalId: 
+        ShortId: 0xEB13E644
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928574
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x0100000000000281
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000282
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 330
+          Y: 285
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x010000000000027E
+      - DisplayName: "...: \"ok vamos come\xE7ar pelo mirante, de l...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "ok vamos come\xE7ar pelo mirante, de l\xE1 vou conseguir ter no\xE7\xE3o
+              do que esta rolando, espero encontrar alguma coisa de meu pai por l\xE1"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_DC544A0B
+        ExternalId: 
+        ShortId: 0xDC544A0B
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928588
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x010000000000028F
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x0100000000000290
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 255
+          Y: 277
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x010000000000028C
+      - DisplayName: '...: "Aqui estamos, parque da vila, quant..."'
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "Aqui estamos, parque da vila, quantas vezes n\xE3o vim aqui acompanhado
+              de meu pai"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_43B4FED9
+        ExternalId: 
+        ShortId: 0x43B4FED9
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928609
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002A4
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002A5
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 365
+          Y: 319
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x01000000000002A1
+      - DisplayName: "...: \"aprontei um monte por essa regi\xE3o,...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "aprontei um monte por essa regi\xE3o, da saudade da vida calma
+              que levava por aqui"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_5D60CAE7
+        ExternalId: 
+        ShortId: 0x5D60CAE7
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928615
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002AA
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002AB
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 642
+          Y: 319
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 1
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x01000000000002A7
+      - DisplayName: '...: "bom vamos procurar por qualquer coi..."'
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: bom vamos procurar por qualquer coisa estranha, mas oque de estranho
+              poderia aparecer?
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_AE1B4D44
+        ExternalId: 
+        ShortId: 0xAE1B4D44
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928622
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002B1
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002B2
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 919
+          Y: 319
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 3
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x01000000000002AE
+      - DisplayName: "...: \"vou at\xE9 a ponta do mirante para ver...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "na ponta do mirante da para ver bem a regi\xE3o"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_EBACC012
+        ExternalId: 
+        ShortId: 0xEBACC012
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928638
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002C1
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002C2
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 1215.2255017851
+          Y: 318.538485011404
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 5
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x01000000000002BE
+      - DisplayName: "...: \"ok isso \xE9 suficientemente estranho...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "ok isso \xE9 suficientemente estranho para mim"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_5E8803EB
+        ExternalId: 
+        ShortId: 0x5E8803EB
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928652
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002CF
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002D0
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 282
+          Y: 279
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 0
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x01000000000002CC
+      - DisplayName: "...: \"que n\xE9voa estranha, olha o quanto e...\""
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "que n\xE9voa estranha, olha o quanto ela j\xE1 espalhou, a situa\xE7\xE3o
+              \xE9 pior do que poderia imaginar, tudo deve ter come\xE7ado para aqueles
+              lados da montanha"
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_72639D22
+        ExternalId: 
+        ShortId: 0x72639D22
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928658
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002D5
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002D6
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 566
+          Y: 279
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 1
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x01000000000002D2
+      - DisplayName: '...: "mas preciso entender primeiro o que..."'
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: "mas preciso entender primeiro o que est\xE1 causando ela e como
+              n\xE3o acabar sendo intoxicado por ela, vamos procurar alguma coisa
+              por aqui "
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: DFr_AAC71026
+        ExternalId: 
+        ShortId: 0xAAC71026
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928665
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x01000000000002DC
+            Index: 0
+            Semantic: Input
+          - Expression: 
+            Id: 0x01000000000002DD
+            Index: 0
+            Semantic: Output
+          Count: 2
+        Position:
+          X: 848.344303104001
+          Y: 279.005484885334
+        Size:
+          Width: 225
+          Height: 200
+        ZIndex: 3
+        Speaker:
+          IdRef: 0x0000000000000000
+        StageDirections:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        MenuText:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 0
+        Id: 0x01000000000002D9
+      Entity:
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: player
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ntt_433B1C51
+        ExternalId: 
+        ShortId: 0x433B1C51
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928234
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Id: 0x010000000000012A
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: amigo
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: Ntt_18E81FD5
+        ExternalId: 
+        ShortId: 0x18E81FD5
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928238
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Id: 0x010000000000012E
+      FeatureDefinition:
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Basic Character Properties
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: DefaultBasicCharacterFeature
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037927944
+        PropertyDefinitions:
+          PropertyDefinitionRef:
+          - IdRef: 0x010000000000000A
+          - IdRef: 0x0100000000000011
+          - IdRef: 0x0100000000000017
+          - IdRef: 0x010000000000001D
+          - IdRef: 0x010000000000002B
+          - IdRef: 0x0100000000000031
+          - IdRef: 0x0100000000000037
+          - IdRef: 0x010000000000003D
+          Count: 8
+        Id: 0x0100000000000008
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Extended Character Properties
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: DefaultExtendedCharacterFeature
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928003
+        PropertyDefinitions:
+          PropertyDefinitionRef:
+          - IdRef: 0x0100000000000045
+          - IdRef: 0x010000000000004B
+          - IdRef: 0x0100000000000051
+          - IdRef: 0x0100000000000057
+          - IdRef: 0x010000000000005D
+          - IdRef: 0x0100000000000063
+          Count: 6
+        Id: 0x0100000000000043
       FlowFragment:
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: "come\xE7o"
+          Count: 1
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;}
+              </style></head><body><p id="s0"><span id="s1">conversa do mlk com ele
+              mesmo quando chega em casa</span></p></body></html>'
+          Count: 1
+          HasMarkup: 1
+        Color: '#C8E2E7'
+        TechnicalName: FFr_6CB9888E
+        ExternalId: 
+        ShortId: 0x6CB9888E
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928250
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 0
+        References:
+          Count: 0
+        Pins:
+          Pin:
+          - Expression: 
+            Id: 0x010000000000013E
+            Index: 0
+            Semantic: Output
+          Count: 1
+        Position:
+          X: 188
+          Y: 211
+        Size:
+          Width: 275
+          Height: 200
+        ZIndex: 0
+        Id: 0x010000000000013A
+      ObjectTemplateDefinition:
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Supporting characters
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: DefaultSupportingCharacterTemplate
+        ExternalId: 
+        ShortId: 0xD7C94F0D
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928043
+        FeatureDefinitions:
+          FeatureDefinitionRef:
+          - IdRef: 0x0100000000000008
+          Count: 1
+        Id: 0x010000000000006B
+      - DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Main characters
+          Count: 1
+        Color: '#C8E2E7'
+        TechnicalName: DefaultMainCharacterTemplate
+        ExternalId: 
+        ShortId: 0x6FE79274
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928085
+        FeatureDefinitions:
+          FeatureDefinitionRef:
+          - IdRef: 0x0100000000000008
+          - IdRef: 0x0100000000000043
+          Count: 2
+        Id: 0x0100000000000095
+      NumberPropertyDefinition:
+      - IsMandatory: 0
+        DisplayThousandsSeparator: 0
+        Id: 0x03000000BB84646C
         DisplayName:
           LocalizedString:
             Lang: 
             Text: 
           Count: 
-        Text:
+        TechnicalName: 
+        BasedOn: 
+      - IsMandatory: 
+        DisplayThousandsSeparator: 
+        Id: 0x010000000000000A
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Age
+          Count: 1
+        TechnicalName: Age
+        BasedOn: 0x03000000BB84646C
+      TextPropertyDefinition:
+      - IsMandatory: 0
+        IsLocalized: 0
+        AllowsLinebreaks: 0
+        Id: 0x0300000069DB68B1
+        DisplayName:
           LocalizedString:
             Lang: 
             Text: 
           Count: 
-          HasMarkup: 
-        Color: 
         TechnicalName: 
-        ExternalId: 
-        ShortId: 
-        Url: 
-        Features:
-          DisplayName: 
-          Color: 
-          Id: 
+        BasedOn: 
+      - IsMandatory: 0
+        IsLocalized: 0
+        AllowsLinebreaks: 1
+        Id: 0x03000000BC9B4687
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: 
           Count: 
-        References:
+        TechnicalName: 
+        BasedOn: 
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000011
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Species
+          Count: 1
+        TechnicalName: Species
+        BasedOn: 0x0300000069DB68B1
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000017
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Born in
+          Count: 1
+        TechnicalName: BornIn
+        BasedOn: 0x0300000069DB68B1
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x010000000000002B
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Profession
+          Count: 1
+        TechnicalName: Occupation
+        BasedOn: 0x0300000069DB68B1
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000031
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Voice
+          Count: 1
+        TechnicalName: Accent
+        BasedOn: 0x0300000069DB68B1
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000037
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Personality
+          Count: 1
+        TechnicalName: Personality
+        BasedOn: 0x03000000BC9B4687
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x010000000000003D
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Appearance
+          Count: 1
+        TechnicalName: Appearance
+        BasedOn: 0x03000000BC9B4687
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000045
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Goals
+          Count: 1
+        TechnicalName: Motivation
+        BasedOn: 0x03000000BC9B4687
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x010000000000004B
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Inner Conflict
+          Count: 1
+        TechnicalName: InnerConflict
+        BasedOn: 0x03000000BC9B4687
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000051
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Skills
+          Count: 1
+        TechnicalName: Skills
+        BasedOn: 0x03000000BC9B4687
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000057
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Weaknesses
+          Count: 1
+        TechnicalName: Fears
+        BasedOn: 0x03000000BC9B4687
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x010000000000005D
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Quirks / Habits
+          Count: 1
+        TechnicalName: Habits
+        BasedOn: 0x03000000BC9B4687
+      - IsMandatory: 
+        IsLocalized: 1
+        AllowsLinebreaks: 
+        Id: 0x0100000000000063
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Further Details
+          Count: 1
+        TechnicalName: FurtherDetails
+        BasedOn: 0x03000000BC9B4687
+      EnumerationPropertyDefinition:
+      - IsMandatory: 0
+        IsLocalized: 0
+        Id: 0x030000000D3CFAD3
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: 
           Count: 
-        Pins:
-          Pin: []
+        TechnicalName: 
+        Values:
+          EnumValue: []
           Count: 
-        Position:
-          X: 
-          Y: 
-        Size:
-          Width: 
-          Height: 
-        ZIndex: 
-        Id: 
-      ObjectTemplateDefinition: []
-      NumberPropertyDefinition: []
-      TextPropertyDefinition: []
-      EnumerationPropertyDefinition: []
+        BasedOn: 
+      - IsMandatory: 
+        IsLocalized: 1
+        Id: 0x010000000000001D
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: Sex
+          Count: 1
+        TechnicalName: Sex
+        Values:
+          EnumValue:
+          - Value: 0
+            TechnicalName: Male
+            DisplayName:
+              LocalizedString:
+                Lang: 
+                Text: Male
+              Count: 1
+          - Value: 1
+            TechnicalName: Female
+            DisplayName:
+              LocalizedString:
+                Lang: 
+                Text: Female
+              Count: 1
+          - Value: 2
+            TechnicalName: Unknown
+            DisplayName:
+              LocalizedString:
+                Lang: 
+                Text: Unknown
+              Count: 1
+          Count: 3
+        BasedOn: 0x030000000D3CFAD3
       VariableSet:
-        Url: 
-        TechnicalName: 
+        Url: articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037928399
+        TechnicalName: SimpleVar
         Description:
           LocalizedString:
             Lang: 
             Text: 
-          Count: 
+          Count: 1
         Variables:
-          Variable: []
-          Count: 
-        Id: 
+          Variable:
+          - TechnicalName: Colectable
+            Description:
+              LocalizedString:
+                Lang: 
+                Text: "se algo \xE9 pegavel"
+              Count: 1
+            DataType: Boolean
+            DefaultValue: False
+          - TechnicalName: ContInvent
+            Description:
+              LocalizedString:
+                Lang: 
+                Text: se o objeto entra no inventa ou n
+              Count: 1
+            DataType: Boolean
+            DefaultValue: False
+          - TechnicalName: inventLimit
+            Description:
+              LocalizedString:
+                Lang: 
+                Text: contador do limit da inventario
+              Count: 1
+            DataType: Integer
+            DefaultValue: 3
+          - TechnicalName: ChargeWapom
+            Description:
+              LocalizedString:
+                Lang: 
+                Text: contador do numero de tiros
+              Count: 1
+            DataType: Integer
+            DefaultValue: 3
+          - TechnicalName: SawEveryThin
+            Description:
+              LocalizedString:
+                Lang: 
+                Text: 
+              Count: 0
+            DataType: Integer
+            DefaultValue: 0
+          Count: 5
+        Id: 0x01000000000001CF
     Hierarchy:
       Node:
-        IdRef: 
-        Type: 
-        node: []
+        IdRef: 0x0100000000000001
+        Type: Project
+        node:
+        - IdRef: 0x0300000043CE43F7
+          Type: Flow
+          node:
+          - IdRef: 0x010000000000013A
+            Type: FlowFragment
+            node:
+            - IdRef: 0x010000000000014E
+              Type: Dialogue
+              node:
+              - IdRef: 0x010000000000021E
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x0100000000000226
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x010000000000022B
+                Type: Connection
+                node: []
+            - IdRef: 0x0100000000000167
+              Type: Dialogue
+              node:
+              - IdRef: 0x0100000000000230
+                Type: DialogueFragment
+                node: []
+            - IdRef: 0x0100000000000180
+              Type: Dialogue
+              node:
+              - IdRef: 0x0100000000000239
+                Type: DialogueFragment
+                node: []
+            - IdRef: 0x0100000000000187
+              Type: Dialogue
+              node:
+              - IdRef: 0x0100000000000245
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x010000000000024C
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x0100000000000251
+                Type: Connection
+                node: []
+            - IdRef: 0x010000000000018E
+              Type: Dialogue
+              node:
+              - IdRef: 0x0100000000000254
+                Type: DialogueFragment
+                node: []
+            - IdRef: 0x01000000000001D9
+              Type: Dialogue
+              node:
+              - IdRef: 0x010000000000025E
+                Type: DialogueFragment
+                node: []
+            - IdRef: 0x01000000000001E9
+              Type: Dialogue
+              node:
+              - IdRef: 0x010000000000027E
+                Type: DialogueFragment
+                node: []
+            - IdRef: 0x010000000000022E
+              Type: Connection
+              node: []
+            - IdRef: 0x0100000000000270
+              Type: Connection
+              node: []
+            - IdRef: 0x0100000000000271
+              Type: Connection
+              node: []
+            - IdRef: 0x0100000000000272
+              Type: Connection
+              node: []
+            - IdRef: 0x0100000000000273
+              Type: Connection
+              node: []
+            - IdRef: 0x0100000000000279
+              Type: Connection
+              node: []
+            - IdRef: 0x010000000000027B
+              Type: Connection
+              node: []
+            - IdRef: 0x010000000000027D
+              Type: Connection
+              node: []
+            - IdRef: 0x01000000000002E0
+              Type: FlowFragment
+              node: []
+            - IdRef: 0x01000000000002E6
+              Type: Connection
+              node: []
+          - IdRef: 0x0100000000000284
+            Type: Dialogue
+            node:
+            - IdRef: 0x010000000000028C
+              Type: DialogueFragment
+              node: []
+          - IdRef: 0x010000000000028A
+            Type: Connection
+            node: []
+          - IdRef: 0x0100000000000293
+            Type: FlowFragment
+            node:
+            - IdRef: 0x010000000000029A
+              Type: Dialogue
+              node:
+              - IdRef: 0x01000000000002A1
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x01000000000002A7
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x01000000000002AC
+                Type: Connection
+                node: []
+              - IdRef: 0x01000000000002AE
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x01000000000002B3
+                Type: Connection
+                node: []
+              - IdRef: 0x01000000000002BE
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x01000000000002C3
+                Type: Connection
+                node: []
+          - IdRef: 0x0100000000000299
+            Type: Connection
+            node: []
+          - IdRef: 0x01000000000002B6
+            Type: FlowFragment
+            node:
+            - IdRef: 0x01000000000002C5
+              Type: Dialogue
+              node:
+              - IdRef: 0x01000000000002CC
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x01000000000002D2
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x01000000000002D7
+                Type: Connection
+                node: []
+              - IdRef: 0x01000000000002D9
+                Type: DialogueFragment
+                node: []
+              - IdRef: 0x01000000000002DE
+                Type: Connection
+                node: []
+          - IdRef: 0x01000000000002BC
+            Type: Connection
+            node: []
+        - IdRef: 0x030000003140D3AC
+          Type: Locations
+          node: []
+        - IdRef: 0x03000000AC61A2B3
+          Type: Entities
+          node:
+          - IdRef: 0x0100000000000112
+            Type: EntitiesUserFolder
+            node:
+            - IdRef: 0x010000000000012A
+              Type: Entity
+              node: []
+          - IdRef: 0x0100000000000114
+            Type: EntitiesUserFolder
+            node: []
+          - IdRef: 0x0100000000000116
+            Type: EntitiesUserFolder
+            node:
+            - IdRef: 0x010000000000012E
+              Type: Entity
+              node: []
+          - IdRef: 0x0100000000000118
+            Type: EntitiesUserFolder
+            node: []
+          - IdRef: 0x010000000000011A
+            Type: EntitiesUserFolder
+            node: []
+          - IdRef: 0x010000000000011C
+            Type: EntitiesUserFolder
+            node: []
+          - IdRef: 0x010000000000011E
+            Type: EntitiesUserFolder
+            node: []
+        - IdRef: 0x030000004C3DAF54
+          Type: Assets
+          node:
+          - IdRef: 0x0100000000000120
+            Type: AssetsUserFolder
+            node: []
+          - IdRef: 0x0100000000000122
+            Type: AssetsUserFolder
+            node: []
+          - IdRef: 0x0100000000000124
+            Type: AssetsUserFolder
+            node: []
+          - IdRef: 0x0100000000000126
+            Type: AssetsUserFolder
+            node: []
+          - IdRef: 0x0100000000000128
+            Type: AssetsUserFolder
+            node: []
+        - IdRef: 0x0300000029CF057C
+          Type: ObjectCustomization
+          node:
+          - IdRef: 0x03000000D2404DC0
+            Type: Features
+            node:
+            - IdRef: 0x0100000000000008
+              Type: FeatureDefinition
+              node: []
+            - IdRef: 0x0100000000000043
+              Type: FeatureDefinition
+              node: []
+          - IdRef: 0x030000009AF68DCD
+            Type: ObjectTemplates
+            node:
+            - IdRef: 0x0300000078B45A71
+              Type: TypedObjectTemplates
+              node:
+              - IdRef: 0x010000000000006B
+                Type: ObjectTemplateDefinition
+                node: []
+              - IdRef: 0x0100000000000095
+                Type: ObjectTemplateDefinition
+                node: []
+            - IdRef: 0x030000006D1BC275
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000030B5ACF
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x030000008DD5C0F2
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x0300000092CF598E
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x0300000030635118
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000A715C057
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x030000005314E813
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x030000004264B29C
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000FB371D5C
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x0300000013DF3A1A
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000ADA9FA17
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000ECC00F83
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000F514339C
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x0300000096812FC1
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000CC5A07F0
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000DCC67F9D
+              Type: TypedObjectTemplates
+              node: []
+            - IdRef: 0x03000000BA022E2F
+              Type: TypedObjectTemplates
+              node: []
+          - IdRef: 0x030000002C0951AE
+            Type: PropertyTemplates
+            node:
+            - IdRef: 0x030000006E2C178B
+              Type: TypedPropertyTemplates
+              node: []
+            - IdRef: 0x03000000BB12F1B8
+              Type: TypedPropertyTemplates
+              node: []
+            - IdRef: 0x030000006F82D78E
+              Type: TypedPropertyTemplates
+              node: []
+            - IdRef: 0x0300000037DCE3F0
+              Type: TypedPropertyTemplates
+              node: []
+            - IdRef: 0x030000003630A240
+              Type: TypedPropertyTemplates
+              node: []
+            - IdRef: 0x03000000D745C449
+              Type: TypedPropertyTemplates
+              node: []
+        - IdRef: 0x030000002B4F4C54
+          Type: GlobalVariables
+          node:
+          - IdRef: 0x01000000000001CF
+            Type: VariableSet
+            node: []
     Xmlns: 
-    Version: 
-    CreatorTool: 
-    CreatorVersion: 
-    CreatedOn: 
-  FilePath: /Assets/jikken.xml
+    Version: 2.4
+    CreatorTool: articy:draft
+    CreatorVersion: 2.4.13
+    CreatedOn: 2018-10-09T20:04:30Z
+  FilePath: /jikken.xml
 --- !u!4 &1345981241
 Transform:
   m_ObjectHideFlags: 0
