@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Serialization;
 using Boo.Lang;
@@ -20,10 +21,12 @@ namespace Graphene.ADInterpreter.Assets.Scripts
         private void Awake()
         {
             Deserialize();
-          //  OrderDialogueFragments();
+           // RemoveTags();
+            //  OrderDialogueFragments();
         }
 
         
+
 
         private void Deserialize()
         {
@@ -36,17 +39,34 @@ namespace Graphene.ADInterpreter.Assets.Scripts
             Debug.Log(Data.Content.DialogueFragment.Count);
             foreach (var text in Data.Content.DialogueFragment)
             {
-                var bt = ascii.GetBytes(text.Text.LocalizedString.Text);
-                Debug.Log(utf8.GetString(bt, 0 , bt.Length));
-                bt = ascii.GetBytes(text.Text.LocalizedString.Text);
-                Debug.Log(ascii.GetString(bt));
-                
+                char[] array = new char[text.Text.LocalizedString.Text.Length];
+                int arrayIndex = 0;
+                bool inside = false;
+
+                for (int i = 0; i < text.Text.LocalizedString.Text.Length; i++)
+                {
+                    char let = text.Text.LocalizedString.Text[i];
+                    if (let == '<')
+                    {
+                        inside = true;
+                        continue;
+                    }
+                    if (let == '>')
+                    {
+                        inside = false;
+                        continue;
+                    }
+                    if (!inside)
+                    {
+                        array[arrayIndex] = let;
+                        arrayIndex++;
+                    }
+                }
+                Debug.Log(text.Text.LocalizedString.Text);
             }
+                
         }
         
-        private void OrderDialogueFragments()
-        {
-            
-        }
+        
     }
 }
