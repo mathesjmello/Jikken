@@ -16,6 +16,8 @@ public class PickUp : MonoBehaviour
 
     int pickUpUiNumber;
 
+    static public bool Interacting = false;
+
     static public int NReds, NBlues, NGreens ;
 
 
@@ -36,10 +38,11 @@ public class PickUp : MonoBehaviour
             ItemObject = other.gameObject;
         }
 
-        if (Input.GetButtonDown("Interact"))
+        if (Input.GetButtonDown("Interact") && !Interacting)
         {
             pickUpUiNumber = 0;
             SpawnMiniGamePickUp();
+            Interacting = true;
         }
 
     }
@@ -51,6 +54,8 @@ public class PickUp : MonoBehaviour
 
     void SpawnMiniGamePickUp()
     {
+        //Checa se o item ainda nao foi pego, se ainda nao foi, espawna outra UI, se foi atualiza o inventario e destroy o item.
+
         if (ItemObject != null)
         {
             float variaçao = Random.Range(UiSpawnVariation[0], UiSpawnVariation[1]);
@@ -67,6 +72,7 @@ public class PickUp : MonoBehaviour
                 UpgradeSaveValues();
                 StartCoroutine(InventoryActualization());
                 Destroy(ItemObject);
+                Interacting = false;
             }
         }
 
@@ -74,6 +80,8 @@ public class PickUp : MonoBehaviour
 
     void RaycastDetectionOnUiPickUp()
     {
+        //Solta um Raycast do centro da tela que reconhece o Ui. Se apretar o 0 do mouse destroy a Ui e chama a funçao de spawnar outra 
+
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -93,6 +101,7 @@ public class PickUp : MonoBehaviour
 
     void UpgradeSaveValues()
     {
+        //Atualiza as variaveis que contam o numero de itens pegos 
 
         if (ItemObject.CompareTag("Red"))
         {
@@ -110,6 +119,8 @@ public class PickUp : MonoBehaviour
 
     void LoadSavedvalues()
     {
+        //Pega o numero de itens que foi salvo, e ataliza o inventario com aqueles valores
+
         GameObject i;
         if (NReds > 0)
         {
@@ -152,6 +163,8 @@ public class PickUp : MonoBehaviour
     IEnumerator InventoryActualization()
     {
 
+        //Atualiza o inventario. Caso o item pego ja exista, aumenta o numero de exemplares no inventario. Caso nao tenha sido pego, adiciona o item ao inventario.
+ 
         foreach (Transform Child in InvetoryPanel.transform)
         {
             if (Child.gameObject.tag == ItemObject.gameObject.tag)
