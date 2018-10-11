@@ -93,7 +93,7 @@ public class PickUp : MonoBehaviour
                 {
                     Debug.Log("Destruiu");
                     Destroy(hit.collider.gameObject);
-                    SpawnMiniGamePickUp();
+                    Invoke("SpawnMiniGamePickUp", 0.3f);
                 }
             }
         }
