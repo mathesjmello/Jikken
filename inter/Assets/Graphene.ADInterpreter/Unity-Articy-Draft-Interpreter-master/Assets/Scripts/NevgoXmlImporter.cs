@@ -34,35 +34,14 @@ namespace Graphene.ADInterpreter.Assets.Scripts
             
             XmlSerializer serializer = new XmlSerializer(typeof(ArticyDraftData));
             Data = (ArticyDraftData) serializer.Deserialize(new XmlTextReader(Application.dataPath+FilePath));
-            var utf8 = Encoding.UTF8;
-            var ascii = Encoding.ASCII;
             Debug.Log(Data.Content.DialogueFragment.Count);
             foreach (var text in Data.Content.DialogueFragment)
             {
-                char[] array = new char[text.Text.LocalizedString.Text.Length];
-                int arrayIndex = 0;
-                bool inside = false;
-
-                for (int i = 0; i < text.Text.LocalizedString.Text.Length; i++)
-                {
-                    char let = text.Text.LocalizedString.Text[i];
-                    if (let == '<')
-                    {
-                        inside = true;
-                        continue;
-                    }
-                    if (let == '>')
-                    {
-                        inside = false;
-                        continue;
-                    }
-                    if (!inside)
-                    {
-                        array[arrayIndex] = let;
-                        arrayIndex++;
-                    }
-                }
-                Debug.Log(text.Text.LocalizedString.Text);
+                var str = text.Text.LocalizedString.Text.Replace("<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id=\"s0\"><span id=\"s1\">", "");
+                str = str.Replace("</span></p></body></html>", "");
+                str = str.Replace("</span><span id=\"s1\">", "");
+                
+                Debug.Log(str);
             }
                 
         }
