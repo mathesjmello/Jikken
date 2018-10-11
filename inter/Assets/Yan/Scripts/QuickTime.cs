@@ -4,28 +4,37 @@ using UnityEngine;
 
 public class QuickTime : MonoBehaviour {
 
-    public Material Material;
+    public Renderer Rend;
     public float FadeDuration;
     Color colorStart = Color.green;
     Color colorEnd = Color.red;
 
-	// Update is called once per frame
-	void Update () {
-        StartCoroutine(preSetup());
-        Material.color = Color.Lerp(colorStart, colorEnd, Time.time *FadeDuration);
+    private void Start()
+    {
+        Setting();
     }
 
-    IEnumerator preSetup()
+    void Setting()
     {
-        Material.color = colorStart;
-        yield return new WaitForSeconds(FadeDuration);
-        Destroy(gameObject);
-        PickUp.Interacting = false;
-        
+        Rend = gameObject.GetComponentInChildren<Renderer>();
+        Rend.material.color = Color.green;
+    }
+
+    // Update is called once per frame
+    void Update ()
+    {
+        Debug.Log(Rend.material.color.ToString());
+        ColorLerp();
+        Destroy(gameObject,FadeDuration);
+    }
+
+    void ColorLerp()
+    {
+        Rend.material.color = Color.Lerp(colorStart, colorEnd, Time.time * FadeDuration /2.5f);
     }
 
     private void OnDestroy()
     {
-        StopCoroutine(preSetup());
+        PickUp.Interacting = false;
     }
 }
