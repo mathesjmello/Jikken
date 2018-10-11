@@ -6,6 +6,8 @@ public static class Persistence
 {
 
     static public bool HaveASave;
+    public static string NextLevel;
+
 
     public static void SavaData()
     {
