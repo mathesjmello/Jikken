@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/2.4/XmlContentExport_FullProject.xsd" Version="2.4" CreatorTool="articy:draft" CreatorVersion="2.4.13" CreatedOn="2018-10-11T21:04:15Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/2.4/XmlContentExport_FullProject.xsd" Version="2.4" CreatorTool="articy:draft" CreatorVersion="2.4.13" CreatedOn="2018-10-15T21:53:12Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -1333,6 +1333,222 @@
       <Target IdRef="0x0100000000000565" PinRef="0x0100000000000568"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
+    <Connection Id="0x0100000000000627">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_C6F6421C</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929511</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000061C" PinRef="0x0100000000000620"/>
+      <Target IdRef="0x0100000000000622" PinRef="0x0100000000000625"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000063C">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_29640C92</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929532</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000631" PinRef="0x0100000000000635"/>
+      <Target IdRef="0x0100000000000637" PinRef="0x010000000000063A"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000000643">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_17233743</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929539</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000637" PinRef="0x010000000000063B"/>
+      <Target IdRef="0x010000000000063E" PinRef="0x0100000000000641"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000064A">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_8642FA76</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929546</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000063E" PinRef="0x0100000000000642"/>
+      <Target IdRef="0x0100000000000645" PinRef="0x0100000000000648"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000062F">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0736AF4C</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929519</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000615" PinRef="0x0100000000000619"/>
+      <Target IdRef="0x0100000000000629" PinRef="0x010000000000062C"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000065F">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_BA03DAC2</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929567</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000654" PinRef="0x0100000000000658"/>
+      <Target IdRef="0x010000000000065A" PinRef="0x010000000000065D"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000000666">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_A3304BEC</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929574</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000065A" PinRef="0x010000000000065E"/>
+      <Target IdRef="0x0100000000000661" PinRef="0x0100000000000664"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000066D">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_4BF9138E</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929581</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000661" PinRef="0x0100000000000665"/>
+      <Target IdRef="0x0100000000000668" PinRef="0x010000000000066B"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000000674">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_FD3074B1</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929588</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000668" PinRef="0x010000000000066C"/>
+      <Target IdRef="0x010000000000066F" PinRef="0x0100000000000672"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000000652">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_4914AB29</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929554</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000629" PinRef="0x010000000000062D"/>
+      <Target IdRef="0x010000000000064C" PinRef="0x010000000000064F"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000000613">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_24A6662E</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929491</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000565" PinRef="0x0100000000000569"/>
+      <Target IdRef="0x010000000000060D" PinRef="0x0100000000000610"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000000690">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_2EA9D7D5</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929616</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000685" PinRef="0x0100000000000689"/>
+      <Target IdRef="0x010000000000068B" PinRef="0x010000000000068E"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000069E">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_9A5819CF</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929630</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000068B" PinRef="0x010000000000068F"/>
+      <Target IdRef="0x0100000000000699" PinRef="0x010000000000069C"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006AC">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_05E3EDCE</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929644</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006A1" PinRef="0x01000000000006A5"/>
+      <Target IdRef="0x01000000000006A7" PinRef="0x01000000000006AA"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006B3">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_8F64C1A6</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929651</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006A7" PinRef="0x01000000000006AB"/>
+      <Target IdRef="0x01000000000006AE" PinRef="0x01000000000006B1"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006BA">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0C5FF464</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929658</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006AE" PinRef="0x01000000000006B2"/>
+      <Target IdRef="0x01000000000006B5" PinRef="0x01000000000006B8"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006C1">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0EAE8D9A</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929665</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006B5" PinRef="0x01000000000006B9"/>
+      <Target IdRef="0x01000000000006BC" PinRef="0x01000000000006BF"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006C8">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_613D9F69</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929672</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006BC" PinRef="0x01000000000006C0"/>
+      <Target IdRef="0x01000000000006C3" PinRef="0x01000000000006C6"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006CF">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_B2D8A249</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929679</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006C3" PinRef="0x01000000000006C7"/>
+      <Target IdRef="0x01000000000006CA" PinRef="0x01000000000006CD"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006D6">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_DFD9A3AF</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929686</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006CA" PinRef="0x01000000000006CE"/>
+      <Target IdRef="0x01000000000006D1" PinRef="0x01000000000006D4"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006DD">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_7F3C5CAE</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929693</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006D1" PinRef="0x01000000000006D5"/>
+      <Target IdRef="0x01000000000006D8" PinRef="0x01000000000006DB"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000006E4">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_3FC6D3A5</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929700</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000006D8" PinRef="0x01000000000006DC"/>
+      <Target IdRef="0x01000000000006DF" PinRef="0x01000000000006E2"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000000698">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_1BE6AF07</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929624</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000067E" PinRef="0x0100000000000682"/>
+      <Target IdRef="0x0100000000000692" PinRef="0x0100000000000695"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000067C">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_6AB20583</TechnicalName>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929596</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000060D" PinRef="0x0100000000000611"/>
+      <Target IdRef="0x0100000000000676" PinRef="0x0100000000000679"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
     <Dialogue Id="0x010000000000014E">
       <DisplayName Count="1">
         <LocalizedString Lang="">chegando em casa</LocalizedString>
@@ -1937,6 +2153,136 @@
       <Size Width="291" Height="200"/>
       <ZIndex>3</ZIndex>
     </Dialogue>
+    <Dialogue Id="0x0100000000000615">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">chegando no parque</LocalizedString>
+      </DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">falas at&#233; testar o equipamento</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Dlg_6B911327</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x6B911327</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929493</Url>
+      <Features Count="0"/>
+      <References Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000618" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000619" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="267" Y="330"/>
+      <Size Width="291" Height="200"/>
+      <ZIndex>0</ZIndex>
+    </Dialogue>
+    <Dialogue Id="0x0100000000000629">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">no começo da nuvem</LocalizedString>
+      </DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">fala quando chega na nuvem</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Dlg_3AD66726</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x3AD66726</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929513</Url>
+      <Features Count="0"/>
+      <References Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000062C" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000062D" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="628" Y="328"/>
+      <Size Width="291" Height="200"/>
+      <ZIndex>1</ZIndex>
+    </Dialogue>
+    <Dialogue Id="0x010000000000064C">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">achando o complexo</LocalizedString>
+      </DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">oque voc&#234; fala ao ver o complexo</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Dlg_B0A131B3</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xB0A131B3</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929548</Url>
+      <Features Count="0"/>
+      <References Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000064F" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000650" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1010.83333333333" Y="327.666666666667"/>
+      <Size Width="291" Height="200"/>
+      <ZIndex>3</ZIndex>
+    </Dialogue>
+    <Dialogue Id="0x010000000000067E">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">ao chegar</LocalizedString>
+      </DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">reflex&#245;es do que tem rolado</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Dlg_E2C3FB06</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xE2C3FB06</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929598</Url>
+      <Features Count="0"/>
+      <References Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000681" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000682" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="247" Y="212"/>
+      <Size Width="291" Height="200"/>
+      <ZIndex>0</ZIndex>
+    </Dialogue>
+    <Dialogue Id="0x0100000000000692">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">no laboratório</LocalizedString>
+      </DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">fala coisas enquanto testa as coisas</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Dlg_C964F080</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xC964F080</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929618</Url>
+      <Features Count="0"/>
+      <References Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000695" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000696" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="633" Y="209"/>
+      <Size Width="291" Height="200"/>
+      <ZIndex>1</ZIndex>
+    </Dialogue>
     <DialogueFragment Id="0x010000000000021E">
       <DisplayName><![CDATA[...: "pai cheguei, onde o senhor está?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
@@ -1961,10 +2307,10 @@
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x0000000000000000"/>
       <StageDirections Count="1">
-        <LocalizedString Lang="">animado</LocalizedString>
+        <LocalizedString Lang=""/>
       </StageDirections>
       <MenuText Count="1">
-        <LocalizedString Lang="">cheguei</LocalizedString>
+        <LocalizedString Lang=""/>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000226">
@@ -1992,7 +2338,7 @@
       <Speaker IdRef="0x0000000000000000"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">sem resposta</LocalizedString>
+        <LocalizedString Lang=""/>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000230">
@@ -2020,7 +2366,7 @@
       <Speaker IdRef="0x0000000000000000"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">bagunça</LocalizedString>
+        <LocalizedString Lang=""/>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000239">
@@ -2076,11 +2422,11 @@
       <Speaker IdRef="0x0000000000000000"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">anotação</LocalizedString>
+        <LocalizedString Lang=""/>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000024C">
-      <DisplayName><![CDATA[player: "Meu filho perdoe seu pai, não sei s..."]]></DisplayName>
+      <DisplayName><![CDATA[...: "Meu filho perdoe seu pai, não sei s..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
         <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">M</span><span id="s1">eu filho perdoe seu pai, n&#227;o sei se conseguirei resolver isso</span></p></body></html>]]></LocalizedString>
       </Text>
@@ -2101,7 +2447,7 @@
       <Position X="667" Y="273"/>
       <Size Width="225" Height="200"/>
       <ZIndex>1</ZIndex>
-      <Speaker IdRef="0x010000000000012A"/>
+      <Speaker IdRef="0x0000000000000000"/>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
@@ -2130,7 +2476,7 @@
       <Speaker IdRef="0x0000000000000000"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">fotos</LocalizedString>
+        <LocalizedString Lang=""/>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000025E">
@@ -4294,7 +4640,7 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000581">
-      <DisplayName><![CDATA[basicamente é esta a fórmula que faz ela ser tóxica, preciso criar um composto oposto: "basicamente é esta a fórmula que fa..."]]></DisplayName>
+      <DisplayName><![CDATA[...: "basicamente é esta a fórmula que fa..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
         <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">basicamente &#233; esta a f&#243;rmula que faz ela ser t&#243;xica, preciso criar um composto oposto</span></p></body></html>]]></LocalizedString>
       </Text>
@@ -4761,6 +5107,630 @@
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
+    <DialogueFragment Id="0x010000000000061C">
+      <DisplayName><![CDATA[...: "agora é só borrifar isso naquela nu..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">agora &#233; s&#243; borrifar isso naquela nuvem e rezar para funcionar</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_CE7297EC</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xCE7297EC</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929500</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000061F" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000620" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="223" Y="340"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000622">
+      <DisplayName><![CDATA[...: "se não funcionar espero só espero n..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">se n&#227;o funcionar espero s&#243; espero n&#227;o acabar morrendo</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_0440D7A2</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x0440D7A2</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929506</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000625" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000626" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="516" Y="340"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>1</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000631">
+      <DisplayName><![CDATA[...: "aqui vamos nós"]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">aqui vamos n&#243;s</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_E80BF865</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xE80BF865</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929521</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000634" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000635" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="264" Y="300"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000637">
+      <DisplayName><![CDATA[...: "aperte F para usar o pulverizador"]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">aperte F para usar o pulverizador</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_3F0262E6</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x3F0262E6</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929527</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000063A" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000063B" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="576" Y="300"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>1</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x010000000000063E">
+      <DisplayName><![CDATA[...: "isso parece estar funcionando, só n..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">isso parece estar funcionando, s&#243; n&#227;o posso desperdi&#231;ar</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_7EED1121</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x7EED1121</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929534</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000641" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000642" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="870" Y="299"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>3</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000645">
+      <DisplayName><![CDATA[...: "não quero voltar para casa só para..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">n&#227;o quero voltar para casa s&#243; para recarregar</span><span id="s1">... ao menos preciso pegar mais amostras</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_505E031B</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x505E031B</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929541</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000648" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000649" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1202" Y="294"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>5</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000654">
+      <DisplayName><![CDATA[...: "parece que tudo está mesmo começand..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">parece que tudo est&#225; mesmo come&#231;ando do alto daquela colina</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_176E3483</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x176E3483</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929556</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000657" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000658" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="234" Y="247"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x010000000000065A">
+      <DisplayName><![CDATA[...: "olhando daqui parece que ter algum..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">olhando daqui parece que te</span><span id="s1">r</span><span id="s1"> algum tipo de complexo ali em cima</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_3C983D0D</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x3C983D0D</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929562</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000065D" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000065E" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="533" Y="250"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>1</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000661">
+      <DisplayName><![CDATA[...: "não conseguirei chegar daqui de bai..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">n&#227;o conseguirei chegar daqui de baixo at&#233; l&#225;</span><span id="s1"> </span><span id="s1">deve ter um caminho contornando a montanha</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_561046F5</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x561046F5</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929569</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000664" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000665" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="830" Y="250"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>3</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000668">
+      <DisplayName><![CDATA[...: "melhor voltar para casa, terminar d..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">melhor voltar para casa, terminar de estudar essa planta e amanh&#227; investigar aquele lugar</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_E0E40298</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xE0E40298</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929576</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000066B" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000066C" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1148" Y="251"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>5</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x010000000000066F">
+      <DisplayName><![CDATA[...: "já já vai anoitecer mesmo"]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">j&#225; j&#225; vai anoitecer mesmo</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_134013D4</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x134013D4</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929583</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000672" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000673" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1453" Y="250"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>7</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000685">
+      <DisplayName><![CDATA[...: "melhor me preparar melhor para entr..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">melhor me preparar melhor para entrar naquele complexo</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_8B63DCF4</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x8B63DCF4</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929605</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000688" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000689" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="172" Y="331"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x010000000000068B">
+      <DisplayName><![CDATA[...: "se realmente é dali que vem tudo is..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">se realmente &#233; dali que vem tudo isso &#233; melhor estar preparado para tudo</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_098AAF61</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x098AAF61</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929611</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000068E" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000068F" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="480" Y="331"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>1</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000000699">
+      <DisplayName><![CDATA[...: "vamos analisar as amostras e melhor..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">vamos analisar as amostras e melhorar meus equipamentos</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_3B30A890</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x3B30A890</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929625</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000069C" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000069D" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="756" Y="327"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>3</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006A1">
+      <DisplayName><![CDATA[...: "vamos tentar descobrir mais alguma..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">vamos tentar descobrir mais alguma coisa com essas amostras</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_7F19B093</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x7F19B093</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929633</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006A4" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006A5" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="290" Y="330"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006A7">
+      <DisplayName><![CDATA[...: "preciso me certificar de que não vo..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">preciso me certificar de que n&#227;o vou acabar me infectando</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_F5989AA7</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xF5989AA7</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929639</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006AA" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006AB" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="576" Y="330"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>1</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006AE">
+      <DisplayName><![CDATA[...: "ok creio que isso seja útil"]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">ok creio que isso seja &#250;til</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_04B36BBA</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x04B36BBA</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929646</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006B1" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006B2" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="886" Y="327"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>3</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006B5">
+      <DisplayName><![CDATA[...: "talvez eu leve isso em conta"]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">talvez eu leve isso em conta</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_6868EA02</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x6868EA02</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929653</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006B8" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006B9" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1186" Y="330"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>5</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006BC">
+      <DisplayName><![CDATA[...: "isso deve me dar total segurança, s..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">isso deve me dar total seguran&#231;a, s&#243; mexer um pouco na mascara e n&#227;o correrei perigo</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_16CA1FBD</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x16CA1FBD</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929660</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006BF" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006C0" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1495" Y="322"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>7</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006C3">
+      <DisplayName><![CDATA[...: "agora preciso descobrir o melhor je..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">agora preciso descobrir o melhor jeito de acabar com essa planta</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_F514DF2D</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xF514DF2D</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929667</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006C6" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006C7" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1807" Y="320"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>9</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006CA">
+      <DisplayName><![CDATA[...: "interessante"]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">interessante</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_AC23717C</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xAC23717C</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929674</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006CD" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006CE" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="2108" Y="324"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>11</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006D1">
+      <DisplayName><![CDATA[...: "é bom anotar isso"]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&#233; bom anotar isso</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_0E178F19</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x0E178F19</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929681</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006D4" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006D5" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="2400" Y="326"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>13</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006D8">
+      <DisplayName><![CDATA[...: "somando tudo isso que acabei de apr..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">somando tudo isso que acabei de aprender, creio que um lan&#231;a chamas</span><span id="s1"> resolve o problema</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_BD04F448</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xBD04F448</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929688</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006DB" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006DC" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="2693" Y="329"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>15</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000006DF">
+      <DisplayName><![CDATA[...: "uma leve modificação no pulverizado..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">uma leve modifica&#231;&#227;o no pulverizador e terei um lan&#231;a chamas </span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_0BA32861</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x0BA32861</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929695</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000006E2" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000006E3" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="3001" Y="329"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>17</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
     <Entity Id="0x010000000000012A">
       <DisplayName Count="1">
         <LocalizedString Lang="">player</LocalizedString>
@@ -5023,6 +5993,58 @@
       <Position X="3269.7367938655" Y="196.40981097564"/>
       <Size Width="275" Height="200"/>
       <ZIndex>15</ZIndex>
+    </FlowFragment>
+    <FlowFragment Id="0x010000000000060D">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">de volta para o parque</LocalizedString>
+      </DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">volta para o parque testar o pulverizador</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>FFr_A751AD63</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xA751AD63</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929485</Url>
+      <Features Count="0"/>
+      <References Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000610" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000000611" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="3644.2367938655" Y="196.90981097564"/>
+      <Size Width="275" Height="200"/>
+      <ZIndex>17</ZIndex>
+    </FlowFragment>
+    <FlowFragment Id="0x0100000000000676">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">voltando para casa</LocalizedString>
+      </DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">volta para a casa fim de tarde</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>FFr_7CF29BB1</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x7CF29BB1</ShortId>
+      <Url>articy://localhost/view/1a861985-4180-481c-917a-3113c4c6c208/72057594037929590</Url>
+      <Features Count="0"/>
+      <References Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000000679" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000067A" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="4044.7367938655" Y="195.40981097564"/>
+      <Size Width="275" Height="200"/>
+      <ZIndex>19</ZIndex>
     </FlowFragment>
     <ObjectTemplateDefinition Id="0x010000000000006B">
       <DisplayName Count="1">
@@ -5523,6 +6545,68 @@
           <Node IdRef="0x01000000000005DB" Type="Connection"/>
         </Node>
         <Node IdRef="0x010000000000056B" Type="Connection"/>
+        <Node IdRef="0x010000000000060D" Type="FlowFragment">
+          <Node IdRef="0x0100000000000615" Type="Dialogue">
+            <Node IdRef="0x010000000000061C" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000000622" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000000627" Type="Connection"/>
+          </Node>
+          <Node IdRef="0x0100000000000629" Type="Dialogue">
+            <Node IdRef="0x0100000000000631" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000000637" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000063C" Type="Connection"/>
+            <Node IdRef="0x010000000000063E" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000000643" Type="Connection"/>
+            <Node IdRef="0x0100000000000645" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000064A" Type="Connection"/>
+          </Node>
+          <Node IdRef="0x010000000000062F" Type="Connection"/>
+          <Node IdRef="0x010000000000064C" Type="Dialogue">
+            <Node IdRef="0x0100000000000654" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000065A" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000065F" Type="Connection"/>
+            <Node IdRef="0x0100000000000661" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000000666" Type="Connection"/>
+            <Node IdRef="0x0100000000000668" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000066D" Type="Connection"/>
+            <Node IdRef="0x010000000000066F" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000000674" Type="Connection"/>
+          </Node>
+          <Node IdRef="0x0100000000000652" Type="Connection"/>
+        </Node>
+        <Node IdRef="0x0100000000000613" Type="Connection"/>
+        <Node IdRef="0x0100000000000676" Type="FlowFragment">
+          <Node IdRef="0x010000000000067E" Type="Dialogue">
+            <Node IdRef="0x0100000000000685" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000068B" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000000690" Type="Connection"/>
+            <Node IdRef="0x0100000000000699" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000069E" Type="Connection"/>
+          </Node>
+          <Node IdRef="0x0100000000000692" Type="Dialogue">
+            <Node IdRef="0x01000000000006A1" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006A7" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006AC" Type="Connection"/>
+            <Node IdRef="0x01000000000006AE" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006B3" Type="Connection"/>
+            <Node IdRef="0x01000000000006B5" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006BA" Type="Connection"/>
+            <Node IdRef="0x01000000000006BC" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006C1" Type="Connection"/>
+            <Node IdRef="0x01000000000006C3" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006C8" Type="Connection"/>
+            <Node IdRef="0x01000000000006CA" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006CF" Type="Connection"/>
+            <Node IdRef="0x01000000000006D1" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006D6" Type="Connection"/>
+            <Node IdRef="0x01000000000006D8" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006DD" Type="Connection"/>
+            <Node IdRef="0x01000000000006DF" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000006E4" Type="Connection"/>
+          </Node>
+          <Node IdRef="0x0100000000000698" Type="Connection"/>
+        </Node>
+        <Node IdRef="0x010000000000067C" Type="Connection"/>
       </Node>
       <Node IdRef="0x030000003140D3AC" Type="Locations"/>
       <Node IdRef="0x03000000AC61A2B3" Type="Entities">
