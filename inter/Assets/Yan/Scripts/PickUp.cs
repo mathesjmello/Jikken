@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
+using Graphene.ADInterpreter.Assets.Scripts;
+using Graphene.ADInterpreter.ExportData;
 using UnityEngine;
+using Text = UnityEngine.UI.Text;
 
 public class PickUp : MonoBehaviour
 {
@@ -43,6 +45,10 @@ public class PickUp : MonoBehaviour
             pickUpUiNumber = 0;
             SpawnMiniGamePickUp();
             Interacting = true;
+        }
+        if (Input.GetButtonDown("Interact") && !Interacting && other.GetComponent<PickString>())
+        {
+            other.GetComponent<PickString>().ShowDialog();
         }
 
     }

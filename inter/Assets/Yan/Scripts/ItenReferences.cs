@@ -6,4 +6,5 @@ public class ItenReferences : MonoBehaviour {
 
     public int ItemDifficult;
     public bool HasIcon = false;
+    public bool DialogContent=false;
 }
