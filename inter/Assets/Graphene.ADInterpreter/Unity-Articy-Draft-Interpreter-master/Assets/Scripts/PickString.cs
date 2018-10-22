@@ -20,30 +20,26 @@ namespace Graphene.ADInterpreter.Assets.Scripts
         private void Start()
         {
             CurrentDialog = Frases;
-           // SetFragments();
         }
 
-        public void SetFragments()
+        public void SetDialogLenthg(int dl)
         {
-            for (int i = 0; i < DialogLenthg; i++)
-            {
-                CurrentDialog[i] = Frases[0];
-                Frases.RemoveAt(0);
-                i++;
-            }
+            DialogLenthg = dl;
             ShowDialog();
         }
-
         public void ShowDialog()
         {
+            
             CurrentText.text = CurrentDialog[0];
-            CurrentDialog.RemoveAt(0);
-            if (CurrentDialog != null)
+            if (DialogLenthg>0)
             {
+                CurrentDialog.RemoveAt(0);
                 Next.gameObject.SetActive(true);
+                DialogLenthg--;
             }
             else
             {
+                CurrentDialog.RemoveAt(0);
                 Exit.gameObject.SetActive(true);
             }
         }
