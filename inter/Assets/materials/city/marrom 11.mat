@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: marrom 11
   m_Shader: {fileID: 4800000, guid: 9c6ece3d5ef8bb84db19471daaf6c788, type: 3}
@@ -136,7 +136,7 @@ Material:
     - _RimSmoothness: 0.5
     - _Roughness: 1
     - _Saturation: 1
-    - _ShadowIntensity: 0.76
+    - _ShadowIntensity: 0.805
     - _Shininess: 0.122
     - _SketchScale: 16
     - _SketchToneMax: 1
