@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &82473185
 RectTransform:
   m_ObjectHideFlags: 0
@@ -202,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &214858138
 RectTransform:
   m_ObjectHideFlags: 0
@@ -307,6 +307,140 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214858137}
+  m_CullTransparentMesh: 0
+--- !u!1 &231548717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231548718}
+  - component: {fileID: 231548721}
+  - component: {fileID: 231548720}
+  - component: {fileID: 231548719}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &231548718
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 231548717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2062934030}
+  m_Father: {fileID: 835726505}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &231548719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 231548717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 231548720}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1723761052}
+        m_MethodName: SetFragments
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 82473184}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &231548720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 231548717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &231548721
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 231548717}
   m_CullTransparentMesh: 0
 --- !u!1 &797962325
 GameObject:
@@ -471,6 +605,7 @@ RectTransform:
   m_LocalScale: {x: 0.31208122, y: 0.31208122, z: 0.31208122}
   m_Children:
   - {fileID: 82473185}
+  - {fileID: 231548718}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -669,7 +804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "se estiver aqui est\xE1 no laborat\xF3rio"
 --- !u!222 &1221179786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -774,7 +909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1645600607
 RectTransform:
   m_ObjectHideFlags: 0
@@ -902,11 +1037,259 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1723761051}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79675e83be514dc09b682a363f148667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Frases:
+  - "pai cheguei, onde o senhor est\xE1?"
+  - "se estiver aqui est\xE1 no laborat\xF3rio"
+  - "parece que um furac\xE3o passou por aqui, papai andou ocupado"
+  - "cientistas isolaram ala leste do parque depois que raposas apareceram doentes
+    pela regi\xE3o, m\xE1scaras est\xE3o sendo distribu\xEDdas a todos na regi\xE3o"
+  - "N\xE3o posso acreditar que isso est\xE1 acontecendo, a culpa \xE9 minha, sempre
+    querendo entregar logo resultados e agora estou fazendo todos sofrerem"
+  - "Meu filho perdoe seu pai, n\xE3o sei se conseguirei resolver isso"
+  - comece por aqui
+  - "pai em que voc\xEA foi se meter\u2026 melhor ir dar uma olhada no mirante, vou
+    colocar uma m\xE1scara por precau\xE7\xE3o tamb\xE9m"
+  - "preciso procurar mais informa\xE7\xF5es"
+  - "ok vamos come\xE7ar pelo mirante, de l\xE1 vou conseguir ter no\xE7\xE3o do que
+    esta rolando, espero encontrar alguma coisa de meu pai por l\xE1"
+  - "Aqui estamos, parque da vila, quantas vezes n\xE3o vim aqui acompanhado de meu
+    pai"
+  - "aprontei um monte por essa regi\xE3o, da saudade da vida calma que levava por
+    aqui"
+  - bom vamos procurar por qualquer coisa estranha, mas oque de estranho poderia aparecer?
+  - "na ponta do mirante da para ver bem a regi\xE3o"
+  - "ok isso \xE9 suficientemente estranho para mim"
+  - "que n\xE9voa estranha, olha o quanto ela j\xE1 espalhou, a situa\xE7\xE3o \xE9
+    pior do que poderia imaginar, tudo deve ter come\xE7ado para aqueles lados da
+    montanha"
+  - "mas preciso entender primeiro o que est\xE1 causando ela e como n\xE3o acabar
+    sendo intoxicado por ela, vamos procurar alguma coisa por aqui"
+  - "que estranho essa planta est\xE1 sendo parasitada por esta outra, nunca vi nada
+    parecido com isso aqui na regi\xE3o"
+  - vou tirar uma foto e mandar para o Jhun ele entende mais de plantas parasitas,
+    ele pode me dar uma luz
+  - "fala cara como est\xE1, j\xE1 achou seu velho?"
+  - "n\xE3o ainda estou procurando ele, parece que ele estava trabalhando em algo
+    e aconteceu algo muito ruim"
+  - 'vish cara pesado '
+  - "\xE9 cara mas me ajuda em uma coisa, encontrei essa planta estranha por aqui,
+    nunca vi nada parecido na regi\xE3o, pode dar uma olhada? t244 te enviando a foto"
+  - "cara que estranho, que ela \xE9 um parasita est\xE1 na cara, mas a estrutura
+    n\xE3o bate com a de uma parasitaria, ela parece ter sido modificada geneticamente
+    ou ter sofrido uma muta\xE7\xE3o dr\xE1stic"
+  - "isso parece coisa do meu pai, mas ele n\xE3o faria algo prejudicial ao ambiente "
+  - "pode ser que ela tenha se adaptado depois de ter sido modificada para ficar assim,
+    colhe uma amostra para testar, tem equipamentos por a\xED?"
+  - "tenho sim, vou usar o laborat\xF3rio do meu pai em casa, vou colher esta e procurar
+    outras amostras"
+  - "qualquer coisa s\xF3 me escrever"
+  - agora vamos tentar achar mais alguma coisa estranha
+  - "meu Deus agora a coisa ficou s\xE9ria"
+  - "uma planta parasitar outra planta ok, agora um animal j\xE1 \xE9 demais, vou
+    mandar outra foto pra o Jhun"
+  - "oque \xE9 isso ??!! "
+  - "se eu soubesse n\xE3o teria te mandado a foto n\xE9"
+  - "t\xE1 espera, que loucura cara"
+  - "analisando daqui parece ser a mesma planta da outra foto, s\xF3 que j\xE1 adulta,
+    mas esses frutos s\xE3o muito estranhos, parecem na verdade esporos"
+  - " deve ser assim que ela consegue se espalhar e parasitar tantos seres, colhe
+    um fruto desses, mas cuidado para n\xE3o danificar, pode ser nocivo para humanos
+    tamb\xE9m"
+  - ok vou tomar cuidado
+  - "acho melhor voc\xEA chamar alguma autoridade competente"
+  - "preciso me certificar de que meu pai participou ou n\xE3o disso, ele \xE9 um
+    bom homem, se descobrirem algo o nome dele ser\xE1 manchado"
+  - "boa sorte ent\xE3o, qualquer coisa j\xE1 sabe"
+  - pronto agora vamos para casa testar essas amostras
+  - "vamos logo pro laborat\xF3rio ver essa planta"
+  - agora preciso preparar as duas amostras para teste, primeiro vamos ver a amostra
+    da planta
+  - "\xF3timo isso j\xE1 ajuda entender um pouco a estrutura dessa maldita, agora
+    vamos para o fruto"
+  - vamos ver o que temos aqui
+  - "bom esse fruto est\xE1 mais para esporo, prontinho para espalhar essa praga pelo
+    ar, por isso se espalhou t\xE3o r\xE1pido pela regi\xE3o"
+  - to mandando o resultado das amostras que eu peguei
+  - " isso \xE9 perigoso, se espalha pelo ar e pode contaminar animais"
+  - " voc\xEA pode estar correndo perigo"
+  - "estou usando uma m\xE1scara n\xE3o se preocupe"
+  - "239sso pode n\xE3o ser o suficiente, faz um filtro com alguma base para a sua
+    m\xE1scara, pela composi\xE7\xE3o qu\xEDmica desses esporos deve resolver"
+  - blz vou fazer isso, mas e agora como vou combater essa praga?
+  - "voc\xEA tem que chamar o governo n\xE3o d\xE1 pra voc\xEA cuidar de tudo isso
+    sozinho"
+  - "nem ferrando \xE9 a reputa\xE7\xE3o do meu pai que est\xE1 em jogo"
+  - "voc\xEA que sabe, depois que morrer n\xE3o vem puxar meu p\xE9"
+  - "se tem que recolher mais amostras saber descobrir n\xE3o s\xF3 como evitar de
+    ser morto mas como acabar com ela"
+  - ok, vou te mantendo atualizado, boa noite
+  - se cuida
+  - vou dormir agora mas antes vamos guardar esse esporo num lugar seguro
+  - vou colocar isso ou na geladeira ou na estufa?
+  - creio que ela vai conservar melhor na estufa
+  - creio que ela vai conservar melhor na geladeira
+  - 'agora vamos dormir, espero que papai esteja bem '
+  - nada melhor do que dormir para refrescar as ideias
+  - "como queria papai aqui, aposto que teria feito um caf\xE9 da manha"
+  - "mas n\xE3o da pra pensar em panquecas agora, vamos ver aquele esporo"
+  - "olha que bagun\xE7a, dependendo do clima ela deve acelerar a libera\xE7\xE3o
+    dos esporos, essa \xE9 uma boa informa\xE7\xE3o"
+  - "aparentemente ele n\xE3o aguenta baixas temperaturas"
+  - "aparentemente ele n\xE3o aguenta altas temperaturas"
+  - "preciso fazer outros testes para conseguir mais informa\xE7\xF5es importantes,
+    assim vou conseguir combater e chegar no foco desse problema"
+  - mas agora vamos seguir o conselho do meu amigo e fazer um filtro nessa mascara
+    para evitarmos fatalidades
+  - "do mirante deu para ver que as coisas estavam se espalhando da montanha para
+    o vale ent\xE3o preciso achar um jeito de ir me aproximando da montanha"
+  - 'enquanto isso vou recolhendo amostras para testa-las '
+  - "vamos come\xE7ar pela entrada do parque, como \xE9 a regi\xE3o mais distante
+    da montanha deve ser a menos afetada"
+  - "de l\xE1 vamos entrando e vendo a at\xE9 onde essa planta se alastrou"
+  - que saudade de vir a esse parque, passear, comer, pescar com o papai
+  - 'mesmo que a gente nunca tenha pego nada, mas era divertido '
+  - que vontade de comer os doces que a senhora Hirumi vende aqui
+  - "n\xE3o vamos pensar em comida, temos que procurar amostras e resolver essa situa\xE7\xE3o"
+  - "depois disso todos poder\xE3o voltar as suas vidas normais"
+  - espero que estejam todos bem
+  - meu deus essa planta consegue mesmo parasitar humanos ao que parece ela cresceu
+    de dentro dele
+  - "pobre homem, espero que n\xE3o tenha sofrido "
+  - "ser\xE1 que meu pai teve o mesmo fim?"
+  - "bom vamos colher uma amostra para vermos no laborat\xF3rio"
+  - "tenho que pegar mais amostras por aqui, que bom que estou com essa m\xE1scara
+    mas n\xE3o quero me arriscar entrar nessa nuvem t\xF3xica com essa m\xE1scara
+    improvisada"
+  - mais uma amostra muito bom
+  - ok hora de voltar para casa e testar essas amostras
+  - "agora vamos para o laborat\xF3rio preparar essas amostras"
+  - ok agora preciso descobrir que composto posso usar para neutralizar aquela nuvem
+    de esporos que deve ser letal
+  - "basicamente \xE9 esta a f\xF3rmula que faz ela ser t\xF3xica, preciso criar um
+    composto oposto"
+  - isso parece dar certo, deixa eu confirmar com meu amigo
+  - olha esses resultados que estou te mandando
+  - "bom dia pra voc\xEA tamb\xE9m velho"
+  - ' vamos ver o que temos'
+  - "ok o que voc\xEA quer fazer com isso?"
+  - quero dar um jeito de neutralizar essa toxicidade
+  - "encontrei o cad\xE1ver de algu\xE9m com a planta crescendo a partir dele, n\xE3o
+    quero ser o pr\xF3ximo"
+  - "ok ok, deixa eu pensar aqui, pode tentar fazer um neutralizador a base de algum
+    hidreto e uma base fraca, que componentes voc\xEA tem por a\xED?"
+  - 'acho que tenho essas coisas, obrigado '
+  - depois me fala se conseguiu, boa sorte
+  - "essa vai ser mais dif\xEDcil"
+  - vamos ver uma base um hidreto e isso precisa ser neutralizado
+  - isso vai dar trabalho
+  - pronto consegui
+  - "agora s\xF3 preciso pulverizar essa composto nas nuvens de esporos e deve resolver"
+  - 'quem bom que papai tem guardado um antigo pulverizador de veneno no deposito '
+  - pronto vamos testar essa belezinha
+  - "agora \xE9 s\xF3 borrifar isso naquela nuvem e rezar para funcionar"
+  - "se n\xE3o funcionar espero s\xF3 espero n\xE3o acabar morrendo"
+  - "aqui vamos n\xF3s"
+  - aperte F para usar o pulverizador
+  - "isso parece estar funcionando, s\xF3 n\xE3o posso desperdi\xE7ar"
+  - "n\xE3o quero voltar para casa s\xF3 para recarregar... ao menos preciso pegar
+    mais amostras"
+  - "parece que tudo est\xE1 mesmo come\xE7ando do alto daquela colina"
+  - olhando daqui parece que ter algum tipo de complexo ali em cima
+  - "n\xE3o conseguirei chegar daqui de baixo at\xE9 l\xE1 deve ter um caminho contornando
+    a montanha"
+  - "melhor voltar para casa, terminar de estudar essa planta e amanh\xE3 investigar
+    aquele lugar"
+  - "j\xE1 j\xE1 vai anoitecer mesmo"
+  - melhor me preparar melhor para entrar naquele complexo
+  - "se realmente \xE9 dali que vem tudo isso \xE9 melhor estar preparado para tudo"
+  - vamos analisar as amostras e melhorar meus equipamentos
+  - vamos tentar descobrir mais alguma coisa com essas amostras
+  - "preciso me certificar de que n\xE3o vou acabar me infectando"
+  - ok creio que isso seja 250til
+  - talvez eu leve isso em conta
+  - "isso deve me dar total seguran\xE7a, s\xF3 mexer um pouco na mascara e n\xE3o
+    correrei perigo"
+  - agora preciso descobrir o melhor jeito de acabar com essa planta
+  - interessante
+  - "\xE9 bom anotar isso"
+  - "somando tudo isso que acabei de aprender, creio que um lan\xE7a chamas resolve
+    o problema"
+  - "uma leve modifica\xE7\xE3o no pulverizador e terei um lan\xE7a chamas "
+  - "uma boa noite de sono e vamos para l\xE1"
+  - algo me diz que estou chegando mais perto de saber o que aconteceu com meu pai
+  - "s\xF3 espero que esteja bem"
+  - nada como uma boa noite de sono
+  - "agora \xE9 pegar tudo e ir"
+  - "a passagem para aquele complexo deve ser naquele t250nel bloqueado pr\xF3ximo
+    ao mirante"
+  - vamos investigar
+  - "nunca fui de entrar em locais proibidos mas \xE9 por uma boa causa"
+  - "vamos ver aonde esse t250nel d\xE1"
+  - "se n\xE3o for daqui que esta vindo essa nuvem toxica eu n\xE3o sei de mais onde
+    pode ser"
+  - "est\xE1 parecendo mesmo um centro de pesquisa"
+  - vamos entrar
+  - "parece que a planta n\xE3o quer que entremos aqui, hora de testar o lan\xE7a
+    chamas"
+  - "funcionou melhor que a encomenda, pena que n\xE3o tenho muito combust\xEDvel"
+  - "com sorte consigo achar qu\xEDmicos que posso usar como combust\xEDvel ai dentro"
+  - bom vamos nessa
+  - "a situa\xE7\xE3o est\xE1 pior do que eu tinha imaginado"
+  - "oi tem algu\xE9m ai?  Pai o senhor est\xE1 aqui?"
+  - "n\xE3o custa tentar n\xE9"
+  - vamos procurar papai, investigar esse local e achar a fonte desse problema
+  - "isso serve como combust\xEDvel deve fornecer mais duas cargas"
+  - vamos dar uma olhadas nesses documentos
+  - "As coisas sa\xEDram de controle, o experimento 49, que foi consider\xE1vel perigoso
+    e foi descartado, de alguma forma conseguiu sobreviver e se espalhar, contaminou
+    todo o laborat\xF3rio silenciosamente pela ventila\xE7\xE3o e conseguiu sair das
+    imedia\xE7\xF5es do centro de pesquisa"
+  - "Colegas de trabalho adoeceram rapidamente e perdemos o contato com eles, sou
+    o 250nico que restou nesse complexo, j\xE1 come\xE7o a sentir fraqueza e um pouco
+    de confus\xE3o, mas eu preciso terminar isso preciso acabar com o mal que acabamos
+    criando"
+  - "\xE9 a letra de meu pai, o que voc\xEAs criaram pai, eu vou concertar tudo isso
+    pelo senhor"
+  - espero que ainda esteja vivo
+  - "vamos continuar procurando pelas instala\xE7\xF5es"
+  - 'essa zona parece ser a mais importante '
+  - essa parece ser a ultima coisa a ser estudada, uma forma de quebrar a cadeia genetica
+    da planta
+  - 'mas a pesquisa esta incompleta, acho que consigo terminar '
+  - "boa est\xE1 completa, isso deve criar um efeito cascata em todas as plantas e
+    se espalhar pelos esporos"
+  - "s\xF3 preciso aplicar isso na maior planta por aqui e deve resolver tudo"
+  - "mas ainda n\xE3o encontrei meu pai, ele deve estar por aqui ainda n\xE3o explorei
+    o complexo todo, devo acabar logo com isso ou procurar pelo meu pai?"
+  - "meu deus pai, ainda est\xE1 vivo, como pode isso?"
+  - "voc\xEA sempre foi t\xE3o forte e essa planta est\xE1 te sugando"
+  - "preciso achar um jeito de tir\xE1 la de voc\xEA sem te machucar"
+  - "no que estava trabalhando aqui? um ant\xEDgeno para a infec\xE7\xE3o gerada pela
+    planta nos animais e humanos"
+  - "mas est\xE1 incompleta, vamos ver se consigo resolver"
+  - "esse soro deve eliminar todo o resqu\xEDcio da planta dos organismos vivos, vamos
+    l\xE1 pai por favor sobreviva"
+  - "parece que conseguimos nos livrar dessa maldita, vou carregar o senhor l\xE1
+    pra fora e vamos para o hospital"
+  - mas antes preciso por um fim nessa planta maldita
+  - minha nossa, olha como essa planta cresceu
+  - "voc\xEA causou muitos problemas, esta na hora de por um fim nisso"
+  - nossa a planta esta soltando esporos de outra cor
+  - "e esta come\xE7ando a se destruir"
+  - "\xE9 como se ela estivesse espalhando o ant\xEDgeno que eu fiz"
+  - "acho que esse \xE9 o fim, hora de cuidar do meu pai"
+  - meu filho me desculpe
+  - "coloquei todo o mundo em risco na 226nsia de conseguir criar um esp\xE9cime"
+  - "um esp\xE9cime que conseguiria acabar com os problemas de produ\xE7\xE3o de alimento"
+  - perdoa esse velho tolo
+  - "a culpa n\xE3o \xE9 sua pai n\xE3o se preocupe, est\xE1 tudo acabado"
+  - "eu sabia que voc\xEA seria um grande cientista filho, estou muito orgulhoso de
+    voc\xEA"
   Data:
     Settings:
       ExportMarkup: 1
@@ -16478,8 +16861,255 @@ MonoBehaviour:
     CreatorVersion: 2.4.13
     CreatedOn: 2018-10-19T18:43:17Z
   FilePath: /jikken.xml
-  DialogLenthg: 0
-  CurrentDialog: []
+  DialogLenthg: 2
+  CurrentDialog:
+  - "pai cheguei, onde o senhor est\xE1?"
+  - "se estiver aqui est\xE1 no laborat\xF3rio"
+  - "parece que um furac\xE3o passou por aqui, papai andou ocupado"
+  - "cientistas isolaram ala leste do parque depois que raposas apareceram doentes
+    pela regi\xE3o, m\xE1scaras est\xE3o sendo distribu\xEDdas a todos na regi\xE3o"
+  - "N\xE3o posso acreditar que isso est\xE1 acontecendo, a culpa \xE9 minha, sempre
+    querendo entregar logo resultados e agora estou fazendo todos sofrerem"
+  - "Meu filho perdoe seu pai, n\xE3o sei se conseguirei resolver isso"
+  - comece por aqui
+  - "pai em que voc\xEA foi se meter\u2026 melhor ir dar uma olhada no mirante, vou
+    colocar uma m\xE1scara por precau\xE7\xE3o tamb\xE9m"
+  - "preciso procurar mais informa\xE7\xF5es"
+  - "ok vamos come\xE7ar pelo mirante, de l\xE1 vou conseguir ter no\xE7\xE3o do que
+    esta rolando, espero encontrar alguma coisa de meu pai por l\xE1"
+  - "Aqui estamos, parque da vila, quantas vezes n\xE3o vim aqui acompanhado de meu
+    pai"
+  - "aprontei um monte por essa regi\xE3o, da saudade da vida calma que levava por
+    aqui"
+  - bom vamos procurar por qualquer coisa estranha, mas oque de estranho poderia aparecer?
+  - "na ponta do mirante da para ver bem a regi\xE3o"
+  - "ok isso \xE9 suficientemente estranho para mim"
+  - "que n\xE9voa estranha, olha o quanto ela j\xE1 espalhou, a situa\xE7\xE3o \xE9
+    pior do que poderia imaginar, tudo deve ter come\xE7ado para aqueles lados da
+    montanha"
+  - "mas preciso entender primeiro o que est\xE1 causando ela e como n\xE3o acabar
+    sendo intoxicado por ela, vamos procurar alguma coisa por aqui"
+  - "que estranho essa planta est\xE1 sendo parasitada por esta outra, nunca vi nada
+    parecido com isso aqui na regi\xE3o"
+  - vou tirar uma foto e mandar para o Jhun ele entende mais de plantas parasitas,
+    ele pode me dar uma luz
+  - "fala cara como est\xE1, j\xE1 achou seu velho?"
+  - "n\xE3o ainda estou procurando ele, parece que ele estava trabalhando em algo
+    e aconteceu algo muito ruim"
+  - 'vish cara pesado '
+  - "\xE9 cara mas me ajuda em uma coisa, encontrei essa planta estranha por aqui,
+    nunca vi nada parecido na regi\xE3o, pode dar uma olhada? t244 te enviando a foto"
+  - "cara que estranho, que ela \xE9 um parasita est\xE1 na cara, mas a estrutura
+    n\xE3o bate com a de uma parasitaria, ela parece ter sido modificada geneticamente
+    ou ter sofrido uma muta\xE7\xE3o dr\xE1stic"
+  - "isso parece coisa do meu pai, mas ele n\xE3o faria algo prejudicial ao ambiente "
+  - "pode ser que ela tenha se adaptado depois de ter sido modificada para ficar assim,
+    colhe uma amostra para testar, tem equipamentos por a\xED?"
+  - "tenho sim, vou usar o laborat\xF3rio do meu pai em casa, vou colher esta e procurar
+    outras amostras"
+  - "qualquer coisa s\xF3 me escrever"
+  - agora vamos tentar achar mais alguma coisa estranha
+  - "meu Deus agora a coisa ficou s\xE9ria"
+  - "uma planta parasitar outra planta ok, agora um animal j\xE1 \xE9 demais, vou
+    mandar outra foto pra o Jhun"
+  - "oque \xE9 isso ??!! "
+  - "se eu soubesse n\xE3o teria te mandado a foto n\xE9"
+  - "t\xE1 espera, que loucura cara"
+  - "analisando daqui parece ser a mesma planta da outra foto, s\xF3 que j\xE1 adulta,
+    mas esses frutos s\xE3o muito estranhos, parecem na verdade esporos"
+  - " deve ser assim que ela consegue se espalhar e parasitar tantos seres, colhe
+    um fruto desses, mas cuidado para n\xE3o danificar, pode ser nocivo para humanos
+    tamb\xE9m"
+  - ok vou tomar cuidado
+  - "acho melhor voc\xEA chamar alguma autoridade competente"
+  - "preciso me certificar de que meu pai participou ou n\xE3o disso, ele \xE9 um
+    bom homem, se descobrirem algo o nome dele ser\xE1 manchado"
+  - "boa sorte ent\xE3o, qualquer coisa j\xE1 sabe"
+  - pronto agora vamos para casa testar essas amostras
+  - "vamos logo pro laborat\xF3rio ver essa planta"
+  - agora preciso preparar as duas amostras para teste, primeiro vamos ver a amostra
+    da planta
+  - "\xF3timo isso j\xE1 ajuda entender um pouco a estrutura dessa maldita, agora
+    vamos para o fruto"
+  - vamos ver o que temos aqui
+  - "bom esse fruto est\xE1 mais para esporo, prontinho para espalhar essa praga pelo
+    ar, por isso se espalhou t\xE3o r\xE1pido pela regi\xE3o"
+  - to mandando o resultado das amostras que eu peguei
+  - " isso \xE9 perigoso, se espalha pelo ar e pode contaminar animais"
+  - " voc\xEA pode estar correndo perigo"
+  - "estou usando uma m\xE1scara n\xE3o se preocupe"
+  - "239sso pode n\xE3o ser o suficiente, faz um filtro com alguma base para a sua
+    m\xE1scara, pela composi\xE7\xE3o qu\xEDmica desses esporos deve resolver"
+  - blz vou fazer isso, mas e agora como vou combater essa praga?
+  - "voc\xEA tem que chamar o governo n\xE3o d\xE1 pra voc\xEA cuidar de tudo isso
+    sozinho"
+  - "nem ferrando \xE9 a reputa\xE7\xE3o do meu pai que est\xE1 em jogo"
+  - "voc\xEA que sabe, depois que morrer n\xE3o vem puxar meu p\xE9"
+  - "se tem que recolher mais amostras saber descobrir n\xE3o s\xF3 como evitar de
+    ser morto mas como acabar com ela"
+  - ok, vou te mantendo atualizado, boa noite
+  - se cuida
+  - vou dormir agora mas antes vamos guardar esse esporo num lugar seguro
+  - vou colocar isso ou na geladeira ou na estufa?
+  - creio que ela vai conservar melhor na estufa
+  - creio que ela vai conservar melhor na geladeira
+  - 'agora vamos dormir, espero que papai esteja bem '
+  - nada melhor do que dormir para refrescar as ideias
+  - "como queria papai aqui, aposto que teria feito um caf\xE9 da manha"
+  - "mas n\xE3o da pra pensar em panquecas agora, vamos ver aquele esporo"
+  - "olha que bagun\xE7a, dependendo do clima ela deve acelerar a libera\xE7\xE3o
+    dos esporos, essa \xE9 uma boa informa\xE7\xE3o"
+  - "aparentemente ele n\xE3o aguenta baixas temperaturas"
+  - "aparentemente ele n\xE3o aguenta altas temperaturas"
+  - "preciso fazer outros testes para conseguir mais informa\xE7\xF5es importantes,
+    assim vou conseguir combater e chegar no foco desse problema"
+  - mas agora vamos seguir o conselho do meu amigo e fazer um filtro nessa mascara
+    para evitarmos fatalidades
+  - "do mirante deu para ver que as coisas estavam se espalhando da montanha para
+    o vale ent\xE3o preciso achar um jeito de ir me aproximando da montanha"
+  - 'enquanto isso vou recolhendo amostras para testa-las '
+  - "vamos come\xE7ar pela entrada do parque, como \xE9 a regi\xE3o mais distante
+    da montanha deve ser a menos afetada"
+  - "de l\xE1 vamos entrando e vendo a at\xE9 onde essa planta se alastrou"
+  - que saudade de vir a esse parque, passear, comer, pescar com o papai
+  - 'mesmo que a gente nunca tenha pego nada, mas era divertido '
+  - que vontade de comer os doces que a senhora Hirumi vende aqui
+  - "n\xE3o vamos pensar em comida, temos que procurar amostras e resolver essa situa\xE7\xE3o"
+  - "depois disso todos poder\xE3o voltar as suas vidas normais"
+  - espero que estejam todos bem
+  - meu deus essa planta consegue mesmo parasitar humanos ao que parece ela cresceu
+    de dentro dele
+  - "pobre homem, espero que n\xE3o tenha sofrido "
+  - "ser\xE1 que meu pai teve o mesmo fim?"
+  - "bom vamos colher uma amostra para vermos no laborat\xF3rio"
+  - "tenho que pegar mais amostras por aqui, que bom que estou com essa m\xE1scara
+    mas n\xE3o quero me arriscar entrar nessa nuvem t\xF3xica com essa m\xE1scara
+    improvisada"
+  - mais uma amostra muito bom
+  - ok hora de voltar para casa e testar essas amostras
+  - "agora vamos para o laborat\xF3rio preparar essas amostras"
+  - ok agora preciso descobrir que composto posso usar para neutralizar aquela nuvem
+    de esporos que deve ser letal
+  - "basicamente \xE9 esta a f\xF3rmula que faz ela ser t\xF3xica, preciso criar um
+    composto oposto"
+  - isso parece dar certo, deixa eu confirmar com meu amigo
+  - olha esses resultados que estou te mandando
+  - "bom dia pra voc\xEA tamb\xE9m velho"
+  - ' vamos ver o que temos'
+  - "ok o que voc\xEA quer fazer com isso?"
+  - quero dar um jeito de neutralizar essa toxicidade
+  - "encontrei o cad\xE1ver de algu\xE9m com a planta crescendo a partir dele, n\xE3o
+    quero ser o pr\xF3ximo"
+  - "ok ok, deixa eu pensar aqui, pode tentar fazer um neutralizador a base de algum
+    hidreto e uma base fraca, que componentes voc\xEA tem por a\xED?"
+  - 'acho que tenho essas coisas, obrigado '
+  - depois me fala se conseguiu, boa sorte
+  - "essa vai ser mais dif\xEDcil"
+  - vamos ver uma base um hidreto e isso precisa ser neutralizado
+  - isso vai dar trabalho
+  - pronto consegui
+  - "agora s\xF3 preciso pulverizar essa composto nas nuvens de esporos e deve resolver"
+  - 'quem bom que papai tem guardado um antigo pulverizador de veneno no deposito '
+  - pronto vamos testar essa belezinha
+  - "agora \xE9 s\xF3 borrifar isso naquela nuvem e rezar para funcionar"
+  - "se n\xE3o funcionar espero s\xF3 espero n\xE3o acabar morrendo"
+  - "aqui vamos n\xF3s"
+  - aperte F para usar o pulverizador
+  - "isso parece estar funcionando, s\xF3 n\xE3o posso desperdi\xE7ar"
+  - "n\xE3o quero voltar para casa s\xF3 para recarregar... ao menos preciso pegar
+    mais amostras"
+  - "parece que tudo est\xE1 mesmo come\xE7ando do alto daquela colina"
+  - olhando daqui parece que ter algum tipo de complexo ali em cima
+  - "n\xE3o conseguirei chegar daqui de baixo at\xE9 l\xE1 deve ter um caminho contornando
+    a montanha"
+  - "melhor voltar para casa, terminar de estudar essa planta e amanh\xE3 investigar
+    aquele lugar"
+  - "j\xE1 j\xE1 vai anoitecer mesmo"
+  - melhor me preparar melhor para entrar naquele complexo
+  - "se realmente \xE9 dali que vem tudo isso \xE9 melhor estar preparado para tudo"
+  - vamos analisar as amostras e melhorar meus equipamentos
+  - vamos tentar descobrir mais alguma coisa com essas amostras
+  - "preciso me certificar de que n\xE3o vou acabar me infectando"
+  - ok creio que isso seja 250til
+  - talvez eu leve isso em conta
+  - "isso deve me dar total seguran\xE7a, s\xF3 mexer um pouco na mascara e n\xE3o
+    correrei perigo"
+  - agora preciso descobrir o melhor jeito de acabar com essa planta
+  - interessante
+  - "\xE9 bom anotar isso"
+  - "somando tudo isso que acabei de aprender, creio que um lan\xE7a chamas resolve
+    o problema"
+  - "uma leve modifica\xE7\xE3o no pulverizador e terei um lan\xE7a chamas "
+  - "uma boa noite de sono e vamos para l\xE1"
+  - algo me diz que estou chegando mais perto de saber o que aconteceu com meu pai
+  - "s\xF3 espero que esteja bem"
+  - nada como uma boa noite de sono
+  - "agora \xE9 pegar tudo e ir"
+  - "a passagem para aquele complexo deve ser naquele t250nel bloqueado pr\xF3ximo
+    ao mirante"
+  - vamos investigar
+  - "nunca fui de entrar em locais proibidos mas \xE9 por uma boa causa"
+  - "vamos ver aonde esse t250nel d\xE1"
+  - "se n\xE3o for daqui que esta vindo essa nuvem toxica eu n\xE3o sei de mais onde
+    pode ser"
+  - "est\xE1 parecendo mesmo um centro de pesquisa"
+  - vamos entrar
+  - "parece que a planta n\xE3o quer que entremos aqui, hora de testar o lan\xE7a
+    chamas"
+  - "funcionou melhor que a encomenda, pena que n\xE3o tenho muito combust\xEDvel"
+  - "com sorte consigo achar qu\xEDmicos que posso usar como combust\xEDvel ai dentro"
+  - bom vamos nessa
+  - "a situa\xE7\xE3o est\xE1 pior do que eu tinha imaginado"
+  - "oi tem algu\xE9m ai?  Pai o senhor est\xE1 aqui?"
+  - "n\xE3o custa tentar n\xE9"
+  - vamos procurar papai, investigar esse local e achar a fonte desse problema
+  - "isso serve como combust\xEDvel deve fornecer mais duas cargas"
+  - vamos dar uma olhadas nesses documentos
+  - "As coisas sa\xEDram de controle, o experimento 49, que foi consider\xE1vel perigoso
+    e foi descartado, de alguma forma conseguiu sobreviver e se espalhar, contaminou
+    todo o laborat\xF3rio silenciosamente pela ventila\xE7\xE3o e conseguiu sair das
+    imedia\xE7\xF5es do centro de pesquisa"
+  - "Colegas de trabalho adoeceram rapidamente e perdemos o contato com eles, sou
+    o 250nico que restou nesse complexo, j\xE1 come\xE7o a sentir fraqueza e um pouco
+    de confus\xE3o, mas eu preciso terminar isso preciso acabar com o mal que acabamos
+    criando"
+  - "\xE9 a letra de meu pai, o que voc\xEAs criaram pai, eu vou concertar tudo isso
+    pelo senhor"
+  - espero que ainda esteja vivo
+  - "vamos continuar procurando pelas instala\xE7\xF5es"
+  - 'essa zona parece ser a mais importante '
+  - essa parece ser a ultima coisa a ser estudada, uma forma de quebrar a cadeia genetica
+    da planta
+  - 'mas a pesquisa esta incompleta, acho que consigo terminar '
+  - "boa est\xE1 completa, isso deve criar um efeito cascata em todas as plantas e
+    se espalhar pelos esporos"
+  - "s\xF3 preciso aplicar isso na maior planta por aqui e deve resolver tudo"
+  - "mas ainda n\xE3o encontrei meu pai, ele deve estar por aqui ainda n\xE3o explorei
+    o complexo todo, devo acabar logo com isso ou procurar pelo meu pai?"
+  - "meu deus pai, ainda est\xE1 vivo, como pode isso?"
+  - "voc\xEA sempre foi t\xE3o forte e essa planta est\xE1 te sugando"
+  - "preciso achar um jeito de tir\xE1 la de voc\xEA sem te machucar"
+  - "no que estava trabalhando aqui? um ant\xEDgeno para a infec\xE7\xE3o gerada pela
+    planta nos animais e humanos"
+  - "mas est\xE1 incompleta, vamos ver se consigo resolver"
+  - "esse soro deve eliminar todo o resqu\xEDcio da planta dos organismos vivos, vamos
+    l\xE1 pai por favor sobreviva"
+  - "parece que conseguimos nos livrar dessa maldita, vou carregar o senhor l\xE1
+    pra fora e vamos para o hospital"
+  - mas antes preciso por um fim nessa planta maldita
+  - minha nossa, olha como essa planta cresceu
+  - "voc\xEA causou muitos problemas, esta na hora de por um fim nisso"
+  - nossa a planta esta soltando esporos de outra cor
+  - "e esta come\xE7ando a se destruir"
+  - "\xE9 como se ela estivesse espalhando o ant\xEDgeno que eu fiz"
+  - "acho que esse \xE9 o fim, hora de cuidar do meu pai"
+  - meu filho me desculpe
+  - "coloquei todo o mundo em risco na 226nsia de conseguir criar um esp\xE9cime"
+  - "um esp\xE9cime que conseguiria acabar com os problemas de produ\xE7\xE3o de alimento"
+  - perdoa esse velho tolo
+  - "a culpa n\xE3o \xE9 sua pai n\xE3o se preocupe, est\xE1 tudo acabado"
+  - "eu sabia que voc\xEA seria um grande cientista filho, estou muito orgulhoso de
+    voc\xEA"
   CurrentText: {fileID: 1221179785}
   Next: {fileID: 214858139}
   Exit: {fileID: 1645600608}
@@ -16570,4 +17200,79 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2060960410}
+  m_CullTransparentMesh: 0
+--- !u!1 &2062934029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2062934030}
+  - component: {fileID: 2062934032}
+  - component: {fileID: 2062934031}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2062934030
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2062934029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 231548718}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2062934031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2062934029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &2062934032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2062934029}
   m_CullTransparentMesh: 0

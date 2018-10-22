@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Graphene.ADInterpreter.Assets.Scripts
@@ -8,12 +9,19 @@ namespace Graphene.ADInterpreter.Assets.Scripts
     {
         public int DialogLenthg;
 
-        public List<String> CurrentDialog;
+        public List<string> CurrentDialog;
         
         public Text CurrentText;
 
         public Button Next;
         public Button Exit;
+
+
+        private void Start()
+        {
+            CurrentDialog = Frases;
+           // SetFragments();
+        }
 
         public void SetFragments()
         {

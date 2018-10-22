@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
-using Boo.Lang;
 using Graphene.ADInterpreter.ExportData;
 using UnityEngine;
 
@@ -19,9 +19,8 @@ namespace Graphene.ADInterpreter.Assets.Scripts
         
         private void Awake()
         {
+            Frases=new List<string>();
             Deserialize();
-           // RemoveTags();
-            //  OrderDialogueFragments();
         }
 
         
