@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 using Graphene.ADInterpreter.ExportData;
 using UnityEngine;
 
-namespace Graphene.ADInterpreter.Assets.Scripts
+namespace DialogSistem
 {
     [ExecuteInEditMode]
     public class NevgoXmlImporter : MonoBehaviour
@@ -21,6 +21,7 @@ namespace Graphene.ADInterpreter.Assets.Scripts
         {
             Frases=new List<string>();
             Deserialize();
+            
         }
 
         

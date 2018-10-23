@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 using UnityEngine.UI;
 
-namespace Graphene.ADInterpreter.Assets.Scripts
+namespace DialogSistem
 {
     public class PickString: NevgoXmlImporter
     {
