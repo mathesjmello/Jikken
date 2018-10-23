@@ -6,9 +6,9 @@ using YanScripts;
 public static class Persistence
 {
 
-    static public bool HaveASave;
+    public static bool HaveASave;
     public static string NextLevel;
-
+    public static int IndexDialog;
 
     public static void SavaData()
     {
