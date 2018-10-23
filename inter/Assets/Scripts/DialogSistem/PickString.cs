@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace DialogSistem
@@ -10,7 +11,7 @@ namespace DialogSistem
         public List<string> CurrentDialog;
         
         public Text CurrentText;
-
+        public GameObject DialogPainel;
         public Button Next;
         public Button Exit;
 
@@ -27,7 +28,7 @@ namespace DialogSistem
         }
         public void ShowDialog()
         {
-            
+            DialogPainel.SetActive(true);
             CurrentText.text = CurrentDialog[0];
             if (DialogLenthg>0)
             {
