@@ -9,7 +9,7 @@ using UnityEngine;
 namespace DialogSistem
 {
     
-    [ExecuteInEditMode]
+    //[ExecuteInEditMode]
     public class NevgoXmlImporter : MonoBehaviour
     {
         

@@ -8,7 +8,6 @@ public static class Persistence
 
     public static bool HaveASave;
     public static string NextLevel;
-    public static int IndexDialog;
 
     public static void SavaData()
     {

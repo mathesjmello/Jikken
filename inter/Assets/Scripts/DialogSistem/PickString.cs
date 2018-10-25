@@ -4,10 +4,11 @@ using UnityEngine.UI;
 
 namespace DialogSistem
 {
-    public class PickString: NevgoXmlImporter
+    public class PickString: MonoBehaviour
     {
+        public int DialogId;
         public int DialogLenthg;
-
+        public NevgoXmlImporter Decoder;
         public List<string> CurrentDialog;
         
         public Text CurrentText;
@@ -18,27 +19,30 @@ namespace DialogSistem
 
         private void Start()
         {
-            CurrentDialog = Frases;
+            Decoder = FindObjectOfType<NevgoXmlImporter>();
+            CurrentDialog = Decoder.Frases;
         }
+        
 
-        public void SetDialogLenthg(int dl)
+        public void SetDialogLenthg(int dl, int di)
         {
             DialogLenthg = dl;
+            DialogId = di;
             ShowDialog();
         }
         public void ShowDialog()
         {
             DialogPainel.SetActive(true);
-            CurrentText.text = CurrentDialog[0];
+            CurrentText.text = CurrentDialog[DialogId];
             if (DialogLenthg>0)
             {
-                CurrentDialog.RemoveAt(0);
+                DialogId++;
                 Next.gameObject.SetActive(true);
                 DialogLenthg--;
             }
             else
             {
-                CurrentDialog.RemoveAt(0);
+                DialogId++;
                 Exit.gameObject.SetActive(true);
             }
         }
