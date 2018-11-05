@@ -8,9 +8,11 @@ using UnityEngine;
 
 namespace DialogSistem
 {
-    [ExecuteInEditMode]
+    
+    //[ExecuteInEditMode]
     public class NevgoXmlImporter : MonoBehaviour
     {
+        
         public List<string> Frases;
         
         public ArticyDraftData Data;
@@ -19,6 +21,7 @@ namespace DialogSistem
         
         private void Awake()
         {
+            DontDestroyOnLoad(this);
             Frases=new List<string>();
             Deserialize();
             
