@@ -10,13 +10,16 @@ public class ButtonLabManager : MonoBehaviour {
     public Button[] Buttons;
     public Sprite UPSprite, DownSprite;
     public Slider TimeSlider;
-    public GameObject KeyPanel,UpIcon,DownIcon;
+    public GameObject KeyPanel,UpIcon,DownIcon,PausePanel,ButtonsPanel;
     public float minigameTime;
     public Image FillTimeSlider;
     int NUp,NDown;
 
+    public static bool TimerStop; 
+
 	// Use this for initialization
 	void Start () {
+        TimerStop = false; 
 
         for(int i = 0; i < MiniGameLabManager.SpawnDificult; i++)
         {
@@ -65,6 +68,22 @@ public class ButtonLabManager : MonoBehaviour {
     private void Update()
     {
         Timer();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!PausePanel.activeSelf)
+            {
+                PausePanel.SetActive(true);
+                TimerStop = true;
+            }
+            else
+            {
+                PausePanel.SetActive(false);
+                TimerStop = false;
+            }
+        }
+
+        ButtonsPanel.SetActive(!TimerStop);
     }
 
     void UP()
@@ -88,12 +107,15 @@ public class ButtonLabManager : MonoBehaviour {
 
     void Timer()
     {
-    
-        minigameTime = minigameTime - 1 * Time.deltaTime;
+
+        if (!TimerStop)
+        {
+            minigameTime = minigameTime - 1 * Time.deltaTime;
+        }
 
         if (minigameTime <= 0)
         {
-            SceneManager.LoadScene("TextMiniGameLabo");
+            Restart();
         }
 
         TimeSlider.value = minigameTime;
@@ -112,4 +134,23 @@ public class ButtonLabManager : MonoBehaviour {
         }
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene("TextMiniGameLabo");
+    }
+    
+    public void Continuar()
+    {
+        
+    }
+
+    public void Resume()
+    {
+        PausePanel.SetActive(false);
+    }
+
+    public void MainMenu()
+    {
+        MyLoad.Loading("MainMenu");
+    }
 }

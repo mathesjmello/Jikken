@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MiniGameLabManager : MonoBehaviour {
 
-    public GameObject PlaceHolder,LineObject;
+    public GameObject PlaceHolder,LineObject,PanelLose,PanelWin;
 
     bool Uping;
 
@@ -121,6 +121,7 @@ public class MiniGameLabManager : MonoBehaviour {
                     spaceCima = spaceCima + 1.2f;
                 }
                 SpritLine.color = Color.red;
+                LoseMiniGameEvent();
             }        
         }else
         {
@@ -165,6 +166,12 @@ public class MiniGameLabManager : MonoBehaviour {
     }
     public void WinMiniGameEvent()
     {
-        Debug.Log("Winn");
+        PanelWin.SetActive(true);
+        ButtonLabManager.TimerStop = true;
+    }
+    public void LoseMiniGameEvent()
+    {
+        PanelLose.SetActive(true);
+        ButtonLabManager.TimerStop = true;
     }
 }
