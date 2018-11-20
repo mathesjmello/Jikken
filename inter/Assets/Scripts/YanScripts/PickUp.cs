@@ -46,7 +46,7 @@ namespace YanScripts
                 SpawnMiniGamePickUp();
                 Interacting = true;
             }
-            if (Input.GetButtonDown("Interact") && other.GetComponent<PickString>())
+            if (Input.GetButtonDown("Fire2") && other.GetComponent<PickString>())
             {
                 other.GetComponent<PickString>().SetDialogLenthg(other.GetComponent<PickString>().DialogLenthg,other.GetComponent<PickString>().DialogId);
             }
