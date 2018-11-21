@@ -28,6 +28,6 @@ public class fade : MonoBehaviour {
         fadeAnimation.SetBool("fadeIN", true);
     }
     public void endAnimation() {
-        //AQUI TERMINA A CUTSCENE COLOCAR AQUI O COMANDO PARA IR PARA PROXIMA CENA
+        MyLoad.Loading("house_exterior");
     }
 }

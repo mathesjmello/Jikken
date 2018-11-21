@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/complexo.unity
     guid: 5fbf15464417f534cbf102f3dec20d05
+  - enabled: 1
+    path: Assets/Scenes/cutscene.unity
+    guid: b290ab6c52f303f438adef42d00e8454
+  - enabled: 1
+    path: Assets/Scenes/house_exterior.unity
+    guid: d7c5f586b833ff047b037f7e29cf7824
   m_configObjects: {}
