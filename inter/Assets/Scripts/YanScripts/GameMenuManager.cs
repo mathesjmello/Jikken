@@ -6,6 +6,7 @@ using UnityEngine.PostProcessing;
 public class GameMenuManager : MonoBehaviour {
 
     public GameObject PausePanel;
+    public GameObject Invetario;
     public PostProcessingProfile efeito;
     public float focus_distance;
     public float focal_length;
@@ -47,13 +48,15 @@ public class GameMenuManager : MonoBehaviour {
     public void OpenPause()
     {
         Cursor.lockState = CursorLockMode.None;
-        Time.timeScale = 0;
-        PausePanel.SetActive(true);
-
-        //ativa o efeito de desfoque
         
-            //cria uma variavel para armazenzar o valor
-            var focus = efeito.depthOfField.settings;
+        PausePanel.SetActive(true);
+        Invetario.SetActive(false);
+
+        Time.timeScale = 0;
+        //ativa o efeito de desfoque
+
+        //cria uma variavel para armazenzar o valor
+        var focus = efeito.depthOfField.settings;
             focus.focusDistance = focus_distance = 0.1f;
             efeito.depthOfField.settings = focus;
 
@@ -63,12 +66,15 @@ public class GameMenuManager : MonoBehaviour {
         
     }
 
+   
+
     public void ClosePause()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1;
+        //Invoke("tempoNormal", 2);
         PausePanel.SetActive(false);
-
+        Invetario.SetActive(true);
         //cria uma variavel para armazenzar o valor
         var focus = efeito.depthOfField.settings;
         focus.focusDistance = focus_distance = 10f;
@@ -78,4 +84,5 @@ public class GameMenuManager : MonoBehaviour {
         focal.focalLength = focal_length = 5f;
         efeito.depthOfField.settings = focal;
     }
+  
 }
