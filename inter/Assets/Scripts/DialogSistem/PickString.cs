@@ -32,7 +32,8 @@ namespace DialogSistem
         }
         public void ShowDialog()
         {
-            StopTime();
+            DialogsManager.StopTime();
+            DialogsManager.GetObj(gameObject);
             DialogPainel.SetActive(true);
             CurrentText.text = CurrentDialog[DialogId];
             if (DialogLenthg>0)
@@ -48,17 +49,5 @@ namespace DialogSistem
             }
         }
 
-        private void StopTime()
-        {
-            Time.timeScale = 0;
-            Cursor.lockState = CursorLockMode.None;
-        }
-
-        public void Continue()
-        {
-            Time.timeScale = 1;
-            Cursor.lockState = CursorLockMode.Locked;
-            gameObject.GetComponent<Collider>().enabled=false;
-        }
     }
 }

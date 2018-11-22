@@ -469,7 +469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1328443372978170
 GameObject:
   m_ObjectHideFlags: 1
@@ -1895,11 +1895,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 27
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 108
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1928,11 +1928,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 27
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 108
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2499,11 +2499,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 61
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 110
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2763,6 +2763,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1321544062617664}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: Continue
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3879,7 +3890,7 @@ RectTransform:
   m_GameObject: {fileID: 1405896191938602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 17}
-  m_LocalScale: {x: 0.38139996, y: 0.38139996, z: 0.38139996}
+  m_LocalScale: {x: 0.96269166, y: 0.96269166, z: 0.96269166}
   m_Children:
   - {fileID: 224769465162803144}
   - {fileID: 224877505480478770}
@@ -3889,7 +3900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 71, y: 64}
+  m_AnchoredPosition: {x: 204, y: 163}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224198583315521918
@@ -3908,8 +3919,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -37.659912, y: 38.060013}
-  m_SizeDelta: {x: 67.71, y: 62.18}
+  m_AnchoredPosition: {x: -151.99988, y: 156.99994}
+  m_SizeDelta: {x: 223.3, y: 205.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224206681614531686
 RectTransform:
@@ -4119,8 +4130,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 290.394, y: 37.659466}
-  m_SizeDelta: {x: 580.788, y: 75.31893}
+  m_AnchoredPosition: {x: 957.7, y: 156.43}
+  m_SizeDelta: {x: 1250.1, y: 312.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224459684759006352
 RectTransform:
@@ -4537,9 +4548,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.21959512}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.28800002}
+  m_AnchoredPosition: {x: 0, y: 0.9619751}
+  m_SizeDelta: {x: 0, y: 1.9240036}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224700412018524644
 RectTransform:
@@ -4575,8 +4586,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -37.66, y: 38.06}
-  m_SizeDelta: {x: 67.71, y: 62.18}
+  m_AnchoredPosition: {x: -152, y: 157}
+  m_SizeDelta: {x: 223.3, y: 205.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224729338864943022
 RectTransform:

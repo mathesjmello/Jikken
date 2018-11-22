@@ -7,15 +7,15 @@ using UnityEngine.UI;
 
 public class CollideToLori : MonoBehaviour {
 
-	public int DialogId;
-	public int DialogLenthg;
+	public  int DialogId;
+	public  int DialogLenthg;
 	public NevgoXmlImporter Decoder;
-	public List<string> CurrentDialog;
+	public  List<string> CurrentDialog;
         
-	public Text CurrentText;
-	public GameObject DialogPainel;
-	public Button Next;
-	public Button Exit;
+	public  Text CurrentText;
+	public  GameObject DialogPainel;
+	public  Button Next;
+	public  Button Exit;
 	// Use this for initialization
 	void Start () {
 		Decoder = FindObjectOfType<NevgoXmlImporter>();
@@ -34,7 +34,8 @@ public class CollideToLori : MonoBehaviour {
 	
 	public void ShowDialog()
 	{
-		StopTime();
+		DialogsManager.StopTime();
+		DialogsManager.GetObj(gameObject);
 		DialogPainel.SetActive(true);
 		CurrentText.text = CurrentDialog[DialogId];
 		if (DialogLenthg>0)
@@ -50,16 +51,8 @@ public class CollideToLori : MonoBehaviour {
 		}
 	}
 
-	private void StopTime()
-	{
-		Time.timeScale = 0;
-		Cursor.lockState = CursorLockMode.None;
-	}
+	
 
-	public void Continue()
-	{
-		Time.timeScale = 1;
-		Cursor.lockState = CursorLockMode.Locked;
-		gameObject.GetComponent<Collider>().enabled=false;
-	}
+	
+	
 }
