@@ -58,6 +58,7 @@ namespace DialogSistem
         {
             Time.timeScale = 1;
             Cursor.lockState = CursorLockMode.Locked;
+            gameObject.GetComponent<Collider>().enabled=false;
         }
     }
 }
