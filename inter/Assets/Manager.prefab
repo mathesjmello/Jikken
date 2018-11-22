@@ -668,6 +668,7 @@ GameObject:
   - component: {fileID: 114263812495034060}
   - component: {fileID: 114591833794631374}
   - component: {fileID: 114579271355856202}
+  - component: {fileID: 114395588395886220}
   m_Layer: 5
   m_Name: Manager
   m_TagString: Untagged
@@ -1370,7 +1371,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114395588395886220}
         m_MethodName: ShowDialog
         m_Mode: 1
         m_Arguments:
@@ -1940,6 +1941,17 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: '>'
+--- !u!114 &114395588395886220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1510017132211174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21880806149e47d4a9f5f2bffb235ca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114416233429263336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2771,18 +2783,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: Continue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114395588395886220}
         m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
@@ -4549,7 +4550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.28800002}
-  m_AnchoredPosition: {x: 0, y: 0.9619751}
+  m_AnchoredPosition: {x: 0, y: 0.96191406}
   m_SizeDelta: {x: 0, y: 1.9240036}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224700412018524644
