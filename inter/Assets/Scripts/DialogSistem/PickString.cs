@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,7 @@ namespace DialogSistem
 {
     public class PickString: MonoBehaviour
     {
+        public GameObject Help;
         public int DialogId;
         public int DialogLenthg;
         public NevgoXmlImporter Decoder;
@@ -16,6 +18,16 @@ namespace DialogSistem
         public Button Next;
         public Button Exit;
 
+
+        private void OnTriggerEnter(Collider other)
+        {
+            Help.SetActive(true);
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            Help.SetActive(false);
+        }
 
         private void Start()
         {

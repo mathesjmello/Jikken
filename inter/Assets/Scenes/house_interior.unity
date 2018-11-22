@@ -4106,7 +4106,6 @@ Transform:
   m_Children:
   - {fileID: 182426704}
   - {fileID: 1239527530}
-  - {fileID: 1777183077}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4257,11 +4256,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 335744688}
   m_LocalRotation: {x: -0, y: 0.99986815, z: -0, w: 0.016239433}
-  m_LocalPosition: {x: -8.705, y: 3.35, z: -12.845}
+  m_LocalPosition: {x: 31.462011, y: 5.7158957, z: -38.226276}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 883201550}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &337341117
 GameObject:
@@ -6208,11 +6207,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 472492607}
   m_LocalRotation: {x: -0, y: 0.99986815, z: -0, w: 0.016239433}
-  m_LocalPosition: {x: 3.05, y: 3.35, z: 8.91}
+  m_LocalPosition: {x: 43.21701, y: 5.7158957, z: -16.471277}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 883201550}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &474142324
 GameObject:
@@ -12118,6 +12117,221 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300262, guid: 320656ea8edb6ed4aaf98d0c42ee470c, type: 3}
+--- !u!1 &883201549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883201550}
+  - component: {fileID: 883201551}
+  m_Layer: 0
+  m_Name: loris primeiro dia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &883201550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883201549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -40.16701, y: -2.365896, z: 25.381277}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 472492610}
+  - {fileID: 335744691}
+  - {fileID: 1496864004}
+  - {fileID: 2051942841}
+  - {fileID: 1777183077}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &883201551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883201549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22016a6cf16444c09bf3c73e295bd2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Frases: []
+  Data:
+    Settings:
+      ExportMarkup: 
+      ExportQueries: 
+      WriteNamespace: 
+      WriteAllVariables: 
+    Content:
+      Project:
+        DisplayName: 
+        Url: 
+        Id: 
+      ProjectSettings:
+        FlowSettings:
+          BuiltInScriptSupport: 
+          GridSize: 
+          GridSizeEnforced: 
+          SpacingHorizontal: 
+          SpacingVertical: 
+          SpacingEnforced: 
+        JourneySettings:
+          BackgroundImageMode: 
+          BackgroundImagePositioningMode: 
+          BackgroundColorMode: 
+          BackgroundColor: 
+          BackgroundColorGradientMode: 
+          Duration: 
+          TransitionMode: 
+        LocationSettings:
+          ShowDisplayNameForZone: 
+          DropShadowForZone: 
+          DisplayNameSizeForZone: 
+          DisplayNameColorForZone: 
+          ShowDisplayNameForPath: 
+          DropShadowForPath: 
+          DisplayNameSizeForPath: 
+          DisplayNameColorForPath: 
+          ShowDisplayNameForImage: 
+          DropShadowForImage: 
+          DisplayNameSizeForImage: 
+          DisplayNameColorForImage: 
+          ShowDisplayNameForSpot: 
+          DropShadowForSpot: 
+          DisplayNameColorForSpot: 
+          SpotStyleKind: 
+          SpotStyleSize: 
+          ShowDisplayNameForLink: 
+          DropShadowForLink: 
+          DisplayNameColorForLink: 
+          LinkStyleKind: 
+          LinkStyleSize: 
+          DropShadowForText: 
+        ExternalApplications: 
+        Id: 
+      Assets:
+        DisplayName: 
+        Color: 
+        Id: 
+      AssetsUserFolder: []
+      Documents:
+        DisplayName: 
+        Color: 
+        Id: 
+      Entities:
+        DisplayName: 
+        Color: 
+        Id: 
+      EntitiesUserFolder: []
+      Features:
+        DisplayName: 
+        Color: 
+        Id: 
+        Count: 
+      Flow:
+        DisplayName: 
+        Color: 
+        Id: 
+      GlobalVariables:
+        DisplayName: 
+        Color: 
+        Id: 
+      Journeys:
+        DisplayName: 
+        Color: 
+        Id: 
+      Locations:
+        DisplayName: 
+        Color: 
+        Id: 
+      ObjectCustomization:
+        DisplayName: 
+        Color: 
+        Id: 
+      ObjectTemplates:
+        DisplayName: 
+        Color: 
+        Id: 
+      PropertyTemplates:
+        DisplayName: 
+        Color: 
+        Id: 
+      TypedObjectTemplates: []
+      TypedPropertyTemplates: []
+      Connection: []
+      Dialogue: []
+      DialogueFragment: []
+      Entity: []
+      FeatureDefinition: []
+      FlowFragment:
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 
+          HasMarkup: 
+        Color: 
+        TechnicalName: 
+        ExternalId: 
+        ShortId: 
+        Url: 
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 
+        References:
+          Count: 
+        Pins:
+          Pin: []
+          Count: 
+        Position:
+          X: 
+          Y: 
+        Size:
+          Width: 
+          Height: 
+        ZIndex: 
+        Id: 
+      ObjectTemplateDefinition: []
+      NumberPropertyDefinition: []
+      TextPropertyDefinition: []
+      EnumerationPropertyDefinition: []
+      VariableSet:
+        Url: 
+        TechnicalName: 
+        Description:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 
+        Variables:
+          Variable: []
+          Count: 
+        Id: 
+    Hierarchy:
+      Node:
+        IdRef: 
+        Type: 
+        node: []
+    Xmlns: 
+    Version: 
+    CreatorTool: 
+    CreatorVersion: 
+    CreatedOn: 
+  FilePath: /jikken.xml
 --- !u!1 &904460901
 GameObject:
   m_ObjectHideFlags: 0
@@ -19138,6 +19352,7 @@ GameObject:
   - component: {fileID: 1496864004}
   - component: {fileID: 1496864003}
   - component: {fileID: 1496864002}
+  - component: {fileID: 1496864005}
   m_Layer: 0
   m_Name: infos do lab
   m_TagString: Untagged
@@ -19156,7 +19371,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79675e83be514dc09b682a363f148667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogId: 4
+  Help: {fileID: 1135875105}
+  DialogId: 3
   DialogLenthg: 4
   Decoder: {fileID: 0}
   CurrentDialog: []
@@ -19183,12 +19399,25 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1496864001}
   m_LocalRotation: {x: -0, y: 0.99986815, z: -0, w: 0.016239433}
-  m_LocalPosition: {x: -10.366, y: 3.35, z: -11.135}
+  m_LocalPosition: {x: 29.80101, y: 5.7158957, z: -36.516277}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 883201550}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1496864005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1496864001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpamObjects:
+  - {fileID: 2051942838}
 --- !u!1 &1499467419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1255432447395454, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
@@ -22324,12 +22553,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1777183076}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.739, y: 1.492, z: -4.6725}
-  m_LocalScale: {x: 0.21293, y: 0.21293, z: 0.21293}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 30.68901, y: 5.349896, z: -34.726276}
+  m_LocalScale: {x: 0.42586, y: 0.42586, z: 0.42586}
   m_Children: []
-  m_Father: {fileID: 317631879}
-  m_RootOrder: 2
+  m_Father: {fileID: 883201550}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1777183078
 MonoBehaviour:
@@ -25661,11 +25890,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2051942838}
   m_LocalRotation: {x: -0, y: 0.99986815, z: -0, w: 0.016239433}
-  m_LocalPosition: {x: -10.366, y: 3.35, z: -11.135}
+  m_LocalPosition: {x: 29.80101, y: 5.7158957, z: -36.516277}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 883201550}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2066594950
 GameObject:

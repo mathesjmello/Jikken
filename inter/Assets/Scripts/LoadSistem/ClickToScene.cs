@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ClickToScene : MonoBehaviour
 {
-
+	private bool _toDentro;
 	public GameObject Help;
 	public string NextScene;
 	// Use this for initialization
@@ -14,7 +14,7 @@ public class ClickToScene : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown("Interact") && Help.activeSelf)
+		if (Input.GetButtonDown("Interact") && Help.activeSelf && _toDentro)
 		{
 			MyLoad.Loading(NextScene);
 		}
@@ -22,11 +22,13 @@ public class ClickToScene : MonoBehaviour
 
 	private void OnTriggerStay(Collider other)
 	{
+		_toDentro = true;
 		Help.SetActive(true);	
 	}
 
 	private void OnTriggerExit(Collider other)
 	{
+		_toDentro = false;
 		Help.SetActive(false);
 	}
 }
