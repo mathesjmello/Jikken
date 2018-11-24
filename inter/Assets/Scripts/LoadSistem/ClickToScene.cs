@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClickToScene : MonoBehaviour
 {
+	public bool PassDay;
 	private bool _toDentro;
 	public GameObject Help;
 	public string NextScene;
@@ -16,6 +17,11 @@ public class ClickToScene : MonoBehaviour
 	void Update () {
 		if (Input.GetButtonDown("Interact") && Help.activeSelf && _toDentro)
 		{
+			if (PassDay)
+			{
+				Persistence.Day = 1;
+				Persistence.SavaData();
+			}
 			Help.SetActive(false);
 			Cursor.lockState = CursorLockMode.None;
 			MyLoad.Loading(NextScene);

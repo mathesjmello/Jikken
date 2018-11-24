@@ -2610,6 +2610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PassDay: 0
   Help: {fileID: 1135875105}
   NextScene: complexo
 --- !u!65 &166871994
@@ -2876,6 +2877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PassDay: 0
   Help: {fileID: 1135875105}
   NextScene: cena
 --- !u!65 &205576641
@@ -3787,6 +3789,48 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300362, guid: 320656ea8edb6ed4aaf98d0c42ee470c, type: 3}
+--- !u!1001 &279095074
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -13.453057
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.4739337
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 5.6933603
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164880385913050, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8485dcba399800d40a2001ca096c798e, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &289506293
 GameObject:
   m_ObjectHideFlags: 0
@@ -7915,6 +7959,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114395588395886220, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: CoisasSegundoDia.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224598270198141330, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -8047,7 +8096,18 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114395588395886220, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: CoisasSegundoDia.Array.data[0]
+      value: 
+      objectReference: {fileID: 1992301439}
+    - target: {fileID: 114395588395886220, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: CoisasSegundoDia.Array.data[1]
+      value: 
+      objectReference: {fileID: 2017227575}
+    m_RemovedComponents:
+    - {fileID: 114418880305234264, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &558173224
@@ -20841,6 +20901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PassDay: 0
   Help: {fileID: 1135875105}
   NextScene: TextMiniGameLabo
 --- !u!65 &1476235673
@@ -23032,6 +23093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PassDay: 0
   Help: {fileID: 1135875105}
   NextScene: TextMiniGameLabo
 --- !u!65 &1673808586
@@ -28159,7 +28221,7 @@ GameObject:
   - component: {fileID: 2017227577}
   - component: {fileID: 2017227576}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: maquina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28176,6 +28238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PassDay: 0
   Help: {fileID: 1135875105}
   NextScene: TextMiniGameLabo
 --- !u!65 &2017227577
