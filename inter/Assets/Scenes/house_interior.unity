@@ -8106,6 +8106,11 @@ Prefab:
       propertyPath: CoisasSegundoDia.Array.data[1]
       value: 
       objectReference: {fileID: 2017227575}
+    - target: {fileID: 114395588395886220, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: Spam
+      value: 
+      objectReference: {fileID: 1636895188}
     m_RemovedComponents:
     - {fileID: 114418880305234264, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
@@ -22687,6 +22692,34 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300312, guid: 320656ea8edb6ed4aaf98d0c42ee470c, type: 3}
+--- !u!1 &1636895188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1636895189}
+  m_Layer: 0
+  m_Name: spamLab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1636895189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1636895188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.121012, y: 3.3499997, z: -9.0847225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1644767136
 GameObject:
   m_ObjectHideFlags: 0
