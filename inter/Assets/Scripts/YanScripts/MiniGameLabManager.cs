@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class MiniGameLabManager : MonoBehaviour {
 
     public GameObject PlaceHolder,LineObject,PanelLose,PanelWin;
+    public AudioSource click;
+    public AudioSource error;
+    public AudioSource passOK;
 
     bool Uping;
 
@@ -20,7 +23,12 @@ public class MiniGameLabManager : MonoBehaviour {
     static public bool[] SaveSequence = new bool[6];
 
     bool resetSpawnPos = false;
+    bool passSound = false;
 
+    private void Start()
+    {
+        passSound = true;
+    }
     void Awake()
     {
         CompleteSpawn();
@@ -48,6 +56,7 @@ public class MiniGameLabManager : MonoBehaviour {
 
     void DownLineSpawner()
     {
+       
         if (changeLineCaunter > -2)
         {
             if (!Uping)
@@ -162,15 +171,25 @@ public class MiniGameLabManager : MonoBehaviour {
         if (spawnPlayerCount >= SpawnCounter)
         {
             WinMiniGameEvent();
+            
         }
     }
     public void WinMiniGameEvent()
     {
+        
         PanelWin.SetActive(true);
         ButtonLabManager.TimerStop = true;
+
+        if (passSound)
+        {
+            passOK.Play(0);
+            passSound = false;
+        }
+        
     }
     public void LoseMiniGameEvent()
     {
+        error.Play(0);
         PanelLose.SetActive(true);
         ButtonLabManager.TimerStop = true;
     }

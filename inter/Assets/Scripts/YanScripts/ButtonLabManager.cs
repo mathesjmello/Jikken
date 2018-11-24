@@ -15,10 +15,21 @@ public class ButtonLabManager : MonoBehaviour {
     public Image FillTimeSlider;
     int NUp,NDown;
 
-    public static bool TimerStop; 
+    public AudioSource click;
+    public AudioSource error;
 
-	// Use this for initialization
-	void Start () {
+    public GameObject lose;
+    public static bool TimerStop;
+
+    bool errorSound = true;
+   
+
+    // Use this for initialization
+    void Start () {
+
+        errorSound = true;
+       
+
         TimerStop = false; 
 
         for(int i = 0; i < MiniGameLabManager.SpawnDificult; i++)
@@ -115,7 +126,7 @@ public class ButtonLabManager : MonoBehaviour {
 
         if (minigameTime <= 0)
         {
-            Restart();
+            loseScreen();
         }
 
         TimeSlider.value = minigameTime;
@@ -136,6 +147,7 @@ public class ButtonLabManager : MonoBehaviour {
 
     public void Restart()
     {
+
         SceneManager.LoadScene("TextMiniGameLabo");
     }
     
@@ -147,10 +159,32 @@ public class ButtonLabManager : MonoBehaviour {
     public void Resume()
     {
         PausePanel.SetActive(false);
+        Time.timeScale = 1;
+        TimerStop = false;
     }
 
     public void MainMenu()
     {
         MyLoad.Loading("MainMenu");
     }
+
+    public void playSound() {
+        click.Play(0);
+    }
+
+    public void playError()
+    {
+        if (errorSound) {
+            error.Play(0);
+            errorSound = false;
+        }
+        
+    }
+    public void loseScreen()
+    {
+        lose.SetActive(true);
+        //error.Play(0);
+
+    }
+
 }
