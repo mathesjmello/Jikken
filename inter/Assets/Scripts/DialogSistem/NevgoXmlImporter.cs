@@ -21,6 +21,7 @@ namespace DialogSistem
         
         private void Awake()
         {
+            DontDestroyOnLoad(this);
             Frases=new List<string>();
             Deserialize();
             

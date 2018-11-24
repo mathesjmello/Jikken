@@ -84,5 +84,10 @@ public class GameMenuManager : MonoBehaviour {
         focal.focalLength = focal_length = 5f;
         efeito.depthOfField.settings = focal;
     }
+
+    public void ResetPersistence()
+    {
+        Persistence.ReturnValues();
+    }
   
 }

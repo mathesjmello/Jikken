@@ -27,28 +27,29 @@ public class DialogsManager : MonoBehaviour
 		}
 		else
 		{
-			if (SceneManager.GetActiveScene().name == "house_Interior")
+			if (SceneManager.GetActiveScene().name == "house_interior")
 			{
-				switch (Persistence.Pesquisa)
+				if (Persistence.Pesquisa == 0)
 				{
-					case 0:
-						foreach (var obj in CoisasSegundoDia)
-						{
-							obj.SetActive(true);
-						}
-						break;
-					case 1:
-						PosPesquisa1.SetActive(true);
-						Player.transform.position = PosPesquisa1.transform.position;
-						break;
-					case 2:
-						Player.transform.position = PosPesquisa2.transform.position;
-						PosPesquisa2.SetActive(true);
-						break;
-					case 3:
-						Player.transform.position = PosPesquisa3.transform.position;
-						PosPesquisa3.SetActive(true);
-						break;
+					foreach (var obj in CoisasSegundoDia)
+					{
+						obj.SetActive(true);
+					}
+				}
+				else if (Persistence.Pesquisa == 1)
+				{
+					PosPesquisa1.SetActive(true);
+					Player.transform.position = PosPesquisa1.transform.position;
+				}
+				else if (Persistence.Pesquisa == 2)
+				{
+					Player.transform.position = PosPesquisa2.transform.position;
+					PosPesquisa2.SetActive(true);
+				}
+				else if (Persistence.Pesquisa == 3)
+				{
+					Player.transform.position = PosPesquisa3.transform.position;
+					PosPesquisa3.SetActive(true);
 				}
 			}
 			else
