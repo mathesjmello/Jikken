@@ -16,6 +16,8 @@ public class DialogsManager : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		Persistence.LoadData();
+		print(Persistence.Day);
+		print(Persistence.Pesquisa);
 		if (Persistence.Day == 0)
 		{
 			foreach (var obj in CoisasPrimeiroDia)

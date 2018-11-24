@@ -25,8 +25,10 @@ public class ButtonLabManager : MonoBehaviour {
    
 
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
 
+        Cursor.lockState = CursorLockMode.None;
         errorSound = true;
        
 
@@ -155,7 +157,8 @@ public class ButtonLabManager : MonoBehaviour {
     {
         Persistence.Pesquisa += 1;
         Persistence.SavaData();
-        MyLoad.Loading("house_interno");
+        Cursor.lockState = CursorLockMode.Locked;
+        MyLoad.Loading("house_interior");
     }
 
     public void Resume()

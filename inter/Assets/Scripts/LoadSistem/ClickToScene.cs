@@ -16,6 +16,8 @@ public class ClickToScene : MonoBehaviour
 	void Update () {
 		if (Input.GetButtonDown("Interact") && Help.activeSelf && _toDentro)
 		{
+			Help.SetActive(false);
+			Cursor.lockState = CursorLockMode.None;
 			MyLoad.Loading(NextScene);
 		}
 	}
