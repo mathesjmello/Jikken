@@ -153,7 +153,9 @@ public class ButtonLabManager : MonoBehaviour {
     
     public void Continuar()
     {
-        
+        Persistence.Pesquisa += 1;
+        Persistence.SavaData();
+        MyLoad.Loading("house_interno");
     }
 
     public void Resume()

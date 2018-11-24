@@ -47,6 +47,7 @@ public class CollideToLori : MonoBehaviour {
 		else
 		{
 			DialogId++;
+			Next.gameObject.SetActive(false);
 			Exit.gameObject.SetActive(true);
 		}
 	}

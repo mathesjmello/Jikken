@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3491,7 +3491,7 @@ Prefab:
     - target: {fileID: 114395588395886220, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
       propertyPath: CoisasSegundoDia.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114395588395886220, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
@@ -3603,9 +3603,200 @@ Prefab:
       propertyPath: CoisasPrimeiroDia.Array.data[1]
       value: 
       objectReference: {fileID: 517469689}
+    - target: {fileID: 114395588395886220, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: CoisasSegundoDia.Array.data[1]
+      value: 
+      objectReference: {fileID: 2017227575}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &273277981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1510017132211174, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+    type: 2}
+  m_PrefabInternal: {fileID: 273277980}
+--- !u!114 &273277982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 273277981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22016a6cf16444c09bf3c73e295bd2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Frases: []
+  Data:
+    Settings:
+      ExportMarkup: 
+      ExportQueries: 
+      WriteNamespace: 
+      WriteAllVariables: 
+    Content:
+      Project:
+        DisplayName: 
+        Url: 
+        Id: 
+      ProjectSettings:
+        FlowSettings:
+          BuiltInScriptSupport: 
+          GridSize: 
+          GridSizeEnforced: 
+          SpacingHorizontal: 
+          SpacingVertical: 
+          SpacingEnforced: 
+        JourneySettings:
+          BackgroundImageMode: 
+          BackgroundImagePositioningMode: 
+          BackgroundColorMode: 
+          BackgroundColor: 
+          BackgroundColorGradientMode: 
+          Duration: 
+          TransitionMode: 
+        LocationSettings:
+          ShowDisplayNameForZone: 
+          DropShadowForZone: 
+          DisplayNameSizeForZone: 
+          DisplayNameColorForZone: 
+          ShowDisplayNameForPath: 
+          DropShadowForPath: 
+          DisplayNameSizeForPath: 
+          DisplayNameColorForPath: 
+          ShowDisplayNameForImage: 
+          DropShadowForImage: 
+          DisplayNameSizeForImage: 
+          DisplayNameColorForImage: 
+          ShowDisplayNameForSpot: 
+          DropShadowForSpot: 
+          DisplayNameColorForSpot: 
+          SpotStyleKind: 
+          SpotStyleSize: 
+          ShowDisplayNameForLink: 
+          DropShadowForLink: 
+          DisplayNameColorForLink: 
+          LinkStyleKind: 
+          LinkStyleSize: 
+          DropShadowForText: 
+        ExternalApplications: 
+        Id: 
+      Assets:
+        DisplayName: 
+        Color: 
+        Id: 
+      AssetsUserFolder: []
+      Documents:
+        DisplayName: 
+        Color: 
+        Id: 
+      Entities:
+        DisplayName: 
+        Color: 
+        Id: 
+      EntitiesUserFolder: []
+      Features:
+        DisplayName: 
+        Color: 
+        Id: 
+        Count: 
+      Flow:
+        DisplayName: 
+        Color: 
+        Id: 
+      GlobalVariables:
+        DisplayName: 
+        Color: 
+        Id: 
+      Journeys:
+        DisplayName: 
+        Color: 
+        Id: 
+      Locations:
+        DisplayName: 
+        Color: 
+        Id: 
+      ObjectCustomization:
+        DisplayName: 
+        Color: 
+        Id: 
+      ObjectTemplates:
+        DisplayName: 
+        Color: 
+        Id: 
+      PropertyTemplates:
+        DisplayName: 
+        Color: 
+        Id: 
+      TypedObjectTemplates: []
+      TypedPropertyTemplates: []
+      Connection: []
+      Dialogue: []
+      DialogueFragment: []
+      Entity: []
+      FeatureDefinition: []
+      FlowFragment:
+        DisplayName:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 
+        Text:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 
+          HasMarkup: 
+        Color: 
+        TechnicalName: 
+        ExternalId: 
+        ShortId: 
+        Url: 
+        Features:
+          DisplayName: 
+          Color: 
+          Id: 
+          Count: 
+        References:
+          Count: 
+        Pins:
+          Pin: []
+          Count: 
+        Position:
+          X: 
+          Y: 
+        Size:
+          Width: 
+          Height: 
+        ZIndex: 
+        Id: 
+      ObjectTemplateDefinition: []
+      NumberPropertyDefinition: []
+      TextPropertyDefinition: []
+      EnumerationPropertyDefinition: []
+      VariableSet:
+        Url: 
+        TechnicalName: 
+        Description:
+          LocalizedString:
+            Lang: 
+            Text: 
+          Count: 
+        Variables:
+          Variable: []
+          Count: 
+        Id: 
+    Hierarchy:
+      Node:
+        IdRef: 
+        Type: 
+        node: []
+    Xmlns: 
+    Version: 
+    CreatorTool: 
+    CreatorVersion: 
+    CreatedOn: 
+  FilePath: /jikken.xml
 --- !u!224 &274272546 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224598270198141330, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
@@ -13270,7 +13461,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 883201550}
-  - component: {fileID: 883201551}
   m_Layer: 0
   m_Name: loris primeiro dia
   m_TagString: Untagged
@@ -13295,187 +13485,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &883201551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 883201549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22016a6cf16444c09bf3c73e295bd2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Frases: []
-  Data:
-    Settings:
-      ExportMarkup: 
-      ExportQueries: 
-      WriteNamespace: 
-      WriteAllVariables: 
-    Content:
-      Project:
-        DisplayName: 
-        Url: 
-        Id: 
-      ProjectSettings:
-        FlowSettings:
-          BuiltInScriptSupport: 
-          GridSize: 
-          GridSizeEnforced: 
-          SpacingHorizontal: 
-          SpacingVertical: 
-          SpacingEnforced: 
-        JourneySettings:
-          BackgroundImageMode: 
-          BackgroundImagePositioningMode: 
-          BackgroundColorMode: 
-          BackgroundColor: 
-          BackgroundColorGradientMode: 
-          Duration: 
-          TransitionMode: 
-        LocationSettings:
-          ShowDisplayNameForZone: 
-          DropShadowForZone: 
-          DisplayNameSizeForZone: 
-          DisplayNameColorForZone: 
-          ShowDisplayNameForPath: 
-          DropShadowForPath: 
-          DisplayNameSizeForPath: 
-          DisplayNameColorForPath: 
-          ShowDisplayNameForImage: 
-          DropShadowForImage: 
-          DisplayNameSizeForImage: 
-          DisplayNameColorForImage: 
-          ShowDisplayNameForSpot: 
-          DropShadowForSpot: 
-          DisplayNameColorForSpot: 
-          SpotStyleKind: 
-          SpotStyleSize: 
-          ShowDisplayNameForLink: 
-          DropShadowForLink: 
-          DisplayNameColorForLink: 
-          LinkStyleKind: 
-          LinkStyleSize: 
-          DropShadowForText: 
-        ExternalApplications: 
-        Id: 
-      Assets:
-        DisplayName: 
-        Color: 
-        Id: 
-      AssetsUserFolder: []
-      Documents:
-        DisplayName: 
-        Color: 
-        Id: 
-      Entities:
-        DisplayName: 
-        Color: 
-        Id: 
-      EntitiesUserFolder: []
-      Features:
-        DisplayName: 
-        Color: 
-        Id: 
-        Count: 
-      Flow:
-        DisplayName: 
-        Color: 
-        Id: 
-      GlobalVariables:
-        DisplayName: 
-        Color: 
-        Id: 
-      Journeys:
-        DisplayName: 
-        Color: 
-        Id: 
-      Locations:
-        DisplayName: 
-        Color: 
-        Id: 
-      ObjectCustomization:
-        DisplayName: 
-        Color: 
-        Id: 
-      ObjectTemplates:
-        DisplayName: 
-        Color: 
-        Id: 
-      PropertyTemplates:
-        DisplayName: 
-        Color: 
-        Id: 
-      TypedObjectTemplates: []
-      TypedPropertyTemplates: []
-      Connection: []
-      Dialogue: []
-      DialogueFragment: []
-      Entity: []
-      FeatureDefinition: []
-      FlowFragment:
-        DisplayName:
-          LocalizedString:
-            Lang: 
-            Text: 
-          Count: 
-        Text:
-          LocalizedString:
-            Lang: 
-            Text: 
-          Count: 
-          HasMarkup: 
-        Color: 
-        TechnicalName: 
-        ExternalId: 
-        ShortId: 
-        Url: 
-        Features:
-          DisplayName: 
-          Color: 
-          Id: 
-          Count: 
-        References:
-          Count: 
-        Pins:
-          Pin: []
-          Count: 
-        Position:
-          X: 
-          Y: 
-        Size:
-          Width: 
-          Height: 
-        ZIndex: 
-        Id: 
-      ObjectTemplateDefinition: []
-      NumberPropertyDefinition: []
-      TextPropertyDefinition: []
-      EnumerationPropertyDefinition: []
-      VariableSet:
-        Url: 
-        TechnicalName: 
-        Description:
-          LocalizedString:
-            Lang: 
-            Text: 
-          Count: 
-        Variables:
-          Variable: []
-          Count: 
-        Id: 
-    Hierarchy:
-      Node:
-        IdRef: 
-        Type: 
-        node: []
-    Xmlns: 
-    Version: 
-    CreatorTool: 
-    CreatorVersion: 
-    CreatedOn: 
-  FilePath: /jikken.xml
 --- !u!1 &904460901
 GameObject:
   m_ObjectHideFlags: 0
@@ -26229,11 +26238,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1898862471}
   m_LocalRotation: {x: -0, y: 0.99986815, z: -0, w: 0.016239433}
-  m_LocalPosition: {x: 43.21701, y: 5.7158957, z: -16.471277}
+  m_LocalPosition: {x: 30.85, y: 5.7158957, z: -38.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1992301441}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1898862473
 MonoBehaviour:
@@ -27903,195 +27912,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1992301441}
-  - component: {fileID: 1992301440}
   m_Layer: 0
-  m_Name: loris primeiro dia (1)
+  m_Name: loris segundo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1992301440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1992301439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22016a6cf16444c09bf3c73e295bd2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Frases: []
-  Data:
-    Settings:
-      ExportMarkup: 
-      ExportQueries: 
-      WriteNamespace: 
-      WriteAllVariables: 
-    Content:
-      Project:
-        DisplayName: 
-        Url: 
-        Id: 
-      ProjectSettings:
-        FlowSettings:
-          BuiltInScriptSupport: 
-          GridSize: 
-          GridSizeEnforced: 
-          SpacingHorizontal: 
-          SpacingVertical: 
-          SpacingEnforced: 
-        JourneySettings:
-          BackgroundImageMode: 
-          BackgroundImagePositioningMode: 
-          BackgroundColorMode: 
-          BackgroundColor: 
-          BackgroundColorGradientMode: 
-          Duration: 
-          TransitionMode: 
-        LocationSettings:
-          ShowDisplayNameForZone: 
-          DropShadowForZone: 
-          DisplayNameSizeForZone: 
-          DisplayNameColorForZone: 
-          ShowDisplayNameForPath: 
-          DropShadowForPath: 
-          DisplayNameSizeForPath: 
-          DisplayNameColorForPath: 
-          ShowDisplayNameForImage: 
-          DropShadowForImage: 
-          DisplayNameSizeForImage: 
-          DisplayNameColorForImage: 
-          ShowDisplayNameForSpot: 
-          DropShadowForSpot: 
-          DisplayNameColorForSpot: 
-          SpotStyleKind: 
-          SpotStyleSize: 
-          ShowDisplayNameForLink: 
-          DropShadowForLink: 
-          DisplayNameColorForLink: 
-          LinkStyleKind: 
-          LinkStyleSize: 
-          DropShadowForText: 
-        ExternalApplications: 
-        Id: 
-      Assets:
-        DisplayName: 
-        Color: 
-        Id: 
-      AssetsUserFolder: []
-      Documents:
-        DisplayName: 
-        Color: 
-        Id: 
-      Entities:
-        DisplayName: 
-        Color: 
-        Id: 
-      EntitiesUserFolder: []
-      Features:
-        DisplayName: 
-        Color: 
-        Id: 
-        Count: 
-      Flow:
-        DisplayName: 
-        Color: 
-        Id: 
-      GlobalVariables:
-        DisplayName: 
-        Color: 
-        Id: 
-      Journeys:
-        DisplayName: 
-        Color: 
-        Id: 
-      Locations:
-        DisplayName: 
-        Color: 
-        Id: 
-      ObjectCustomization:
-        DisplayName: 
-        Color: 
-        Id: 
-      ObjectTemplates:
-        DisplayName: 
-        Color: 
-        Id: 
-      PropertyTemplates:
-        DisplayName: 
-        Color: 
-        Id: 
-      TypedObjectTemplates: []
-      TypedPropertyTemplates: []
-      Connection: []
-      Dialogue: []
-      DialogueFragment: []
-      Entity: []
-      FeatureDefinition: []
-      FlowFragment:
-        DisplayName:
-          LocalizedString:
-            Lang: 
-            Text: 
-          Count: 
-        Text:
-          LocalizedString:
-            Lang: 
-            Text: 
-          Count: 
-          HasMarkup: 
-        Color: 
-        TechnicalName: 
-        ExternalId: 
-        ShortId: 
-        Url: 
-        Features:
-          DisplayName: 
-          Color: 
-          Id: 
-          Count: 
-        References:
-          Count: 
-        Pins:
-          Pin: []
-          Count: 
-        Position:
-          X: 
-          Y: 
-        Size:
-          Width: 
-          Height: 
-        ZIndex: 
-        Id: 
-      ObjectTemplateDefinition: []
-      NumberPropertyDefinition: []
-      TextPropertyDefinition: []
-      EnumerationPropertyDefinition: []
-      VariableSet:
-        Url: 
-        TechnicalName: 
-        Description:
-          LocalizedString:
-            Lang: 
-            Text: 
-          Count: 
-        Variables:
-          Variable: []
-          Count: 
-        Id: 
-    Hierarchy:
-      Node:
-        IdRef: 
-        Type: 
-        node: []
-    Xmlns: 
-    Version: 
-    CreatorTool: 
-    CreatorVersion: 
-    CreatedOn: 
-  FilePath: /jikken.xml
+  m_IsActive: 1
 --- !u!4 &1992301441
 Transform:
   m_ObjectHideFlags: 0
@@ -28102,6 +27929,7 @@ Transform:
   m_LocalPosition: {x: -40.16701, y: -2.365896, z: 25.381277}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2017227578}
   - {fileID: 1898862472}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -28366,6 +28194,62 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300026, guid: 320656ea8edb6ed4aaf98d0c42ee470c, type: 3}
+--- !u!1 &2017227575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2017227578}
+  - component: {fileID: 2017227577}
+  - component: {fileID: 2017227576}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2017227576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2017227575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AcabaDia: 0
+  Help: {fileID: 1135875105}
+  NextScene: TextMiniGameLabo
+--- !u!65 &2017227577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2017227575}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &2017227578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2017227575}
+  m_LocalRotation: {x: -0, y: 0.99986815, z: -0, w: 0.016239433}
+  m_LocalPosition: {x: 30.046, y: 5.7158957, z: -34.466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1992301441}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2034907273
 GameObject:
   m_ObjectHideFlags: 0

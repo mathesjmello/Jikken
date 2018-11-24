@@ -57,6 +57,7 @@ namespace DialogSistem
             else
             {
                 DialogId++;
+                Next.gameObject.SetActive(false);
                 Exit.gameObject.SetActive(true);
             }
         }

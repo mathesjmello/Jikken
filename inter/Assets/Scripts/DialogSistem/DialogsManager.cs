@@ -5,11 +5,45 @@ using UnityEngine;
 
 public class DialogsManager : MonoBehaviour
 {
+	public List<GameObject> CoisasPrimeiroDia;
+	public List<GameObject> CoisasSegundoDia;
+	public GameObject PosPesquisa1, PosPesquisa2, PosPesquisa3;
+
 
 	public static GameObject CurrentGameObject;
 	// Use this for initialization
 	void Start () {
-		
+		Persistence.LoadData();
+		if (Persistence.Day == 0)
+		{
+			foreach (var obj in CoisasPrimeiroDia)
+			{
+				obj.SetActive(true);
+			}
+		}
+		else
+		{
+			
+				switch (Persistence.Pesquisa)
+				{
+						case 0 :
+							foreach (var obj in CoisasSegundoDia)
+							{
+								obj.SetActive(true);
+							}
+							break;
+						case 1:
+							PosPesquisa1.SetActive(true);
+							break;
+						case 2:
+							PosPesquisa2.SetActive(true);
+							break;
+						case 3:
+							PosPesquisa3.SetActive(true);
+							break;
+				}
+				
+		}
 	}
 	
 	// Update is called once per frame
