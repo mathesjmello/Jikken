@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using DialogSistem;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -18,8 +19,13 @@ public class CollideToLori : MonoBehaviour {
 	public  Button Exit;
 	// Use this for initialization
 	void Start () {
+		
 		Decoder = FindObjectOfType<NevgoXmlImporter>();
 		CurrentDialog = Decoder.Frases;
+		if (SceneManager.GetActiveScene().name=="End")
+		{
+			ShowDialog();	
+		}
 	}
 	
 	// Update is called once per frame

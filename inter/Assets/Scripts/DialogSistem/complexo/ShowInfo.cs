@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShowInfo : MonoBehaviour
 {
-
+	public GameObject Senha;
 	public GameObject Help;
 	public GameObject Text;
 	private bool _toDentro;
@@ -19,6 +19,7 @@ public class ShowInfo : MonoBehaviour
 		{
 			Help.SetActive(false);
 			Text.SetActive(true);
+			Senha.SetActive(true);
 			Time.timeScale = 0;
 			Cursor.lockState = CursorLockMode.None;
 		}

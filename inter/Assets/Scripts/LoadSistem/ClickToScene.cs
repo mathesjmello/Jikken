@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ClickToScene : MonoBehaviour
 {
@@ -10,7 +11,11 @@ public class ClickToScene : MonoBehaviour
 	public string NextScene;
 	// Use this for initialization
 	void Start () {
-		
+		if (SceneManager.GetActiveScene().name=="end")
+		{
+			Cursor.lockState = CursorLockMode.None;
+			MyLoad.Loading(NextScene);
+		}
 	}
 	
 	// Update is called once per frame

@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ShowInventory : MonoBehaviour {
-
+public class ShowInventory : MonoBehaviour
+{
+	public GameObject ColaSenhas;
     public GameObject IventoryPanel;
     bool IsVisible = false;
 
@@ -14,16 +16,16 @@ public class ShowInventory : MonoBehaviour {
 	
     void Show()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
         IventoryPanel.SetActive(true);
+	    if(SceneManager.GetActiveScene().name== "complexo")
+		    ColaSenhas.SetActive(true);
     }
     
     void Hide()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         IventoryPanel.SetActive(false);
+	    if(SceneManager.GetActiveScene().name== "complexo")
+		    ColaSenhas.SetActive(false);
     }
 
 	// Update is called once per frame

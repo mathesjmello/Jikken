@@ -84,6 +84,9 @@ namespace DialogSistem
                      case "244" :
                          number = "ô";
                          break;
+                         case "250":
+                             number = "ú";
+                             break;
                 }
                 try
                 {
