@@ -417,7 +417,7 @@ GameObject:
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1314097176319366
 GameObject:
   m_ObjectHideFlags: 1
@@ -502,7 +502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1347584752523924
 GameObject:
   m_ObjectHideFlags: 1
@@ -1825,6 +1825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21880806149e47d4a9f5f2bffb235ca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Spam: {fileID: 0}
   Player: {fileID: 0}
   CoisasPrimeiroDia:
   - {fileID: 0}
@@ -4177,8 +4178,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 277, y: 116.5}
-  m_SizeDelta: {x: 647.77, y: 541.88}
+  m_AnchoredPosition: {x: 659, y: 242.8}
+  m_SizeDelta: {x: 1343.5, y: 1123.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224448856895651772
 RectTransform:

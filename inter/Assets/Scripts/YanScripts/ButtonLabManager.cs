@@ -158,7 +158,15 @@ public class ButtonLabManager : MonoBehaviour {
         Persistence.Pesquisa += 1;
         Persistence.SavaData();
         Cursor.lockState = CursorLockMode.Locked;
-        MyLoad.Loading("house_interior");
+        if (Persistence.Pesquisa>3)
+        {
+            MyLoad.Loading("complexo");
+        }
+        else
+        {
+            MyLoad.Loading("house_interior");
+        }
+        
     }
 
     public void Resume()

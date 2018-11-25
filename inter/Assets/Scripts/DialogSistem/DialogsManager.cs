@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogsManager : MonoBehaviour
 {
-	public GameObject Spam;
+	public GameObject Spam1, Spam2;
 	public GameObject Player;
 	public List<GameObject> CoisasPrimeiroDia;
 	public List<GameObject> CoisasSegundoDia;
@@ -41,19 +41,32 @@ public class DialogsManager : MonoBehaviour
 				{
 					PosPesquisa1.SetActive(true);
 					Player.transform.rotation= Quaternion.Euler(0,285,0);
-					Player.transform.position = Spam.transform.position;
+					Player.transform.position = Spam1.transform.position;
 				}
 				else if (Persistence.Pesquisa == 2)
 				{
-					Player.transform.position = Spam.transform.position;
+					Player.transform.position = Spam1.transform.position;
 					Player.transform.rotation= Quaternion.Euler(0,285,0);
 					PosPesquisa2.SetActive(true);
 				}
 				else if (Persistence.Pesquisa == 3)
 				{
-					Player.transform.position = Spam.transform.position;
+					Player.transform.position = Spam1.transform.position;
 					Player.transform.rotation= Quaternion.Euler(0,285,0);
 					PosPesquisa3.SetActive(true);
+				}
+			}
+			else if(SceneManager.GetActiveScene().name == "complexo")
+			{
+				if (Persistence.Pesquisa == 4)
+				{
+					PosPesquisa1.SetActive(true);
+					Player.transform.position = Spam1.transform.position;
+				}
+				if (Persistence.Pesquisa == 5)
+				{
+					PosPesquisa2.SetActive(true);
+					Player.transform.position = Spam2.transform.position;
 				}
 			}
 			else
