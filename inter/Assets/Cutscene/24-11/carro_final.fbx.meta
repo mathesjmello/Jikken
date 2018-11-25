@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 7292cc8517c7a8448875464f9d89db4a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: carro
+    100002: //RootNode
+    100004: roda_1
+    100006: roda_2
+    100008: roda_3
+    100010: roda_4
+    400000: carro
+    400002: //RootNode
+    400004: roda_1
+    400006: roda_2
+    400008: roda_3
+    400010: roda_4
+    2100000: Farol
+    2100002: Pneu02
+    2100004: "CorPrim\xE1ria_Carro02"
+    2100006: Retrovisores
+    2100008: Pneu
+    2100010: Calota
+    2100012: lambert2
+    2100014: DetalhesdaCalota
+    2100016: lambert21
+    2100018: lambert15
+    2100020: lambert11
+    2100022: Vidro
+    2100024: "Bot\xE3o02"
+    2100026: "Bot\xE3o03"
+    2100028: "Bot\xE3o01"
+    2100030: lambert18
+    2100032: Mochila2
+    2100034: lambert23
+    2100036: lambert22
+    2100038: lambert24
+    2100040: lambert25
+    2300000: carro
+    2300002: roda_1
+    2300004: roda_2
+    2300006: roda_3
+    2300008: roda_4
+    3300000: carro
+    3300002: roda_1
+    3300004: roda_2
+    3300006: roda_3
+    3300008: roda_4
+    4300000: carro
+    4300002: roda_4
+    4300004: roda_1
+    4300006: roda_3
+    4300008: roda_2
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert23
+    second: {fileID: 2100000, guid: 9a4e15c26e7855844a824691d7169a44, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 35
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

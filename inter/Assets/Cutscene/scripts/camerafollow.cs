@@ -15,7 +15,7 @@ public class camerafollow : MonoBehaviour {
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.None;
 
     }
 

@@ -18,11 +18,18 @@ public class fade : MonoBehaviour {
         if (PlayerPrefs.GetInt("fim") == 1) {
             fadeAnimation.SetBool("fadeIN", false);
             fadeAnimation.SetBool("fadeOut", true);
-            Invoke("endAnimation", 3);
+            Invoke("endAnimation", 4);
             
         }
 	}
 
+
+    public void fim() {
+        fadeAnimation.SetBool("fadeIN", false);
+        fadeAnimation.SetBool("fadeOut", true);
+        Invoke("endAnimation", 3);
+
+    }
     public void inicio() {
 
         fadeAnimation.SetBool("fadeIN", true);

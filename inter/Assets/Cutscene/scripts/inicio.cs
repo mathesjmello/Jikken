@@ -5,6 +5,7 @@ using UnityEngine;
 public class inicio : MonoBehaviour {
 
     //public GameObject camera;
+    public GameObject sounds;
     public GameObject controleCam;
     public GameObject player;
 
@@ -14,7 +15,7 @@ public class inicio : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Invoke("inicioCutscene", tempo);
-        Destroy(textoInicio, 12);
+        Destroy(textoInicio, 22);
     }
 	
 	// Update is called once per frame
@@ -30,6 +31,7 @@ public class inicio : MonoBehaviour {
         //camera.SetActive(true);
         player.SetActive(true);
         controleCam.SetActive(true);
+        sounds.SetActive(true);
     }
 
 }
