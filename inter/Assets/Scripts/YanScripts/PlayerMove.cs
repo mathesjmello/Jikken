@@ -32,7 +32,17 @@ public class PlayerMove : MonoBehaviour {
 
         CharController.SimpleMove(FMovment + RMovment);
 
+        if (CharController.velocity.x != 0 || CharController.velocity.y != 0 && CharController.velocity.y == 0)
+        {
+            IsMoving();
+        }
+
         JumpImput();
+    }
+
+    void IsMoving()
+    {
+        Debug.Log("Moving");
     }
 
     void JumpImput()
