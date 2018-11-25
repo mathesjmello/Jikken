@@ -28,7 +28,7 @@ public class DialogsManager : MonoBehaviour
 		}
 		else
 		{
-			if (SceneManager.GetActiveScene().name == "house_interior")
+			if (SceneManager.GetActiveScene().name == "house_interior"||SceneManager.GetActiveScene().name =="cena")
 			{
 				if (Persistence.Pesquisa == 0)
 				{
@@ -51,6 +51,13 @@ public class DialogsManager : MonoBehaviour
 				}
 				else if (Persistence.Pesquisa == 3)
 				{
+					if (SceneManager.GetActiveScene().name =="cena")
+					{
+						foreach (var obj in CoisasSegundoDia)
+                        					{
+                        						obj.SetActive(true);
+                        					}
+					}
 					Player.transform.position = Spam1.transform.position;
 					Player.transform.rotation= Quaternion.Euler(0,285,0);
 					PosPesquisa3.SetActive(true);

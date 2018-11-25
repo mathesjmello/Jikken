@@ -17,7 +17,7 @@ namespace DialogSistem
         
         public ArticyDraftData Data;
 
-        public string FilePath = "/jikken.xml";
+        public string FilePath = "/Jikken2.xml";
         
         private void Awake()
         {

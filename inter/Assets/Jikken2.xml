@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/2.4/XmlContentExport_FullProject.xsd" Version="2.4" CreatorTool="articy:draft" CreatorVersion="2.4.13" CreatedOn="2018-11-25T17:23:36Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/2.4/XmlContentExport_FullProject.xsd" Version="2.4" CreatorTool="articy:draft" CreatorVersion="2.4.13" CreatedOn="2018-11-25T19:16:49Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -1705,9 +1705,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001C0">
-      <DisplayName><![CDATA[Jhun: "fala cara como está, já achou seu v..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: fala cara como está, já achou..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">fala cara como est&#225;, j&#225; achou seu velho?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">fala cara como est&#225;, j&#225; achou seu velho?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_675304A8</TechnicalName>
@@ -1731,9 +1731,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001C7">
-      <DisplayName><![CDATA[Mizuro: "não, ainda estou procurando ele, pa..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: não, ainda estou procurando..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">n&#227;o, ainda estou procurando ele, parece que ele estava trabalhando em algo e aconteceu algo muito ruim</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">n&#227;o, ainda estou procurando ele, parece que ele estava trabalhando em algo e aconteceu algo muito ruim</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_FF0F5752</TechnicalName>
@@ -1757,9 +1757,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001CE">
-      <DisplayName><![CDATA[Jhun: "vish cara pesado"]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: vish cara pesado"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">vish cara pesado</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">vish cara pesado</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_2B8B1787</TechnicalName>
@@ -1783,9 +1783,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001D5">
-      <DisplayName><![CDATA[Mizuro: "é mas me ajuda com uma coisa, encon..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: é mas me ajuda com uma cois..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&#233; mas me ajuda com uma coisa, encontrei essa planta estranha por aqui, nunca vi nada parecido na regi&#227;o, o que voc&#234; acha dela?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">&#233; mas me ajuda com uma coisa, encontrei essa planta estranha por aqui, nunca vi nada parecido na regi&#227;o, o que voc&#234; acha dela?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_339B429C</TechnicalName>
@@ -1809,9 +1809,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001DC">
-      <DisplayName><![CDATA[Jhun: "bom só olhando essa foto da pra fal..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: bom só olhando essa foto da p..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">bom s&#243; olhando essa foto da pra falar o &#243;bvio, ela &#233; uma planta parasita, mas a estrutura dela &#233; diferente de plantas desse tipo</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">bom s&#243; olhando essa foto da pra falar o &#243;bvio, ela &#233; uma planta parasita, mas a estrutura dela &#233; diferente de plantas desse tipo</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4DCF113F</TechnicalName>
@@ -1835,9 +1835,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001E3">
-      <DisplayName><![CDATA[Jhun: "ela parece ter sofrido mutação drás..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: ela parece ter sofrido mutaçã..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">ela parece ter sofrido muta&#231;&#227;o dr&#225;stica ou foi mudada geneticamente para ficar assim</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">ela parece ter sofrido muta&#231;&#227;o dr&#225;stica ou foi mudada geneticamente para ficar assim</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_36728998</TechnicalName>
@@ -1861,9 +1861,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001EA">
-      <DisplayName><![CDATA[Jhun: "pode ser que ela tenha se adaptado..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: pode ser que ela tenha se ada..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">pode ser que ela tenha se adaptado depois de ter sido modificada e acabou virando isso, teria que colher algumas amostras e testar, tem equipamentos ai com voc&#234;?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">pode ser que ela tenha se adaptado depois de ter sido modificada e acabou virando isso, teria que colher algumas amostras e testar, tem equipamentos ai com voc&#234;?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_692378CD</TechnicalName>
@@ -1887,9 +1887,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001F0">
-      <DisplayName><![CDATA[Mizuro: "isso parece ser coisa do meu pai, m..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: isso parece ser coisa do me..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">isso parece ser coisa do meu pai, mas ele nunca faria uma planta parasita mutante</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">isso parece ser coisa do meu pai, mas ele nunca faria uma planta parasita mutante</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_50606CE5</TechnicalName>
@@ -1913,9 +1913,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000001F9">
-      <DisplayName><![CDATA[Mizuro: "tenho sim, vou usar o laboratório d..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: tenho sim, vou usar o labor..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">tenho sim, vou usar o laborat&#243;rio de meu pai em casa, vou colher esta e procurar outras amostras</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">tenho sim, vou usar o laborat&#243;rio de meu pai em casa, vou colher esta e procurar outras amostras</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_52898625</TechnicalName>
@@ -1939,9 +1939,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000200">
-      <DisplayName><![CDATA[Jhun: "qualquer coisa é só me escrever"]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: qualquer coisa é só me escrev..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">qualquer coisa &#233; s&#243; me escrever</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">qualquer coisa &#233; s&#243; me escrever</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_355CE94C</TechnicalName>
@@ -2043,9 +2043,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000021C">
-      <DisplayName><![CDATA[Jhun: "mas o que é isso mano ???!!!"]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: mas o que é isso mano ???!!!"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">mas o que &#233; isso mano ???!!!</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">mas o que &#233; isso mano ???!!!</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_B75A82EC</TechnicalName>
@@ -2069,9 +2069,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000223">
-      <DisplayName><![CDATA[Mizuro: "se eu soubesse não teria mandado a..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: se eu soubesse não teria ma..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">se eu soubesse n&#227;o teria mandado a foto n&#233;</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">se eu soubesse n&#227;o teria mandado a foto n&#233;</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_908871E4</TechnicalName>
@@ -2095,9 +2095,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000022A">
-      <DisplayName><![CDATA[Jhun: "tá tá, espera um pouco, que loucura..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: tá tá, espera um pouco, que l..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">t&#225; t&#225;, espera um pouco, que loucura cara</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">t&#225; t&#225;, espera um pouco, que loucura cara</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_3D031CE3</TechnicalName>
@@ -2121,9 +2121,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000231">
-      <DisplayName><![CDATA[Jhun: "se essa planta pegou esse animal el..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: se essa planta pegou esse ani..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">se essa planta pegou esse animal ela pode contaminar humanos tamb&#233;m </span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">se essa planta pegou esse animal ela pode contaminar humanos tamb&#233;m </span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_3DA628B2</TechnicalName>
@@ -2147,9 +2147,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000238">
-      <DisplayName><![CDATA[Jhun: "ela deve se espalhar pelo ar pra co..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: ela deve se espalhar pelo ar..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">ela deve se espalhar pelo ar pra conseguir se fixar um animais, por meio de um esporo como um fungo</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">ela deve se espalhar pelo ar pra conseguir se fixar um animais, por meio de um esporo como um fungo</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_A33F47E0</TechnicalName>
@@ -2173,9 +2173,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000023F">
-      <DisplayName><![CDATA[Mizuro: "eu vi umas nuvens estranhas pela re..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: eu vi umas nuvens estranhas..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">eu vi umas nuvens estranhas pela regi&#227;o</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">eu vi umas nuvens estranhas pela regi&#227;o</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_143838CB</TechnicalName>
@@ -2199,9 +2199,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000246">
-      <DisplayName><![CDATA[Jhun: "nem chega perto daquilo, ao menos s..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: nem chega perto daquilo, ao m..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">nem chega perto daquilo, ao menos sem prote&#231;&#227;o adequada, pega uma amostra ai e corre pra casa tentar fazer um neutralizador, e toma cuidado</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">nem chega perto daquilo, ao menos sem prote&#231;&#227;o adequada, pega uma amostra ai e corre pra casa tentar fazer um neutralizador, e toma cuidado</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_2FF46AD2</TechnicalName>
@@ -2225,9 +2225,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000024D">
-      <DisplayName><![CDATA[Mizuro: "vou tomar cuidado, não se preocupa"]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: vou tomar cuidado, não se p..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">vou tomar cuidado, n&#227;o se preocupa</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">vou tomar cuidado, n&#227;o se preocupa</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_CBEED553</TechnicalName>
@@ -2251,9 +2251,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000254">
-      <DisplayName><![CDATA[Jhun: "melhor você chamar as autoridades c..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: melhor você chamar as autorid..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">melhor voc&#234; chamar as autoridades competentes</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">melhor voc&#234; chamar as autoridades competentes</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E645F21B</TechnicalName>
@@ -2277,9 +2277,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000025B">
-      <DisplayName><![CDATA[Mizuro: "não, preciso saber se meu pai está..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: não, preciso saber se meu p..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">n&#227;o, preciso saber se meu pai est&#225; ou n&#227;o envolvido nisso, ele &#233; um bom homem, n&#227;o posso deixar a reputa&#231;&#227;o dele ser manchada</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">n&#227;o, preciso saber se meu pai est&#225; ou n&#227;o envolvido nisso, ele &#233; um bom homem, n&#227;o posso deixar a reputa&#231;&#227;o dele ser manchada</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_00AF29B0</TechnicalName>
@@ -2303,9 +2303,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000262">
-      <DisplayName><![CDATA[Jhun: "você que sabe, boa sorte, qualquer..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: você que sabe, boa sorte, qua..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">voc&#234; que sabe, boa sorte, qualquer coisa estou por aqui</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">voc&#234; que sabe, boa sorte, qualquer coisa estou por aqui</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_A025095C</TechnicalName>
@@ -2485,9 +2485,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000293">
-      <DisplayName><![CDATA[Mizuro: "Jhun to te mandando o resultado das..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: Jhun to te mandando o resul..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun to te mandando o resultado das amostras</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">Jhun to te mandando o resultado das amostras</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_C9DA7CD9</TechnicalName>
@@ -2511,9 +2511,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000029A">
-      <DisplayName><![CDATA[Jhun: "cara essa planta é perigosa, o que..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: cara essa planta é perigosa,..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">cara essa planta &#233; perigosa, o que voc&#234; pretende fazer </span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">cara essa planta &#233; perigosa, o que voc&#234; pretende fazer </span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_DACC312A</TechnicalName>
@@ -2615,9 +2615,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000002C3">
-      <DisplayName><![CDATA[Mizuro: "acredito que a fonte dessa planta e..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: acredito que a fonte dessa..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">acredito que a fonte dessa planta esta do outro lado da montanha onde te mandei as fotos, vou l&#225; descobrir o que esta acontecendo</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">acredito que a fonte dessa planta esta do outro lado da montanha onde te mandei as fotos, vou l&#225; descobrir o que esta acontecendo</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_87960023</TechnicalName>
@@ -2641,9 +2641,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000002CA">
-      <DisplayName><![CDATA[Jhun: "seu cabeça dura, você devia chamar..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: seu cabeça dura, você devia c..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">seu cabe&#231;a dura, voc&#234; devia chamar a policia, seguran&#231;a nacional ou algo do g&#234;nero </span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">seu cabe&#231;a dura, voc&#234; devia chamar a policia, seguran&#231;a nacional ou algo do g&#234;nero </span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_6A238787</TechnicalName>
@@ -2667,9 +2667,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000002D1">
-      <DisplayName><![CDATA[Mizuro: "já falei que tenho que resolver iss..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: já falei que tenho que reso..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">j&#225; falei que tenho que resolver isso pelo meu pai, nem tente me convencer do contrario</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">j&#225; falei que tenho que resolver isso pelo meu pai, nem tente me convencer do contrario</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_CB1C4F5C</TechnicalName>
@@ -2693,9 +2693,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000002D8">
-      <DisplayName><![CDATA[Jhun: "tá, ao menos modifica uma mascara e..."]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: tá, ao menos modifica uma mas..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">t&#225;, ao menos modifica uma mascara e coloca um filtro com uma base hidroxilada para n&#227;o ser contaminado pelos esporos</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">t&#225;, ao menos modifica uma mascara e coloca um filtro com uma base hidroxilada para n&#227;o ser contaminado pelos esporos</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_595DD755</TechnicalName>
@@ -2719,9 +2719,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000002DF">
-      <DisplayName><![CDATA[Mizuro: "tranquilo vou fazer isso agora mesm..."]]></DisplayName>
+      <DisplayName><![CDATA[Mizuro: "Mizuro: tranquilo vou fazer isso ag..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">tranquilo vou fazer isso agora mesmo, vou te mantendo atualizado</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Mizuro: </span><span id="s1">tranquilo vou fazer isso agora mesmo, vou te mantendo atualizado</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E01B854B</TechnicalName>
@@ -2745,9 +2745,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000002E6">
-      <DisplayName><![CDATA[Jhun: "ok boa sorte"]]></DisplayName>
+      <DisplayName><![CDATA[Jhun: "Jhun: ok boa sorte"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">ok boa sorte</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Jhun: </span><span id="s1">ok boa sorte</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_46FA0EC9</TechnicalName>
