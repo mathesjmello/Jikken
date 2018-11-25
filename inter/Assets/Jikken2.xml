@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/2.4/XmlContentExport_FullProject.xsd" Version="2.4" CreatorTool="articy:draft" CreatorVersion="2.4.13" CreatedOn="2018-11-25T16:06:11Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/2.4/XmlContentExport_FullProject.xsd" Version="2.4" CreatorTool="articy:draft" CreatorVersion="2.4.13" CreatedOn="2018-11-25T17:23:36Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -534,15 +534,6 @@
       <Target IdRef="0x0100000000000200" PinRef="0x0100000000000203"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x010000000000020C">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_D716165F</TechnicalName>
-      <Url>articy://localhost/view/49f1d168-c8a7-4898-8a82-6522eb69519a/72057594037928460</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000000200" PinRef="0x0100000000000204"/>
-      <Target IdRef="0x0100000000000207" PinRef="0x010000000000020A"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000000213">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_AFC7D6CE</TechnicalName>
@@ -1072,6 +1063,24 @@
       <Label Count="0"/>
       <Source IdRef="0x01000000000003AA" PinRef="0x01000000000003AE"/>
       <Target IdRef="0x01000000000003B1" PinRef="0x01000000000003B4"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000003BD">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0B446FDD</TechnicalName>
+      <Url>articy://localhost/view/49f1d168-c8a7-4898-8a82-6522eb69519a/72057594037928893</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000000200" PinRef="0x0100000000000204"/>
+      <Target IdRef="0x01000000000003B8" PinRef="0x01000000000003BB"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000003BE">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_40CDBD57</TechnicalName>
+      <Url>articy://localhost/view/49f1d168-c8a7-4898-8a82-6522eb69519a/72057594037928894</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000003B8" PinRef="0x01000000000003BC"/>
+      <Target IdRef="0x0100000000000207" PinRef="0x010000000000020A"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x0100000000000108">
@@ -1948,7 +1957,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="10139.5" Y="230.5"/>
+      <Position X="10059.5" Y="218.5"/>
       <Size Width="225" Height="200"/>
       <ZIndex>63</ZIndex>
       <Speaker IdRef="0x0100000000000113"/>
@@ -1974,7 +1983,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="10458.5" Y="229.5"/>
+      <Position X="10567.5" Y="216.5"/>
       <Size Width="225" Height="200"/>
       <ZIndex>65</ZIndex>
       <Speaker IdRef="0x0000000000000000"/>
@@ -2000,7 +2009,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="10779.5" Y="230.5"/>
+      <Position X="10828.5" Y="229.5"/>
       <Size Width="225" Height="200"/>
       <ZIndex>67</ZIndex>
       <Speaker IdRef="0x0000000000000000"/>
@@ -2970,9 +2979,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000000325">
-      <DisplayName><![CDATA[...: "as coisas sairam do controle, o exp..."]]></DisplayName>
+      <DisplayName><![CDATA[...: "as coisas saíram do controle, o exp..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">as coisas sairam do controle, o experimento 49, que foi considerado perigoso e fora descartado conseguiu sobreviver e se espalhar</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">as coisas sa&#237;ram do controle, o experimento 49, que foi considerado perigoso e fora descartado conseguiu sobreviver e se espalhar</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_470D0D8A</TechnicalName>
@@ -3515,6 +3524,32 @@
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
+    <DialogueFragment Id="0x01000000000003B8">
+      <DisplayName><![CDATA[...: "bom vamos colher uma amostra dessa..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">bom vamos colher uma amostra dessa planta</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_CC93496D</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xCC93496D</ShortId>
+      <Url>articy://localhost/view/49f1d168-c8a7-4898-8a82-6522eb69519a/72057594037928888</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000003BB" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000003BC" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="10317.6963298498" Y="144.990044897238"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>184</ZIndex>
+      <Speaker IdRef="0x0000000000000000"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
     <Entity Id="0x0100000000000113">
       <DisplayName Count="1">
         <LocalizedString Lang="">Jhun</LocalizedString>
@@ -3809,7 +3844,6 @@
           <Node IdRef="0x0100000000000200" Type="DialogueFragment"/>
           <Node IdRef="0x0100000000000205" Type="Connection"/>
           <Node IdRef="0x0100000000000207" Type="DialogueFragment"/>
-          <Node IdRef="0x010000000000020C" Type="Connection"/>
           <Node IdRef="0x010000000000020E" Type="DialogueFragment"/>
           <Node IdRef="0x0100000000000213" Type="Connection"/>
           <Node IdRef="0x0100000000000215" Type="DialogueFragment"/>
@@ -3928,6 +3962,9 @@
           <Node IdRef="0x01000000000003AF" Type="Connection"/>
           <Node IdRef="0x01000000000003B1" Type="DialogueFragment"/>
           <Node IdRef="0x01000000000003B6" Type="Connection"/>
+          <Node IdRef="0x01000000000003B8" Type="DialogueFragment"/>
+          <Node IdRef="0x01000000000003BD" Type="Connection"/>
+          <Node IdRef="0x01000000000003BE" Type="Connection"/>
         </Node>
       </Node>
       <Node IdRef="0x030000003140D3AC" Type="Locations"/>
