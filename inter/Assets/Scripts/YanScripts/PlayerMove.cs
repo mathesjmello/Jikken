@@ -13,7 +13,6 @@ public class PlayerMove : MonoBehaviour {
     [SerializeField]  float JumpMod;
     bool IsJumping;
     bool andando = false;
-    public AudioSource walk;
     int numeroRandom;
 
     // Use this for initialization
@@ -37,7 +36,7 @@ public class PlayerMove : MonoBehaviour {
 
         CharController.SimpleMove(FMovment + RMovment);
 
-        if (CharController.velocity.x == 0 || CharController.velocity.y == 0 && CharController.velocity.y == 0)
+        if (CharController.velocity.x != 0 || CharController.velocity.y == 0 && CharController.velocity.y != 0)
         {
             IsMoving();
         }
@@ -52,7 +51,22 @@ public class PlayerMove : MonoBehaviour {
     void IsMoving()
     {
         //aqui coloca o som walk
-        
+        if ((SceneManager.GetActiveScene().name=="cena"||SceneManager.GetActiveScene().name=="house_exterior")&& !As.isPlaying)
+        {
+            As.clip = SonsPassoGrama[Random.Range(0,SonsPassoGrama.Count)]; 
+            As.Play();
+        }
+        if (SceneManager.GetActiveScene().name=="house_interior"&&!As.isPlaying)
+        {
+            As.clip = SonsPassoMadeira[Random.Range(0,SonsPassoGrama.Count)];
+            As.Play();
+        }
+        if (SceneManager.GetActiveScene().name=="complexo"&&!As.isPlaying)
+        {
+            As.pitch = 0.8f;
+            As.clip = SonsPassoCimento[Random.Range(0,SonsPassoGrama.Count)];
+            As.Play();
+        }
     }
 
     void JumpImput()
@@ -99,19 +113,5 @@ public class PlayerMove : MonoBehaviour {
 
 
 
-        if ((SceneManager.GetActiveScene().name=="cena"||SceneManager.GetActiveScene().name=="house_exterior")&& !As.isPlaying)
-        {
-            As.clip = SonsPassoGrama[Random.Range(0,SonsPassoGrama.Count)]; 
-            As.Play();
-        }
-        if (SceneManager.GetActiveScene().name=="house_interior"&&!As.isPlaying)
-        {
-            As.clip = SonsPassoMadeira[Random.Range(0,SonsPassoGrama.Count)];
-            As.Play();
-        }
-        if (SceneManager.GetActiveScene().name=="complexo"&&!As.isPlaying)
-        {
-            As.clip = SonsPassoCimento[Random.Range(0,SonsPassoGrama.Count)];
-            As.Play();
-        }
+        
         

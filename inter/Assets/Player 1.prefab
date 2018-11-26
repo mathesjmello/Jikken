@@ -254,7 +254,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3d90a8364f2f0c242a76ebb4829c3842, type: 3}
   - {fileID: 8300000, guid: 3e07924d26808bf4194efbb16712e204, type: 3}
   - {fileID: 8300000, guid: a17fc30babe2ef545be0c5c84226d7eb, type: 3}
-  SonsPassoCimento: []
+  SonsPassoCimento:
+  - {fileID: 8300000, guid: 33f503dd0b357d24e80ec302b7673452, type: 3}
+  - {fileID: 8300000, guid: 13d6b35f0089b7f40b1a1454edb8b6af, type: 3}
+  - {fileID: 8300000, guid: 2bb8c72dbac283a41af339606e868997, type: 3}
   JumpFallOf:
     serializedVersion: 2
     m_Curve:
