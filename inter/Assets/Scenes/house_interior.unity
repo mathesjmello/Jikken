@@ -799,7 +799,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1328443372978170, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114130700309491298, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
@@ -830,6 +830,15 @@ Prefab:
       propertyPath: MascarasCompond
       value: 
       objectReference: {fileID: 1006008374}
+    - target: {fileID: 1866800314849628, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114130700309491298, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: IventoryPanel
+      value: 
+      objectReference: {fileID: 461396902}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
   m_IsPrefabAsset: 0
@@ -5334,12 +5343,12 @@ Prefab:
     - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
         type: 2}
@@ -5380,6 +5389,18 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978589044315020, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275661654326438, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775944444264458, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
@@ -6743,6 +6764,11 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300172, guid: 320656ea8edb6ed4aaf98d0c42ee470c, type: 3}
+--- !u!1 &461396902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1866800314849628, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+    type: 2}
+  m_PrefabInternal: {fileID: 20203083}
 --- !u!1 &463375822
 GameObject:
   m_ObjectHideFlags: 0
@@ -8741,15 +8767,20 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1091165147627494, guid: 90c82b303cb80084a82280a248ee2c46, type: 2}
-      propertyPath: m_Name
-      value: player
-      objectReference: {fileID: 0}
+    - target: {fileID: 114957255937359908, guid: 90c82b303cb80084a82280a248ee2c46,
+        type: 2}
+      propertyPath: Help
+      value: 
+      objectReference: {fileID: 1135875105}
     - target: {fileID: 114957255937359908, guid: 90c82b303cb80084a82280a248ee2c46,
         type: 2}
       propertyPath: InvetoryPanel
       value: 
       objectReference: {fileID: 1446584221}
+    - target: {fileID: 1091165147627494, guid: 90c82b303cb80084a82280a248ee2c46, type: 2}
+      propertyPath: m_Name
+      value: player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c82b303cb80084a82280a248ee2c46, type: 2}
   m_IsPrefabAsset: 0
