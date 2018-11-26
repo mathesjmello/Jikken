@@ -13,14 +13,16 @@ public class camerafollow : MonoBehaviour {
     float rotationY = 0F;
     float rotationX = 0f;
 
+    public GameObject dica;
+
     void Start()
     {
-        Cursor.lockState = CursorLockMode.None;
-
+        Invoke("ligaDica", 22);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
-    {
+    {        
         rotationX += Input.GetAxis("Mouse X") * sensitivityX;
         rotationX = Mathf.Clamp(rotationX, minimumX, maximumX);
         rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
@@ -28,6 +30,17 @@ public class camerafollow : MonoBehaviour {
         transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
     }
 
+    public void ligaDica() {
+        dica.SetActive(true);
+        Invoke("apaga", 5);
+    }
+
+    public void apaga() {
+        
+            dica.SetActive(false);
+        
+
+    }
 }
 
 
