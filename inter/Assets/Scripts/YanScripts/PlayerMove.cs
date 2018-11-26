@@ -42,7 +42,8 @@ public class PlayerMove : MonoBehaviour {
 
     void IsMoving()
     {
-        Debug.Log("Moving");
+        //aqui coloca o som walk
+        
     }
 
     void JumpImput()
