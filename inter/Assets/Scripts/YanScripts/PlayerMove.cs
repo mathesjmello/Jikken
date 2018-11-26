@@ -10,9 +10,12 @@ public class PlayerMove : MonoBehaviour {
     [SerializeField]  AnimationCurve JumpFallOf;
     [SerializeField]  float JumpMod;
     bool IsJumping;
+    bool andando = false;
+    public AudioSource walk;
+    int numeroRandom;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         CharController = GetComponent<CharacterController>();
 	}
 	
@@ -32,7 +35,7 @@ public class PlayerMove : MonoBehaviour {
 
         CharController.SimpleMove(FMovment + RMovment);
 
-        if (CharController.velocity.x != 0 || CharController.velocity.y != 0 && CharController.velocity.y == 0)
+        if (CharController.velocity.x == 0 || CharController.velocity.y == 0 && CharController.velocity.y == 0)
         {
             IsMoving();
         }
@@ -43,7 +46,7 @@ public class PlayerMove : MonoBehaviour {
     void IsMoving()
     {
         //aqui coloca o som walk
-        
+        walk.Play(0);
     }
 
     void JumpImput()
@@ -84,4 +87,8 @@ public class PlayerMove : MonoBehaviour {
             MoveSpeed = 6;
         }
     }
+
+    
 }
+
+
