@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour {
 
     public float MoveSpeed;
-
+    public AudioSource As;
+    public List<AudioClip> SonsPassoGrama, SonsPassoMadeira, SonsPassoCimento;
     CharacterController CharController;
     [SerializeField]  AnimationCurve JumpFallOf;
     [SerializeField]  float JumpMod;
@@ -36,6 +38,10 @@ public class PlayerMove : MonoBehaviour {
         {
             IsMoving();
         }
+        else
+        {
+            As.Stop();
+        }
 
         JumpImput();
     }
@@ -43,6 +49,21 @@ public class PlayerMove : MonoBehaviour {
     void IsMoving()
     {
         //aqui coloca o som walk
+        if ((SceneManager.GetActiveScene().name=="cena"||SceneManager.GetActiveScene().name=="house_exterior")&& !As.isPlaying)
+        {
+            As.clip = SonsPassoGrama[Random.Range(0,SonsPassoGrama.Count)]; 
+            As.Play();
+        }
+        if (SceneManager.GetActiveScene().name=="house_interior"&&!As.isPlaying)
+        {
+            As.clip = SonsPassoMadeira[Random.Range(0,SonsPassoGrama.Count)];
+            As.Play();
+        }
+        if (SceneManager.GetActiveScene().name=="complexo"&&!As.isPlaying)
+        {
+            As.clip = SonsPassoCimento[Random.Range(0,SonsPassoGrama.Count)];
+            As.Play();
+        }
         
     }
 

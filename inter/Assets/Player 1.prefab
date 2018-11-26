@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 143680874996173242}
   - component: {fileID: 114328559909652638}
   - component: {fileID: 114957255937359908}
+  - component: {fileID: 82543024865926712}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -55,14 +56,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1091165147627494}
-  m_LocalRotation: {x: -0, y: 0.7870208, z: -0, w: -0.61692655}
-  m_LocalPosition: {x: -25.633, y: -14.956, z: 194.53}
+  m_LocalRotation: {x: -0, y: 0.99992865, z: -0, w: 0.011948919}
+  m_LocalPosition: {x: -23.83, y: -20.45, z: 243.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4623681164034388}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 256.184, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 178.63101, z: 0}
 --- !u!4 &4623681164034388
 Transform:
   m_ObjectHideFlags: 1
@@ -70,7 +71,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1811053476441928}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8, z: 0}
+  m_LocalPosition: {x: 0, y: 0.604, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4392758805392368}
@@ -123,6 +124,102 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1811053476441928}
   m_Enabled: 1
+--- !u!82 &82543024865926712
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091165147627494}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 65e5bfb74f6464946870f1109f415850,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.3
+  m_Pitch: 0.9
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &114108671745187512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -134,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5473e6638597174a926ef4b22b7a446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 20
+  mouseSensitivity: 60
   PlayerBody: {fileID: 4392758805392368}
 --- !u!114 &114328559909652638
 MonoBehaviour:
@@ -148,6 +245,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 6
+  As: {fileID: 82543024865926712}
+  SonsPassoGrama:
+  - {fileID: 8300000, guid: c568794511018724f85a6955e4f88ce6, type: 3}
+  - {fileID: 8300000, guid: 820fab31c3ef2f14d9b615b324e9e724, type: 3}
+  - {fileID: 8300000, guid: 895299c6d7779814ca69f06b292d5543, type: 3}
+  SonsPassoMadeira:
+  - {fileID: 8300000, guid: 3d90a8364f2f0c242a76ebb4829c3842, type: 3}
+  - {fileID: 8300000, guid: 3e07924d26808bf4194efbb16712e204, type: 3}
+  - {fileID: 8300000, guid: a17fc30babe2ef545be0c5c84226d7eb, type: 3}
+  SonsPassoCimento: []
   JumpFallOf:
     serializedVersion: 2
     m_Curve:
@@ -184,6 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86ac0c0a5591d9d4aa605500f5269ea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Help: {fileID: 0}
   InvetoryPanel: {fileID: 0}
   InventoryIcons:
   - {fileID: 1388374033491212, guid: 1cc66f050ed7ca2419a825fd67360e89, type: 2}
@@ -192,8 +300,8 @@ MonoBehaviour:
   PickUpMinigameUi: {fileID: 1808268321296964, guid: b652c2513d509e3478b3424201204d9a,
     type: 2}
   UiSpawnVariation:
-  - -0.5
-  - 0.5
+  - -0.2
+  - 0.2
 --- !u!114 &114993103178294052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,7 +331,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 1.5
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
