@@ -20,6 +20,8 @@ public class ShowInfo : MonoBehaviour
 			Help.SetActive(false);
 			Text.SetActive(true);
 			Senha.SetActive(true);
+			Persistence.Senha += 1;
+			Persistence.SavaData();
 			Time.timeScale = 0;
 			Cursor.lockState = CursorLockMode.None;
 		}
@@ -30,6 +32,7 @@ public class ShowInfo : MonoBehaviour
 		Cursor.lockState = CursorLockMode.Locked;
 		Time.timeScale = 1;
 		Text.SetActive(false);
+		Destroy(gameObject);
 	}
 	private void OnTriggerStay(Collider other)
     	{

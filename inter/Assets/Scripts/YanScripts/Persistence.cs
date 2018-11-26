@@ -7,12 +7,14 @@ public static class Persistence
 {
     public static int Pesquisa;
     public static int Day;
+    public static int Senha;
     public static bool HaveASave;
     public static string NextLevel;
 
     public static void SavaData()
     {
         HaveASave = true;
+        PlayerPrefs.SetInt("Senha", Senha);
         PlayerPrefs.SetInt("Pesquisa", Pesquisa);
         PlayerPrefs.SetInt("Day", Day);
         PlayerPrefsX.SetBool("HaveASave", HaveASave);
@@ -23,6 +25,7 @@ public static class Persistence
 
     public static void LoadData()
     {
+        Senha = PlayerPrefs.GetInt("Senha");
         HaveASave = PlayerPrefsX.GetBool("HaveASave");
         Pesquisa = PlayerPrefs.GetInt("Pesquisa");
         Day = PlayerPrefs.GetInt("Day");
@@ -35,6 +38,7 @@ public static class Persistence
     {
         PlayerPrefs.DeleteAll();
         Day = 0;
+        Senha = 0;
         Pesquisa = 0;
         HaveASave = false;
         PickUp.NReds = 0;
