@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23168543189228862}
   m_Layer: 0
   m_Name: bad_tree_1
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
