@@ -8,6 +8,7 @@ public class fade : MonoBehaviour {
     public Animator fadeAnimation;
     // Use this for initialization
     void Start () {
+        Time.timeScale = 1;
         PlayerPrefs.SetInt("fim", 0);
         Invoke("inicio", tempo);        
         //Invoke("endAnimation",2);

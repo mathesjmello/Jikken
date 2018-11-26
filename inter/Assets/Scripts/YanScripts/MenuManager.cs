@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour {
 
+    public void Start()
+    {
+        Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.None;
+    }
     public void NewGame()
     {
         Persistence.ReturnValues();
