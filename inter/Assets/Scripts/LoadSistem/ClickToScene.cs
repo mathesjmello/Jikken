@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ClickToScene : MonoBehaviour
 {
+	public bool ChangeQuestLog;
 	public bool PassDay;
 	private bool _toDentro;
 	public GameObject Help;
@@ -25,6 +26,11 @@ public class ClickToScene : MonoBehaviour
 			if (PassDay)
 			{
 				Persistence.Day = 1;
+				Persistence.SavaData();
+			}
+			if (ChangeQuestLog)
+			{
+				Persistence.Quest += 1;
 				Persistence.SavaData();
 			}
 			Help.SetActive(false);

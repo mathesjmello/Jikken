@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 
 public class CollideToLori : MonoBehaviour {
-
+	
 	public  int DialogId;
 	public  int DialogLenthg;
 	public NevgoXmlImporter Decoder;

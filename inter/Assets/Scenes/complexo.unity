@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1574,6 +1574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestLog: 0
   PassDay: 0
   Help: {fileID: 1940694819}
   NextScene: TextMiniGameLabo
@@ -3938,12 +3939,12 @@ Prefab:
     - target: {fileID: 224188359099652294, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224044582076670380, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114130700309491298, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
@@ -5966,6 +5967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 638229349}
 --- !u!114 &206491507
@@ -10846,6 +10848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 728054443}
 --- !u!1 &382870335
@@ -11381,6 +11384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 464437315}
 --- !u!114 &394166160
@@ -13129,6 +13133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestLog: 0
   PassDay: 0
   Help: {fileID: 1940694819}
   NextScene: TextMiniGameLabo
@@ -14138,8 +14143,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92, y: -0.000061035}
-  m_SizeDelta: {x: 674.8, y: 126.5}
+  m_AnchoredPosition: {x: 34, y: -39}
+  m_SizeDelta: {x: 906.5, y: 126.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &506241844
 MonoBehaviour:
@@ -14161,12 +14166,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 96
+    m_Font: {fileID: 12800000, guid: 3164f6e4c7772274d8b9456d60d2b757, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 97
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -18623,6 +18628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12d7755183b3884b84d5b5f920b1e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestLog: 0
   PassDay: 0
   Help: {fileID: 1940694819}
   NextScene: End
@@ -22903,8 +22909,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92, y: 269}
-  m_SizeDelta: {x: 674.8, y: 126.5}
+  m_AnchoredPosition: {x: 33.99997, y: 230.0001}
+  m_SizeDelta: {x: 906.5, y: 126.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &790727209
 MonoBehaviour:
@@ -22926,12 +22932,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 96
+    m_Font: {fileID: 12800000, guid: 3164f6e4c7772274d8b9456d60d2b757, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 97
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -23625,7 +23631,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 39220de44315c7b46876c3637b505cc9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cef93455aece0c741b14e23a3e4c8aef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -39336,6 +39342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestlog: 1
   SpamObjects:
   - {fileID: 1269726580}
   - {fileID: 206491505}
@@ -47866,6 +47873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 72032993}
 --- !u!1 &1669318274
@@ -56933,8 +56941,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92, y: -249}
-  m_SizeDelta: {x: 674.8, y: 126.5}
+  m_AnchoredPosition: {x: 33.99997, y: -287.99988}
+  m_SizeDelta: {x: 906.5, y: 126.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961509519
 MonoBehaviour:
@@ -56956,12 +56964,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 96
+    m_Font: {fileID: 12800000, guid: 3164f6e4c7772274d8b9456d60d2b757, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 97
+    m_MaxSize: 300
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1

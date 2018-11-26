@@ -62,5 +62,9 @@ namespace DialogSistem
             }
         }
 
+        private void OnDestroy()
+        {
+            Help.SetActive(false);
+        }
     }
 }

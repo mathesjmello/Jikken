@@ -5,6 +5,7 @@ using YanScripts;
 
 public static class Persistence
 {
+    public static int Quest;
     public static int Pesquisa;
     public static int Day;
     public static int Senha;
@@ -14,6 +15,7 @@ public static class Persistence
     public static void SavaData()
     {
         HaveASave = true;
+        PlayerPrefs.SetInt("Quest", Quest);
         PlayerPrefs.SetInt("Senha", Senha);
         PlayerPrefs.SetInt("Pesquisa", Pesquisa);
         PlayerPrefs.SetInt("Day", Day);
@@ -25,6 +27,7 @@ public static class Persistence
 
     public static void LoadData()
     {
+        Quest = PlayerPrefs.GetInt("Quest");
         Senha = PlayerPrefs.GetInt("Senha");
         HaveASave = PlayerPrefsX.GetBool("HaveASave");
         Pesquisa = PlayerPrefs.GetInt("Pesquisa");
@@ -37,6 +40,7 @@ public static class Persistence
     public static void ReturnValues()
     {
         PlayerPrefs.DeleteAll();
+        Quest = 0;
         Day = 0;
         Senha = 0;
         Pesquisa = 0;
