@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpamAfterDestroy : MonoBehaviour
 {
+	public bool ChangeMask;
 	public bool ChangeQuestlog;
 	public List<GameObject> SpamObjects;
 	// Use this for initialization
@@ -18,6 +19,11 @@ public class SpamAfterDestroy : MonoBehaviour
 
 	private void OnDestroy()
 	{
+		if (ChangeMask)
+		{
+			Persistence.Mask += 1;
+			Persistence.SavaData();
+		}
 		if (ChangeQuestlog)
 		{
 			Persistence.Quest += 1;

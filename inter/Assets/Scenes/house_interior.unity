@@ -611,6 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 0
   ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 1611307589}
@@ -810,6 +811,25 @@ Prefab:
       propertyPath: QuestText
       value: 
       objectReference: {fileID: 20203084}
+    - target: {fileID: 1599272014111648, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114130700309491298, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: Mascara1
+      value: 
+      objectReference: {fileID: 251903631}
+    - target: {fileID: 114130700309491298, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: Mascara2
+      value: 
+      objectReference: {fileID: 1245874037}
+    - target: {fileID: 114130700309491298, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+        type: 2}
+      propertyPath: MascarasCompond
+      value: 
+      objectReference: {fileID: 1006008374}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
   m_IsPrefabAsset: 0
@@ -822,6 +842,11 @@ MonoBehaviour:
 --- !u!1 &20203085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1599272014111648, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
+    type: 2}
+  m_PrefabInternal: {fileID: 20203083}
+--- !u!224 &20203086 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224405087136942682, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
     type: 2}
   m_PrefabInternal: {fileID: 20203083}
 --- !u!1 &27617803
@@ -2571,7 +2596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &156076647
 Transform:
   m_ObjectHideFlags: 0
@@ -3036,6 +3061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 1
   ChangeQuestlog: 1
   SpamObjects:
   - {fileID: 1881364783}
@@ -3785,6 +3811,11 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300376, guid: 320656ea8edb6ed4aaf98d0c42ee470c, type: 3}
+--- !u!1 &251903631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1275661654326438, guid: 077bccf00f3dca5429c03e30c32194a8,
+    type: 2}
+  m_PrefabInternal: {fileID: 359396400}
 --- !u!1 &265067067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5253,6 +5284,106 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300116, guid: 320656ea8edb6ed4aaf98d0c42ee470c, type: 3}
+--- !u!1001 &359396400
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 20203086}
+    m_Modifications:
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224346417075001850, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &366325187
 GameObject:
   m_ObjectHideFlags: 0
@@ -15596,6 +15727,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001252986}
   m_Mesh: {fileID: 4300000, guid: 3b4669f10c51719418c32d822b5c92e8, type: 3}
+--- !u!1 &1006008374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1978589044315020, guid: 077bccf00f3dca5429c03e30c32194a8,
+    type: 2}
+  m_PrefabInternal: {fileID: 359396400}
 --- !u!1 &1010846376
 GameObject:
   m_ObjectHideFlags: 0
@@ -17554,6 +17690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 0
   ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 1476235670}
@@ -18498,6 +18635,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1244853000}
   m_Mesh: {fileID: 4300004, guid: 3b4669f10c51719418c32d822b5c92e8, type: 3}
+--- !u!1 &1245874037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1775944444264458, guid: 077bccf00f3dca5429c03e30c32194a8,
+    type: 2}
+  m_PrefabInternal: {fileID: 359396400}
 --- !u!1 &1251363106
 GameObject:
   m_ObjectHideFlags: 0
@@ -19634,6 +19776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 0
   ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 205576638}
@@ -21688,6 +21831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 0
   ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 2017754534}
@@ -22790,6 +22934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 1
   ChangeQuestlog: 1
   SpamObjects:
   - {fileID: 166871991}
@@ -27015,6 +27160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 0
   ChangeQuestlog: 1
   SpamObjects:
   - {fileID: 2017227575}
@@ -28042,7 +28188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1966711800
 Transform:
   m_ObjectHideFlags: 0
@@ -28960,6 +29106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 0
   ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 1376602688}
@@ -29037,6 +29184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcbde00e9b964d040b17a9b46c4fd4d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeMask: 0
   ChangeQuestlog: 0
   SpamObjects:
   - {fileID: 1673808583}

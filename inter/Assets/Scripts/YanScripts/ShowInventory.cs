@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class ShowInventory : MonoBehaviour
 {
+	public GameObject MascarasCompond;
+	public GameObject Mascara1, Mascara2;
 	public GameObject ColaSenhas;
 	public GameObject Senha1, Senha2, Senha3;
     public GameObject IventoryPanel, QuestLogPainel;
@@ -80,12 +82,22 @@ public class ShowInventory : MonoBehaviour
 	    }
         IventoryPanel.SetActive(true);
 	    QuestLogPainel.SetActive(true);
+	    MascarasCompond.SetActive(true);
+	    if (Persistence.Mask>0)
+	    {
+		    Mascara1.SetActive(true);
+		    if (Persistence.Mask>1)
+		    {
+			    Mascara2.SetActive(true);
+		    }
+	    }
 	    if(SceneManager.GetActiveScene().name== "complexo")
 		    ColaSenhas.SetActive(true);
     }
     
     void Hide()
     {
+	    MascarasCompond.SetActive(false);
         IventoryPanel.SetActive(false);
 	    QuestLogPainel.SetActive(false);
 	    if(SceneManager.GetActiveScene().name== "complexo")
