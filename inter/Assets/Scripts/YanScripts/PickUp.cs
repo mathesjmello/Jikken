@@ -7,6 +7,7 @@ namespace YanScripts
 {
     public class PickUp : MonoBehaviour
     {
+        public GameObject Help;
         public GameObject InvetoryPanel;
         public GameObject[] InventoryIcons;
         public GameObject PickUpMinigameUi;
@@ -42,12 +43,14 @@ namespace YanScripts
 
             if (Input.GetButtonDown("Interact") && !Interacting)
             {
+                Help.SetActive(false);
                 pickUpUiNumber = 0;
                 SpawnMiniGamePickUp();
                 Interacting = true;
             }
             if (Input.GetButtonDown("Interact") && other.GetComponent<PickString>())
             {
+                Help.SetActive(false);
                 other.GetComponent<PickString>().SetDialogLenthg(other.GetComponent<PickString>().DialogLenthg,other.GetComponent<PickString>().DialogId);
             }
 
