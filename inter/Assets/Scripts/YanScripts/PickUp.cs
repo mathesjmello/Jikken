@@ -174,7 +174,7 @@ namespace YanScripts
 
             //Atualiza o inventario. Caso o item pego ja exista, aumenta o numero de exemplares no inventario. Caso nao tenha sido pego, adiciona o item ao inventario.
  
-            foreach (Transform Child in InvetoryPanel.transform)
+            /*foreach (Transform Child in InvetoryPanel.transform)
             {
                 if (Child.gameObject.tag == ItemObject.gameObject.tag)
                 {
@@ -183,7 +183,7 @@ namespace YanScripts
                     Child.Find("Text").GetComponent<Text>().text = "" + tCount;
                     yield return null;
                 }
-            }
+            }*/
 
             if (ItemObject != null)
             {
