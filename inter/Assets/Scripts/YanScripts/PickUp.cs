@@ -26,6 +26,7 @@ namespace YanScripts
 
         private void Start()
         {
+            Interacting = false;
             LoadSavedvalues();
         }
 
