@@ -799,7 +799,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1328443372978170, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114130700309491298, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
@@ -5357,6 +5357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 1552161030}
   Help: {fileID: 0}
@@ -7927,6 +7928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 176439639}
   Help: {fileID: 1135875105}
@@ -22976,6 +22978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 0
   Senha: {fileID: 1061852562}
   Help: {fileID: 1135875105}
@@ -25263,6 +25266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 0
   Senha: {fileID: 962328898}
   Help: {fileID: 1135875105}
@@ -33726,6 +33730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 0
   Senha: {fileID: 939687665}
   Help: {fileID: 1135875105}

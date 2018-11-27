@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ShowInfo : MonoBehaviour
 {
+	public bool SenhaSim;
 	public bool SodeTocar;
 	public GameObject Senha;
 	public GameObject Help;
@@ -36,7 +37,7 @@ public class ShowInfo : MonoBehaviour
 
 	private void ChecaSenha()
 	{
-		if (SceneManager.GetActiveScene().name=="complexo")
+		if (SceneManager.GetActiveScene().name=="complexo"&& SenhaSim)
 		{
 			Persistence.Senha += 1;
 			Persistence.SavaData();

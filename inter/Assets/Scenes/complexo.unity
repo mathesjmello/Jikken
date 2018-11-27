@@ -4540,7 +4540,7 @@ Prefab:
       objectReference: {fileID: 1355898984}
     - target: {fileID: 1328443372978170, guid: b0b6ca7489f3c6441a31bb74509d8fb2, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224188359099652294, guid: b0b6ca7489f3c6441a31bb74509d8fb2,
         type: 2}
@@ -7180,6 +7180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 1
   SodeTocar: 0
   Senha: {fileID: 506241842}
   Help: {fileID: 1940694819}
@@ -7326,6 +7327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 2039828065}
   Help: {fileID: 0}
@@ -12451,6 +12453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 565653943}
   Help: {fileID: 0}
@@ -13083,6 +13086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 0
   Senha: {fileID: 40468610}
   Help: {fileID: 1940694819}
@@ -18250,7 +18254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.28800002}
-  m_AnchoredPosition: {x: 0.025268555, y: -0.004211426}
+  m_AnchoredPosition: {x: 0.025268555, y: -0.0041503906}
   m_SizeDelta: {x: -1323, y: -214.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565653945
@@ -23082,6 +23086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 1
   SodeTocar: 0
   Senha: {fileID: 790727207}
   Help: {fileID: 1940694819}
@@ -39844,6 +39849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 749100218}
   Help: {fileID: 0}
@@ -39967,6 +39973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 197702946}
   Help: {fileID: 0}
@@ -42685,6 +42692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 1061016800}
   Help: {fileID: 0}
@@ -51734,6 +51742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 149024733}
   Help: {fileID: 0}
@@ -54964,6 +54973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 1
   SodeTocar: 0
   Senha: {fileID: 1961509517}
   Help: {fileID: 1940694819}
@@ -58303,6 +58313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 1469968006}
   Help: {fileID: 0}
