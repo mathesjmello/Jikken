@@ -25,6 +25,19 @@ public class DialogsManager : MonoBehaviour
 			{
 				obj.SetActive(true);
 			}
+			if(SceneManager.GetActiveScene().name == "complexo")
+			{
+				if (Persistence.Pesquisa == 1)
+				{
+					PosPesquisa1.SetActive(true);
+					Player.transform.position = Spam1.transform.position;
+				}
+				if (Persistence.Pesquisa == 2)
+				{
+					PosPesquisa2.SetActive(true);
+					Player.transform.position = Spam2.transform.position;
+				}
+			}
 		}
 		else
 		{
@@ -65,12 +78,12 @@ public class DialogsManager : MonoBehaviour
 			}
 			else if(SceneManager.GetActiveScene().name == "complexo")
 			{
-				if (Persistence.Pesquisa == 4)
+				if (Persistence.Pesquisa == 1)
 				{
 					PosPesquisa1.SetActive(true);
 					Player.transform.position = Spam1.transform.position;
 				}
-				if (Persistence.Pesquisa == 5)
+				if (Persistence.Pesquisa == 2)
 				{
 					PosPesquisa2.SetActive(true);
 					Player.transform.position = Spam2.transform.position;

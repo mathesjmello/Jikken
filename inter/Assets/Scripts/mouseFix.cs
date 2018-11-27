@@ -6,6 +6,7 @@ public class mouseFix : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        //Time.timeScale = 1;
         Cursor.lockState = CursorLockMode.Locked;
     }
 	
