@@ -10,9 +10,12 @@ public class GameMenuManager : MonoBehaviour {
     public PostProcessingProfile efeito;
     public float focus_distance;
     public float focal_length;
-
+    float time0;
     private void Start()
     {
+        
+
+        
         var focus = efeito.depthOfField.settings;
         focus.focusDistance = focus_distance = 10f;
         efeito.depthOfField.settings = focus;
@@ -22,6 +25,7 @@ public class GameMenuManager : MonoBehaviour {
         efeito.depthOfField.settings = focal;
     }
     void Update () {
+       
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (!PausePanel.activeSelf)
