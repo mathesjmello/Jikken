@@ -35,7 +35,7 @@ public class ClickToScene : MonoBehaviour
 			}
 			Help.SetActive(false);
 			Cursor.lockState = CursorLockMode.None;
-			MyLoad.Loading(NextScene);
+			
 		}
 	}
 
@@ -50,4 +50,8 @@ public class ClickToScene : MonoBehaviour
 		_toDentro = false;
 		Help.SetActive(false);
 	}
+
+    public void loadfinal(string NextScene) {
+        MyLoad.Loading(NextScene);
+    }
 }
