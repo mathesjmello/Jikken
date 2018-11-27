@@ -164,7 +164,7 @@ public class ButtonLabManager : MonoBehaviour {
         }
         else
         {
-            MyLoad.Loading("house_interior");
+            MyLoad.Loading("complexo");
         }
         
     }
