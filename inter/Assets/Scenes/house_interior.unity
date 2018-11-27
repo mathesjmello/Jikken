@@ -5906,11 +5906,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1275661654326438, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1775944444264458, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247764322500560, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114901309528348608, guid: 077bccf00f3dca5429c03e30c32194a8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 077bccf00f3dca5429c03e30c32194a8, type: 2}
