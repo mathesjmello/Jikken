@@ -18,7 +18,7 @@ public class camerafollow : MonoBehaviour {
     void Start()
     {
         Invoke("ligaDica", 22);
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()

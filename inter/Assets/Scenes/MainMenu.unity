@@ -712,7 +712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Programa\xE7\xE3o, concept cenario \ne personagens, modelagem"
+  m_Text: "Programa\xE7\xE3o, modelagem"
 --- !u!222 &48956662
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2699,7 +2699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'pedro enrique de avilla marcondes
+  m_Text: 'Pedro Herique de Avilla Marcondes
 
     ra 20886732'
 --- !u!222 &136076148
@@ -4185,7 +4185,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Programa\xE7\xE3o, concept cenario \ne personagens, modelagem"
+  m_Text: modelagem
 --- !u!222 &255233436
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10744,7 +10744,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Programa\xE7\xE3o, concept cenario \ne personagens, modelagem"
+  m_Text: "Programa\xE7\xE3o"
 --- !u!222 &806916676
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13295,7 +13295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Programa\xE7\xE3o, concept cenario \ne personagens, modelagem"
+  m_Text: "Documenta\xE7\xE3o , modelagem"
 --- !u!222 &1000298756
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15826,7 +15826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Programa\xE7\xE3o, concept cenario \ne personagens, modelagem"
+  m_Text: Concept personagens, UI.
 --- !u!222 &1299453310
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23692,7 +23692,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Programa\xE7\xE3o, concept cenario \ne personagens, modelagem"
+  m_Text: Modelagem
 --- !u!222 &1989477496
 CanvasRenderer:
   m_ObjectHideFlags: 0
