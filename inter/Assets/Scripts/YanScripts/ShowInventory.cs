@@ -56,16 +56,16 @@ public class ShowInventory : MonoBehaviour
 				QuestText.text = "colete outras amostras";
 				break;
 		    case 6:
-			    QuestText.text = "pegue o carro para voltar para casa";
+			    QuestText.text = "entre no túnel para investigar";
 			    break;
 		    case 7:
-			    QuestText.text = "vá para laboratório testar as amostras";
+			    QuestText.text = "invada o complexo";
 			    break;
 		    case 8:
-			    QuestText.text = "testes as amostras";
+			    QuestText.text = "procure pelo seu pai no complexo";
 			    break;
 		    case 9:
-			    QuestText.text = "volte para o parque";
+			    QuestText.text = "destrua a planta central";
 			    break;
 		    case 10:
 			    QuestText.text = "entre no túnel para investigar";
