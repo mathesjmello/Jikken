@@ -63,7 +63,7 @@ public class PlayerMove : MonoBehaviour {
         }
         if (SceneManager.GetActiveScene().name=="complexo"&&!As.isPlaying)
         {
-            As.pitch = 0.8f;
+            
             As.clip = SonsPassoCimento[Random.Range(0,SonsPassoGrama.Count)];
             As.Play();
         }
