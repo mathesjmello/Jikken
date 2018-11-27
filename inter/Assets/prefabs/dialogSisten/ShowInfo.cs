@@ -12,7 +12,11 @@ public class ShowInfo : MonoBehaviour
 	private bool _toDentro;
 	// Use this for initialization
 	void Start () {
-		
+		if (SceneManager.GetActiveScene().name == "End")
+		{
+			Text.SetActive(true);
+			Senha.SetActive(true);
+		}
 	}
 	
 	// Update is called once per frame
