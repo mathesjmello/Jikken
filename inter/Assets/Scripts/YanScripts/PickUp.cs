@@ -26,7 +26,7 @@ namespace YanScripts
 
         private void Start()
         {
-            LoadSavedvalues();
+           // LoadSavedvalues();
         }
 
         private void OnTriggerStay(Collider other)
