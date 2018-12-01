@@ -158,7 +158,7 @@ Material:
     - _UseTranslucent: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.1981132, g: 0.18015511, b: 0.17101282, a: 1}
+    - _Color: {r: 0.0754717, g: 0.06962315, b: 0.067283735, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _EmissionColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
