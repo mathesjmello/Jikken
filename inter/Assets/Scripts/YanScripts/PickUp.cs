@@ -27,6 +27,7 @@ namespace YanScripts
         private void Start()
         {
            // LoadSavedvalues();
+            Interacting = false;
         }
 
         private void OnTriggerStay(Collider other)
@@ -45,8 +46,8 @@ namespace YanScripts
             {
                 Help.SetActive(false);
                 pickUpUiNumber = 0;
-                SpawnMiniGamePickUp();
                 Interacting = true;
+                SpawnMiniGamePickUp();
             }
             if (Input.GetButtonDown("Interact") && other.GetComponent<PickString>())
             {
@@ -138,12 +139,12 @@ namespace YanScripts
                 i = Instantiate(InventoryIcons[0]);
                 i.transform.SetParent(InvetoryPanel.transform);
             }
-
-            if (NBlues > 0)
-            {
-                i = Instantiate(InventoryIcons[1]);
-                i.transform.SetParent(InvetoryPanel.transform);
-            }
+           
+                for (int n = 0; n < NBlues; n++)
+                {
+                    i = Instantiate(InventoryIcons[1]);
+                    i.transform.SetParent(InvetoryPanel.transform);
+                }           
 
             if (NGreens > 0)
             {
@@ -151,7 +152,7 @@ namespace YanScripts
                 i.transform.SetParent(InvetoryPanel.transform);
             }
 
-            foreach (Transform Child in InvetoryPanel.transform)
+           /* foreach (Transform Child in InvetoryPanel.transform)
             {
                 if (Child.CompareTag("Red"))
                 {
@@ -167,7 +168,7 @@ namespace YanScripts
                 {
                     Child.Find("Text").GetComponent<Text>().text = NGreens.ToString();
                 }
-            }
+            }*/
         }
 
 
