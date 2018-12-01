@@ -11,7 +11,7 @@ namespace YanScripts
         public GameObject InvetoryPanel;
         public GameObject[] InventoryIcons;
         public GameObject PickUpMinigameUi;
-
+        public bool playerDentro = false;
         public float[] UiSpawnVariation;
 
         ItenReferences ItenValues;
@@ -59,6 +59,8 @@ namespace YanScripts
         private void Update()
         {
             RaycastDetectionOnUiPickUp();
+
+
         }
 
         void SpawnMiniGamePickUp()

@@ -4681,6 +4681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0b5dbee0ebcf4986d75cfc62129b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SenhaSim: 0
   SodeTocar: 1
   Senha: {fileID: 65803499}
   Help: {fileID: 0}

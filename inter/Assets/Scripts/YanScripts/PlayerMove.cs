@@ -101,10 +101,10 @@ public class PlayerMove : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            MoveSpeed  = 12;
+            MoveSpeed  = 5;
         }else
         {
-            MoveSpeed = 6;
+            MoveSpeed = 3;
         }
     }
 
