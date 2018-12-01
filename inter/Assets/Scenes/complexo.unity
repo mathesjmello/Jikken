@@ -42160,6 +42160,11 @@ Prefab:
       propertyPath: m_Pitch
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 114328559909652638, guid: 90c82b303cb80084a82280a248ee2c46,
+        type: 2}
+      propertyPath: JumpMod
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90c82b303cb80084a82280a248ee2c46, type: 2}
   m_IsPrefabAsset: 0

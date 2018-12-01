@@ -5,6 +5,7 @@ using UnityEngine;
 public class inicio : MonoBehaviour {
 
     //public GameObject camera;
+	public GameObject SkypBotton;
     public GameObject sounds;
     public GameObject controleCam;
     public GameObject player;
@@ -29,6 +30,7 @@ public class inicio : MonoBehaviour {
 
     public void inicioCutscene() {
         //camera.SetActive(true);
+	    SkypBotton.SetActive(true);
         player.SetActive(true);
         controleCam.SetActive(true);
         sounds.SetActive(true);
